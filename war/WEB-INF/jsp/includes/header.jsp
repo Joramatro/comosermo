@@ -218,8 +218,8 @@
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
-		<meta name="twitter:site" content="@ComprarMicroondasHoy">
-		<meta name="twitter:creator" content="@ComprarMicroondsaHoy">
+		<meta name="twitter:site" content="@ComprarHoy">
+		<meta name="twitter:creator" content="@ComprarHoy">
 		<meta name="twitter:title" content="eReaders en Comprar Microondas Hoy online">
 		<meta name="twitter:description" content="Información para que puedas comprar microondas adecuado a tus necesidades, microondas para coche, para casa, para camion, con horno, tupperwares, con grill, además de baratos y muchas más posibilidades">
 		<meta name="twitter:image" content="/img/img-meta/logoGrande.jpg">
