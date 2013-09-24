@@ -27,9 +27,7 @@
 
 							<li><a href="http://www.comprarmicroondashoy.com/">Inicio</a></li>
 
-							<li><a href="/microondas">eBooks</a></li>
-
-							<li><a href="/sobre">Sobre nosotros</a></li>
+							<li><a href="/microondas">Microondas</a></li>
 							
 							<li><a href="/contacto">Contacto</a></li>
 
@@ -246,8 +244,8 @@ $("head").append("<link rel='stylesheet' type='text/css' href='/css/fancybox.css
 		$("#menuBlog").addClass('active');
 	}else if(parts[1] == 'extras'){	
 		$("#menuExtras").addClass('active');
-	}else if(parts[1] == 'ebooks'){	
-		$("#menuEbooks").addClass('active');
+	}else if(parts[1] == 'microondas'){	
+		$("#menuMicroondas").addClass('active');
 	}else{
 		$("#menuInicio").addClass('active');
 	}

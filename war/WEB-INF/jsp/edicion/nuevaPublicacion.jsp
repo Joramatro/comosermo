@@ -321,8 +321,6 @@ Script2: <input type="text" style="width: 600px;" id="script2" name="script2" si
 							<li><a href="/">Inicio</a></li>
 
 							<li><a href="/microondas">Microondas</a></li>
-
-							<li><a href="/sobre">Sobre nosotros</a></li>
 							
 							<li><a href="/contacto">Contacto</a></li>
 

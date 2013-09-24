@@ -52,9 +52,9 @@
       		<!-- start: Hero Unit - Main hero unit for a primary marketing message or call to action -->
       		<div class="hero-unit">
 				<h3>
-					Desde que el horno microondas ha llegado a nuestras vidas y cocinas , nuestra forma de vida y la de muchas de personas ha cambiado completamente de tal forma que a muchos nos cuesta imaginarnos una vida sin este aparato. Hace tiempo que dejó de ser una novedad.
+					Desde que el horno microondas ha llegado a nuestras vidas y cocinas, nuestra forma de vida ha cambiado completamente de manera que a muchos nos cuesta imaginarnos una vida sin este aparato: hace tiempo que dejó de ser una novedad.
 				</h3>
-        		<p><a class="btn btn-primary btn-large" href="/blog">ver Blog</a> &nbsp;&nbsp;<a class="btn btn-primary btn-large" href="/ebooks">ver Microondas</a></p>
+        		<p><a class="btn btn-primary btn-large" href="/blog">ver Blog</a> &nbsp;&nbsp;<a class="btn btn-primary btn-large" href="/microondas">ver Microondas</a></p>
       		</div>
 			<!-- end: Hero Unit -->
       		
@@ -96,8 +96,8 @@
 						<div class="icons-box-vert">
 							<i class="ico-ok ico-white circle-color-full"></i>
 							<div class="icons-box-vert-info">
-								<h3>Seguro</h3>
-								<p>Haciendo un uso adecuado del mismo,  los microondas no representan ningún riesgo para la salud.</p>
+								<h3>Seguro y barato</h3>
+								<p>Haciendo un uso adecuado del mismo, comprar un microondas ya sea barato ó más caro, proporciona un valor añadido a tu cocina sin que represente ningún riesgo para la salud.</p>
 							</div>
 							<div class="clear"></div>
 						</div>
@@ -140,7 +140,7 @@
 								${fn:replace(publicacion.resumen, newLineChar, "<p/><p>")}
 							</p>
 						</div>
-						<div class="post-meta"><span><i class="mini-ico-calendar"></i><fmt:setLocale value="es_ES" scope="session"/><fmt:formatDate type="date" dateStyle="long" value="${publicacion.fechaCreacion}"/></span><%-- <span style=""><i class="mini-ico-user"></i>  <a href="/ebooks/${publicacion.url}">Jorge Amat</a></span>--%> <span><i class="mini-ico-comment"></i><a href="/ebooks/${publicacion.url}/#comments">${fn:length(publicacion.lComentarios)} comments</a></span></div>
+						<div class="post-meta"><span><i class="mini-ico-calendar"></i><fmt:setLocale value="es_ES" scope="session"/><fmt:formatDate type="date" dateStyle="long" value="${publicacion.fechaCreacion}"/></span><%-- <span style=""><i class="mini-ico-user"></i>  <a href="/microondas/${publicacion.url}">Jorge Amat</a></span>--%> <span><i class="mini-ico-comment"></i><a href="/microondas/${publicacion.url}/#comments">${fn:length(publicacion.lComentarios)} comments</a></span></div>
 					</div>	
 				</div>
 				</c:forEach>

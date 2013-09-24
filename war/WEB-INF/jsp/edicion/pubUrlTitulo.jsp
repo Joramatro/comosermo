@@ -34,7 +34,7 @@
 		<c:forEach var="publicacion" items="${publicacionesEbook}" varStatus="status">
 		<tr>
 			<td>
-				<%=result.toString()%>/ebooks/${publicacion.url}
+				<%=result.toString()%>/microondas/${publicacion.url}
 			</td>
 			<td>
 				${publicacion.titulo}
@@ -139,7 +139,7 @@
 		<c:forEach var="publicacion" items="${publicacionesEbook}" varStatus="status">
 		<tr>
 			<td>
-				<%=result.toString()%>/ebooks/${publicacion.url}
+				<%=result.toString()%>/microondas/${publicacion.url}
 			</td>
 		</tr>
 		</c:forEach>

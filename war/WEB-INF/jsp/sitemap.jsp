@@ -27,10 +27,6 @@
   <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.comprarmicroondashoy.com/sobre</loc>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
   <loc>http://www.comprarmicroondashoy.com/contacto</loc>
   <changefreq>yearly</changefreq>
 </url>

@@ -131,7 +131,7 @@
 							<div class="picture">
 								<a href="/microondas/${publicacionRel.url}" title="${publicacionRel.titulo}">
 									<c:if test="${!empty publicacionRel.lImages }">
-									<img style="width: 270px;height: 240px;" src="${publicacionRel.lImages[0]}" alt="${publicacionRel.titulo}"/>
+									<img style="width: 270px;height: 200px;" src="${publicacionRel.lImages[0]}" alt="${publicacionRel.titulo}"/>
 									</c:if>
 									<div class="image-overlay-link"></div>
 								</a>
@@ -360,13 +360,13 @@
 						<c:forEach var="publicacionRel" items="${publicaciones}" varStatus="status" end="6">
 							<c:if test="${publicacionRel.titulo ne publicacion.titulo }">				
 							<div class="span4 portfolio-item nature people">
-								<div class="picture"><a href="/ebooks/${publicacionRel.url}" title="${publicacionRel.titulo}">
+								<div class="picture"><a href="/microondas/${publicacionRel.url}" title="${publicacionRel.titulo}">
 								<c:if test="${!empty publicacionRel.lImages }">
 									<img src="${publicacionRel.lImages[0]}" alt="Detalle"/>
 								</c:if>
 								<div class="image-overlay-link"></div></a>
 									<div class="item-description alt">
-										<h5><a title="${publicacionRel.titulo}" href="/ebooks/${publicacionRel.url}">${publicacionRel.titulo}</a></h5>
+										<h5><a title="${publicacionRel.titulo}" href="/microondas/${publicacionRel.url}">${publicacionRel.titulo}</a></h5>
 										<p>
 											${fn:replace(publicacionRel.resumen, newLineChar, "<p/><p>")}
 										</p>
