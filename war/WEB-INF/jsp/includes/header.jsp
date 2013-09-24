@@ -201,7 +201,7 @@
 		<link rel=”canonical” href=”http://www.comprarmicroondashoy.com/blog“/>		
 	</c:when>
 	<c:otherwise>
-		<title>Bienvenido a Comprar eBook Hoy</title> 
+		<title>Bienvenido a Comprar Microondas Hoy</title> 
 		<meta name="description" content="Información para que puedas comprar microondas adecuado a tus necesidades, microondas para coche, para casa, para camion, con horno, con grill, y tupperwares, además de baratos y muchas más posibilidades"/>
 		<meta name="keywords" content="comprar microondas, comprar microondas barato, que microondas comprar, comprar microondas online, microondas conveccion, comprar tupperware, cocina microondas, mini microondas,microondas para camion,microondas portatil" />
 		<meta name="title" content="Microondas online en Comprar Microondas Hoy" />
@@ -209,7 +209,7 @@
 		<meta name="copyright" content="Comprar Microondas Hoy" />
 		<meta name="application-name" content="Microondas en Comprar Microondas Hoy" />
 		<!-- start: Facebook Open Graph -->
-		<meta property="og:title" content="eReaders en Comprar Microondas online"/>
+		<meta property="og:title" content="Microondas en Comprar Microondas online"/>
 		<meta property="og:description" content="Información para que puedas comprar microondas adecuado a tus necesidades, microondas para coche, para casa, para camion, con horno, tupperwares, con grill, además de baratos y muchas más posibilidades"/>
 		<meta property="og:type" content="principal"/>
 		<meta property="og:url" content="http://www.comprarmicroondashoy.com"/>
