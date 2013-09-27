@@ -69,7 +69,7 @@ Deberá estar consciente de que si usted voluntariamente revela información per
 					</div>
 				</div>
 			</div>
-       		<%@ include file="/WEB-INF/jsp/includes/carrusel.jsp"%>      	
+       		     	
 		</div>
 		<!--end: Container-->
 	</div>

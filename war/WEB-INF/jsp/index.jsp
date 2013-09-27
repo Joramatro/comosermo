@@ -22,7 +22,7 @@
 					<div class="da-img">
 						<c:choose>
 							<c:when test="${publicacion.tipo eq 'EB' }">
-								<a href="/microondas/${publicacion.url}">
+								<a href="/blog/${publicacion.url}">
 							</c:when>	
 							<c:otherwise>
 								<a href="/blog/${publicacion.url}">
@@ -54,9 +54,9 @@
       		<!-- start: Hero Unit - Main hero unit for a primary marketing message or call to action -->
       		<div class="hero-unit">
 				<h3>
-					Desde que el horno microondas ha llegado a nuestras vidas y cocinas, nuestra forma de vida ha cambiado completamente de manera que a muchos nos cuesta imaginarnos una vida sin este aparato: hace tiempo que dejó de ser una novedad.
+					La belleza y la salud están íntimamente relacionadas.
 				</h3>
-        		<p><a class="btn btn-primary btn-large" href="/blog">ver Blog</a> &nbsp;&nbsp;<a class="btn btn-primary btn-large" href="/microondas">ver Microondas</a></p>
+        		<p><a class="btn btn-primary btn-large" href="/blog">ver Blog</a> </p>
       		</div>
 			<!-- end: Hero Unit -->
       		
@@ -72,8 +72,8 @@
 						<div class="icons-box-vert">
 							<i class="ico-ok ico-white circle-color-full"></i>
 							<div class="icons-box-vert-info">
-								<h3>Rapidez</h3>
-								<p>El microondas permite que los alimentos se descongelen de manera muy rápida a la vez que las radiaciones eliminan los gérmenes.</p>
+								<h3>Equilibrio</h3>
+								<p>Encuentra el equilibrio entre tu cuerpo y mente.</p>
 							</div>
 							<div class="clear"></div>
 						</div>
@@ -85,8 +85,8 @@
 						<div class="icons-box-vert">
 							<i class="ico-ok ico-white circle-color-full"></i>
 							<div class="icons-box-vert-info">
-								<h3>Comodidad</h3>
-								<p>Puedes cocinar en el mismo recipiente que usarás después para comer y para limpiar el microondas sólo necesitas pasar por las paredes un paño limpio y húmedo.</p>
+								<h3>Salud</h3>
+								<p>Como sentirte más sano y saludable y a la vez cómo ser más guapo.</p>
 							</div>
 							<div class="clear"></div>
 						</div>
@@ -98,8 +98,8 @@
 						<div class="icons-box-vert">
 							<i class="ico-ok ico-white circle-color-full"></i>
 							<div class="icons-box-vert-info">
-								<h3>Seguro y barato</h3>
-								<p>Haciendo un uso adecuado del mismo, comprar un microondas ya sea barato ó más caro, proporciona un valor añadido a tu cocina sin que represente ningún riesgo para la salud.</p>
+								<h3>Belleza</h3>
+								<p>La belleza es resultado de una mente y alma en paz junto a un cuerpo trabajado y cuidado.</p>
 							</div>
 							<div class="clear"></div>
 						</div>
@@ -114,7 +114,7 @@
 			
 			<hr>
 			
-			<div style="width: 60%;margin: 0 auto;">
+			<div style="width: 60%;margin: 0 auto;display:none">
 			<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=comprarmicroh-21&o=30&p=48&l=ur1&category=hogar&banner=02EHMJ8M1XQ7RDH9GQ02&f=ifr" width="728" height="90" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
 			</div>
 		
@@ -127,25 +127,6 @@
 			<!-- start: Portfolio -->
 			<div id="portfolio-wrapper" class="row">
 				<% pageContext.setAttribute("newLineChar", "\n"); %>
-				<c:forEach var="publicacion" items="${publicacionesEbooks}" varStatus="status" end="8">				
-				<div class="span4 portfolio-item nature people">
-					<div class="picture"><a href="/microondas/${publicacion.url}" title="${publicacion.titulo}">
-					
-					<c:if test="${!empty publicacion.lImages }">
-					<img src="${publicacion.lImages[0]}" alt="${publicacion.titulo}"/>
-					</c:if>
-					
-					<div class="image-overlay-link"></div></a>
-						<div class="item-description alt">
-							<h5><a href="/microondas/${publicacion.url}">${publicacion.titulo}</a></h5>
-							<p>
-								${fn:replace(publicacion.resumen, newLineChar, "<p/><p>")}
-							</p>
-						</div>
-						<div class="post-meta"><span><i class="mini-ico-calendar"></i><fmt:setLocale value="es_ES" scope="session"/><fmt:formatDate type="date" dateStyle="long" value="${publicacion.fechaCreacion}"/></span><%-- <span style=""><i class="mini-ico-user"></i>  <a href="/microondas/${publicacion.url}">Jorge Amat</a></span>--%> <span><i class="mini-ico-comment"></i><a href="/microondas/${publicacion.url}/#comments">${fn:length(publicacion.lComentarios)} comments</a></span></div>
-					</div>	
-				</div>
-				</c:forEach>
 				<c:forEach var="publicacion" items="${publicacionesBlog}" varStatus="status" end="8">				
 				<div class="span4 portfolio-item nature people">
 					<div class="picture"><a href="/blog/${publicacion.url}" title="${publicacion.titulo}">
@@ -171,7 +152,7 @@
 		<!--end: Container-->
 		<hr>			
 						
-			<%@ include file="/WEB-INF/jsp/includes/carrusel.jsp"%>
+			
 			
 		</div>
 		<!--end: Container-->

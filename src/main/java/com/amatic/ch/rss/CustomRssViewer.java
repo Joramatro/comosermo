@@ -21,9 +21,9 @@ public class CustomRssViewer extends AbstractRssFeedView {
     protected void buildFeedMetadata(Map<String, Object> model, Channel feed,
 	    HttpServletRequest request) {
 
-	feed.setTitle("Comprar Microondas Hoy");
-	feed.setDescription("Toda la información para que puedas comprar un microondas adecuado a tus necesidades, microondas para coche, para camion, integrables, con grill y muchas más posibilidades");
-	feed.setLink("http://www.comprarmicroondashoy.com");
+	feed.setTitle("Como Ser Mas Guapo");
+	feed.setDescription("Te doy consejos e ideas para que te sientas más bello, más sano y más guapo en Como Ser Más Guapo");
+	feed.setLink("http://www.comosermasguapo.com");
 
 	super.buildFeedMetadata(model, feed, request);
     }

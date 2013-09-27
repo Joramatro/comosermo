@@ -52,16 +52,10 @@
 				<div class="span3">
 					<div class="title"><h3>Información de Contacto</h3></div>
 					<p>
-						<b>Comprar Microondas Hoy</b>
-					</p>
-					<p>
-						The Triangle, Ranelagh
-					</p>
-					<p>	
-						Dublin 6, Dublin, Irlanda
+						<b>Como Ser Mas Guapo</b>
 					</p>	
 					<p>
-						Email: hola@comprarmicroondashoy.com
+						Email: yagofierro.her@gmail.com
 					</p>
 				</div>
 				<!-- end: Contact Info -->		
@@ -110,13 +104,12 @@
 				<div class="span5" style="padding-bottom: 12px;">
 					<div class="title"><h3>Síguenos!</h3></div>
 					<ul class="social-bookmarks">
-						<li class="facebook"><a target="_blank" href="https://www.facebook.com/comprarhoy">facebook</a></li>
-						<li class="flickr"><a target="_blank" href="http://www.flickr.com/people/100459814@N05/">flickr</a></li>
-						<li class="googleplus"><a target="_blank" href="https://plus.google.com/108657243775074009859">googleplus</a></li>
-						<li class="linkedin"><a target="_blank" href="http://ie.linkedin.com/pub/jorge-amat-romero/2b/731/895">linkedin</a></li>
-						<li class="twitter"><a target="_blank" href="https://twitter.com/ComprarHoy">twitter</a></li>
-						<li class="yelp"><a target="_blank" href="http://www.yelp.ie/user_details?userid=4t6COjQHIXnO4eZKT8WwLA">yelp</a></li>
-						<li class="youtube"><a target="_blank" href="http://www.youtube.com/channel/UC56PXmN4WM5oxZWE0XHOCjA">youtube</a></li>
+						<li class="facebook"><a target="_blank" href="https://www.facebook.com/yago.fierrohernandez">facebook</a></li>
+						<li class="flickr"><a target="_blank" href="http://www.flickr.com/people/yagofierro/">flickr</a></li>
+						<li class="googleplus"><a target="_blank" href="https://plus.google.com/u/0/104651424163495174757/posts">googleplus</a></li>
+						<li class="linkedin"><a target="_blank" href="http://www.linkedin.com/pub/yago-fierro-hernández/81/a94/a57/">linkedin</a></li>
+						<li class="twitter"><a target="_blank" href="https://twitter.com/YagofierroH">twitter</a></li>
+						<li class="youtube"><a target="_blank" href="https://www.youtube.com/user/comosermasguapo">youtube</a></li>
 					</ul>
 				</div>
 				<!-- end: Social Sites -->							

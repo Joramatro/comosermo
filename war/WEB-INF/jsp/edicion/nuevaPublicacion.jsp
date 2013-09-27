@@ -26,7 +26,7 @@
         <!-- Fav and touch icons -->
 		<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
 		<link rel="stylesheet" href="/css/apprise-v2.css" type="text/css" />
-    <meta name="description" content="Subida de archivos y herramienta de edicion para Comprar Microondas Hoy">
+    <meta name="description" content="Subida de archivos y herramienta de edicion para Coomo ser mas guapo">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<style>
 			.ui-autocomplete-loading { background: white url('/img/fancybox_loading.gif') right center no-repeat; }
@@ -55,7 +55,7 @@
 	            		<span class="icon-bar"></span>
 	            		<span class="icon-bar"></span>
 	          		</a>
-					<a class="brand" href="/"><i class="ico-wifi-alt circle"></i>Comprar Microondas <span>Hoy</span>.</a>
+					<a class="brand" href="/"><i class="ico-eye-open circle"></i>Como Ser Mas <span>Guapo</span>.</a>
 	          		<div class="nav-collapse collapse">
 	            		<ul class="nav">
 							<li class="active">
@@ -82,8 +82,6 @@
     	<h2><i class="ico-keynote ico-white"></i><a id="logout" href="#" class="btn logout">Logout</a></h2>
  Tipo: <select name="tipo" id="tipo">
 				  <option value="AR">Articulo</option>
-				  <option value="EB">Microondas</option>
-				  <option value="AC">Accesorio</option>
 				</select><br><br>
  Portada: <select name="portada" id="portada">
  				  <option value="N">No</option>
@@ -96,8 +94,8 @@ Destacado: <select name="destacado" id="destacado">
 				  <option value="N">No</option>
 				  <option value="S">Si</option>
 				</select><br><br>									
-Autor: <input type="text" id="autor" name="autor" size="25" maxlength="50"/><br><br>	
-Google+: <input type="text" style="width: 433px;" id="googleAutor" name="googleAutor" value="https://plus.google.com/u/0/108657243775074009859?rel=author" size="250" maxlength="570"/><br><br>			
+Autor: <input type="text" id="autor" name="autor" size="25" maxlength="50" value="Yago Fierro"/><br><br>	
+Google+: <input type="text" style="width: 433px;" id="googleAutor" name="googleAutor" value="https://plus.google.com/u/0/104651424163495174757?rel=author" size="250" maxlength="570"/><br><br>			
 Titulo: <input type="text" style="width: 350px;" id="titulo" name="titulo" size="70" maxlength="70"/><br><br>
 Titulo2: <input type="text" style="width: 433px;" id="titulo2" name="titulo2" size="120" maxlength="120"/><br><br>
 Keywords: <input type="text" style="width: 433px;"id="keywords" name="keywords" size="150" maxlength="150"/>
@@ -320,7 +318,7 @@ Script2: <input type="text" style="width: 600px;" id="script2" name="script2" si
 
 							<li><a href="/">Inicio</a></li>
 
-							<li><a href="/microondas">Microondas</a></li>
+							<li><a href="/blog">Blog</a></li>
 							
 							<li><a href="/contacto">Contacto</a></li>
 
@@ -475,7 +473,7 @@ Script2: <input type="text" style="width: 600px;" id="script2" name="script2" si
 		
 			<div class="span12">
 				<p>
-					&copy; 2013, <a href="/">Compra Microondas Hoy</a><i style="margin-top: -18px;" class="ico-color ico-sun"></i>
+					&copy; 2013, <a href="/">Como Ser Más Guapo</a><i style="margin-top: -18px;" class="ico-color ico-sun"></i>
 				</p>
 			</div>
 	

@@ -10,12 +10,12 @@
 <div id="content">
 
   <div class="logo">
-		<h1><a title="Comprar Microondas Hoy" href="www.comprarmicroondashoy.com"><span class="red">Comprar eBook Hoy</span></a></h1>
-		<input type="image" src="/img/logo.png" width="95px" height="40px" class="button-sel" alt="www.comprarmicroondashoy.com" title="www.comprarmicroondashoy.com"/>
+		<h1><a title="Como Ser Más Guapo" href="www.comosermasguapo.com"><span class="red">Como Ser Más Guapo</span></a></h1>
+		<input type="image" src="/img/logo.png" width="95px" height="40px" class="button-sel" alt="www.comosermasguapo.com" title="www.comosermasguapo.com"/>
   </div>            
 
 <div class="subheader" style="margin-left:20px">
-    <h2>Log In</h2> para editar en Comprar Microondas Hoy
+    <h2>Log In</h2> para editar en Como Ser Más Guapo
 </div>
 <div id="mainbar">
 

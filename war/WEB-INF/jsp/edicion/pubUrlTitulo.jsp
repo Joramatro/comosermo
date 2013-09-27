@@ -29,22 +29,7 @@
 	          .append(port);
 	  }
 	 %>
-		<br><br><span>Tipo Microondas</span><br><br>
-		<table>
-		<c:forEach var="publicacion" items="${publicacionesEbook}" varStatus="status">
-		<tr>
-			<td>
-				<%=result.toString()%>/microondas/${publicacion.url}
-			</td>
-			<td>
-				${publicacion.titulo}
-			</td>
-		</tr>
-		</c:forEach>
-		</table>
-	
-	
-	
+
 		<br><br><span>Tipo Blog</span><br><br>
 		<table>
 		<c:forEach var="publicacion" items="${publicacionesBlog}" varStatus="status">
@@ -139,7 +124,7 @@
 		<c:forEach var="publicacion" items="${publicacionesEbook}" varStatus="status">
 		<tr>
 			<td>
-				<%=result.toString()%>/microondas/${publicacion.url}
+				<%=result.toString()%>/blog/${publicacion.url}
 			</td>
 		</tr>
 		</c:forEach>

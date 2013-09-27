@@ -86,7 +86,7 @@
 			</div>
 			
       	
-      		<%@ include file="/WEB-INF/jsp/includes/carrusel.jsp"%>
+      		
 		</div>
 		<!--end: Container-->
 				

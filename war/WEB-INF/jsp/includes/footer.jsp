@@ -13,7 +13,7 @@
 				<!-- start: Footer Menu Logo -->
 				<div class="span2">
 					<div id="footer-menu-logo">
-						<div id="logo-chart"></div><a class="brand" href="http://www.comprarmicroondashoy.com/">CM<span>HOY</span>.</a>
+						<div id="logo-chart"></div><a class="brand" href="http://www.comosermasguapo.com/">CSM<span>GUAPO</span>.</a>
 					</div>
 				</div>
 				<!-- end: Footer Menu Logo -->
@@ -25,9 +25,9 @@
 
 						<ul id="footer-nav">
 
-							<li><a href="http://www.comprarmicroondashoy.com/">Inicio</a></li>
+							<li><a href="http://www.comosermasguapo.com/">Inicio</a></li>
 
-							<li><a href="/microondas">Microondas</a></li>
+							<li><a href="/blog">Blog</a></li>
 							
 							<li><a href="/contacto">Contacto</a></li>
 
@@ -42,7 +42,7 @@
 				<div class="span1">
 						
 					<div id="footer-menu-back-to-top">
-						<a href="http://www.comprarmicroondashoy.com/"></a>
+						<a href="http://www.comosermasguapo.com/"></a>
 					</div>
 				
 				</div>
@@ -81,7 +81,7 @@
 					
 					<h3>Sobre nosotros</h3>
 					<p>
-						Somos un equipo de personas con gran formación tecnológica y conocimientos técnicos sobre microondas. Queremos ofrecerte la mejor información sobre todos los detalles que necesitas saber sobre el microondas que quieres comprar.
+						Me gusta la belleza y la salud, en este blog quiero compartir contigo mis secretos y consejos para tu día a día.
 					</p>
 						
 				</div>
@@ -102,17 +102,17 @@
 				<div class="span6">
 				
 					<!-- start: Follow Us -->
-					<h3>Síguenos!</h3>
+					<h3>Sígueme!</h3>
 					<ul class="social-grid">
 						<li>
 							<div class="social-item">				
 								<div class="social-info-wrap">
 									<div class="social-info">
 										<div class="social-info-front social-twitter">
-											<a target="_blank" href="https://twitter.com/ComprarHoy"></a>
+											<a target="_blank" href="https://twitter.com/YagofierroH"></a>
 										</div>
 										<div class="social-info-back social-twitter-hover">
-											<a target="_blank" href="https://twitter.com/ComprarHoy"></a>
+											<a target="_blank" href="https://twitter.com/YagofierroH"></a>
 										</div>	
 									</div>
 								</div>
@@ -123,10 +123,10 @@
 								<div class="social-info-wrap">
 									<div class="social-info">
 										<div class="social-info-front social-facebook">
-											<a target="_blank" href="https://www.facebook.com/comprarhoy"></a>
+											<a target="_blank" href="https://www.facebook.com/yago.fierrohernandez"></a>
 										</div>
 										<div class="social-info-back social-facebook-hover">
-											<a target="_blank" href="https://www.facebook.com/comprarhoy"></a>
+											<a target="_blank" href="https://www.facebook.com/yago.fierrohernandez"></a>
 										</div>
 									</div>
 								</div>
@@ -137,10 +137,10 @@
 								<div class="social-info-wrap">
 									<div class="social-info">
 										<div class="social-info-front social-youtube">
-											<a target="_blank" href="http://www.youtube.com/channel/UC56PXmN4WM5oxZWE0XHOCjA"></a>
+											<a target="_blank" href="https://www.youtube.com/user/comosermasguapo"></a>
 										</div>
 										<div class="social-info-back social-youtube-hover">
-											<a target="_blank" href="http://www.youtube.com/channel/UC56PXmN4WM5oxZWE0XHOCjA"></a>
+											<a target="_blank" href="https://www.youtube.com/user/comosermasguapo"></a>
 										</div>	
 									</div>
 								</div>
@@ -151,10 +151,10 @@
 								<div class="social-info-wrap">
 									<div class="social-info">
 										<div class="social-info-front social-flickr">
-											<a target="_blank" href="http://www.flickr.com/people/100459814@N05/"></a>
+											<a target="_blank" href="http://www.flickr.com/people/yagofierro/"></a>
 										</div>
 										<div class="social-info-back social-flickr-hover">
-											<a target="_blank" href="http://www.flickr.com/people/100459814@N05/"></a>
+											<a target="_blank" href="http://www.flickr.com/people/yagofierro/"></a>
 										</div>	
 									</div>
 								</div>
@@ -164,13 +164,13 @@
 					<!-- end: Follow Us -->
 				
 					<!-- start: Newsletter -->
-					<form id="newsletter" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=ComprarMicroondasHoy', 'popupwindow', 'scrollbars=yes,width=550,height=520');">
-						<h3>Suscríbete! &nbsp; <a href="http://www.comprarmicroondashoy.com/rssfeed" accesskey="r"><img src="/img/rssmenu.png" alt="RSS"></a></h3>
+					<form id="newsletter" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=ComoSerMasGuapo&amp;loc=es_ES', 'popupwindow', 'scrollbars=yes,width=550,height=520');">
+						<h3>Suscríbete! &nbsp; <a href="http://www.comosermasguapo.com/rssfeed" accesskey="r"><img src="/img/rssmenu.png" alt="RSS"></a></h3>
 						<p>Por favor, dejanos tu email</p>
 						<label for="newsletter_input">@:</label>
 						<input style="border: 1px solid #29a9df;" type="text" name="email" id="newsletter_input">
 						<input type="submit" id="btnSuscripcion" value="Enviar">			
-						<input type="hidden" value="ComprarMicroondasHoy" name="uri"/>
+						<input type="hidden" value="ComoSerMasGuapo" name="uri"/>
 						<input type="hidden" name="loc" value="es_ES"/>						
 					</form>
 					<!-- end: Newsletter -->
@@ -195,9 +195,9 @@
 			<div class="span12">
 			
 				<p>
-				<a style="margin-right: 35px;" href="http://www.comprarmicroondashoy.com/rssfeed" accesskey="r"><img src="/img/rss.gif" alt="RSS"/>RSS</a>
+				<a style="margin-right: 35px;" href="http://www.comosermasguapo.com/rssfeed" accesskey="r"><img src="/img/rss.gif" alt="RSS"/>RSS</a>
 				&copy; 2013, <a target="_blank" rel="publisher" href="https://plus.google.com/b/103298424982329605824/103298424982329605824/posts"><span id="_publisher8" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-<span itemprop="name">Comprar Microondas Hoy</span></span></a><i style="margin-top: -18px;" class="ico-color ico-sun"></i>
+<span itemprop="name">Como Ser Mas Guapo</span></span></a><i style="margin-top: -18px;" class="ico-color ico-sun"></i>
 				<a style="margin-left: 19px;" href="/politica-de-privacidad">Política de privacidad</a>					
 				</p>
 			</div>
@@ -242,10 +242,6 @@ $("head").append("<link rel='stylesheet' type='text/css' href='/css/fancybox.css
 		$("#menuSobre").addClass('active');
 	}else if(parts[1] == 'blog'){	
 		$("#menuBlog").addClass('active');
-	}else if(parts[1] == 'extras'){	
-		$("#menuExtras").addClass('active');
-	}else if(parts[1] == 'microondas'){	
-		$("#menuMicroondas").addClass('active');
 	}else{
 		$("#menuInicio").addClass('active');
 	}

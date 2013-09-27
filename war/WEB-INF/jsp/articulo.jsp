@@ -29,7 +29,7 @@
 	
 	<!--start: Wrapper -->
 	<div itemscope itemtype="http://schema.org/Article" itemref="_author3 _datePublished5 _image6 _articleBody7 _publisher8 _aggregateRating9" id="wrapper">
-		<div style="display:none"><span  itemprop="url">http://www.comprarmicroondashoy.com/blog/${publicacion.url}</span></div>		
+		<div style="display:none"><span  itemprop="url">http://www.comosermasguapo.com/blog/${publicacion.url}</span></div>		
 		<!--start: Container -->
     	<div class="container">
 	
@@ -108,7 +108,7 @@
 					</script> 
 					
 					<br><br>
-					<p style="font-style: italic;">Por favor, no dudes en puntuar y comentar tu opinión para aportar más detalles sobre el producto en la sección de <a href="#comments">comentarios</a></p>
+					<p style="font-style: italic;">Por favor, no dudes en puntuar y comentar tu opinión sobre este artículo en la sección de <a href="#comments">comentarios</a>. Gracias!</p>
 				</div>	
 				
 			</div>
@@ -167,7 +167,7 @@
 										<div class="testimonials-bg"></div>
 										<c:choose>
 										<c:when test="${comentario.publicacion.tipo eq 'EB' }">
-											<div class="testimonials-author"><span itemprop="reviewer">${comentario.nombre}</span>, en <a href="/microondas/${comentario.publicacion.url }"><span itemprop="itemreviewed">${comentario.publicacion.titulo}</span></a></div>
+											<div class="testimonials-author"><span itemprop="reviewer">${comentario.nombre}</span>, en <a href="/blog/${comentario.publicacion.url }"><span itemprop="itemreviewed">${comentario.publicacion.titulo}</span></a></div>
 										</c:when>	
 										<c:otherwise>
 											<div class="testimonials-author"><span itemprop="reviewer">${comentario.nombre}</span>, en <a href="/blog/${comentario.publicacion.url }"><span itemprop="itemreviewed">${comentario.publicacion.titulo}</span></a></div>
@@ -378,7 +378,7 @@
 						</div>
 					</div>--%>			
 								
-			<%@ include file="/WEB-INF/jsp/includes/carrusel.jsp"%>					
+						
 		</div>
 		<!-- end: Container  -->
 	
@@ -406,7 +406,7 @@
 			$("#banGoogle").hide();
 		}
 	</script>
-	<div id="banAmazonHorizontal" style="position: absolute;top: 1000px;left: 54px;">
+	<div id="banAmazonHorizontal" style="position: absolute;top: 1000px;left: 54px;display:none">
 		<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=comprarmicroh-21&o=30&p=14&l=ur1&category=hogar&banner=1ESFST6P8W0JNG6Z4G02&f=ifr" width="160" height="600" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
 	</div>
 	<script>
@@ -418,7 +418,7 @@
 		}
 	</script>
 	
-	<div id="banAmazonEsquina" style="position: absolute;top: 155px; left: 393px;">
+	<div id="banAmazonEsquina" style="position: absolute;top: 155px; left: 393px;display:none">
 		<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=comprarmicroh-21&o=30&p=13&l=ur1&category=hogar&banner=1GW6MNKWMET3XVJB7302&f=ifr" width="468" height="60" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
 	</div>
 	<script>
