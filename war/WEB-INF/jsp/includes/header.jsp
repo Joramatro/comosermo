@@ -201,7 +201,7 @@
 		<link rel=”canonical” href=”http://www.comprarmicroondashoy.com/blog“/>		
 	</c:when>
 	<c:otherwise>
-		<title>Bienvenido a Comprar Microondas Hoy</title> 
+		<title>Bienvenido a Como ser más guapo</title> 
 		<meta name="description" content="Información para que puedas comprar microondas adecuado a tus necesidades, microondas para coche, para casa, para camion, con horno, con grill, y tupperwares, además de baratos y muchas más posibilidades"/>
 		<meta name="keywords" content="comprar microondas, comprar microondas barato, que microondas comprar, comprar microondas online, microondas conveccion, comprar tupperware, cocina microondas, mini microondas,microondas para camion,microondas portatil" />
 		<meta name="title" content="Microondas online en Comprar Microondas Hoy" />
@@ -292,7 +292,7 @@
 	            		<span class="icon-bar"></span>
 	            		<span class="icon-bar"></span>
 	          		</a>
-					<a class="brand" href="/"><i class="ico-wifi-alt circle"></i>Comprar Microondas <span>Hoy</span>.</a>
+					<a class="brand" href="/"><i class="ico-wifi-alt circle"></i>Como ser más <span>guapo</span>.</a>
 	          		<div class="nav-collapse collapse">
 	            		<ul id="menuSuperior" class="nav" style="margin-right:-30px;">
 							<li id="menuInicio">
@@ -314,8 +314,8 @@
 	                  				</c:forEach>	                					                  				
 								</ul>
 	              			</li>
-	              			<li id="menuExtras"><a href="/extras">Extras</a></li>
-	              			<li id="menuBlog"><a href="/blog">Blog</a></li>	              																			
+	              			<li id="menuBlog"><a href="/blog">Blog</a></li>
+	              			<li id="menuSobre"><a href="/sobre">Sobre mi</a></li>	              																			
 	              			<li id="menuContacto"><a href="/contacto">Contacto</a></li>
 	              			<li style="margin-top: -8px;"><a href="#newsletter" accesskey="r"><img src="/img/rssmenu.png" alt="RSS"></a></li>
 	            		</ul>
