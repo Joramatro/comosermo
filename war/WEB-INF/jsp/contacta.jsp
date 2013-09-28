@@ -26,7 +26,7 @@
 				zoom: 13,
 				markers: [
 					{
-						address: 'Winton Road, Dublin, Ireland', // Your Adress Here
+						address: 'Hickory Ridge Drive, Las Vegas, NV 89110', // Your Adress Here
 						html: '',
 						popup: false,
 					}

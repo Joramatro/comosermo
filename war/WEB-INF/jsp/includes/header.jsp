@@ -21,10 +21,10 @@
 		<title>${publicacion.titulo} en Como Ser Mas Guapo</title> 
 		<meta name="description" content="${publicacion.descripcion}"/>
 		<meta name="keywords" content="${publicacion.keywords}" />
-		<meta name="title" content="${publicacion.titulo} en Como Ser Más Guapo. - Como Ser Más Guapo - www.comosermasguapo.com" />
+		<meta name="title" content="${publicacion.titulo} en Como Ser Mas Guapo. - Como Ser Mas Guapo - www.comosermasguapo.com" />
 		<meta name="author" content="Yago Fierro" />
-		<meta name="copyright" content="Como Ser Más Guapo" />
-		<meta name="application-name" content="${publicacion.titulo} en Como Ser Más Guapo" />
+		<meta name="copyright" content="Como Ser Mas Guapo" />
+		<meta name="application-name" content="${publicacion.titulo} en Como Ser Mas Guapo" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="${publicacion.titulo}"/>
 		<meta property="og:description" content="${publicacion.descripcion}"/>
@@ -46,7 +46,7 @@
 	</c:when>	
 	<c:when test="${fn:contains(pageContext.request.requestURI, 'contacto')}">
 		<title>Contacta con Yago Fierro en Como Ser Mas Guapo</title> 
-		<meta name="description" content="Contacta conmigo Cómo Ser Más Guapo"/>
+		<meta name="description" content="Contacta conmigo Cómo Ser Mas Guapo"/>
 		<meta name="keywords" content="contacta yago fierro" />
 		<meta name="title" content="Contacta con Yago Fierro de Como Ser Mas Guapo. - Como Ser Mas Guapo - www.comosermasguapo.com" />
 		<meta name="author" content="Yago Fierro" />
@@ -74,15 +74,15 @@
 	</c:when>
 	<c:when test="${fn:contains(pageContext.request.requestURI, 'blog')}">
 		<title>Artículos sobre Belleza en Como Ser Mas Guapo</title> 
-		<meta name="description" content="Sigue los consejos de belleza y salud que te brindo en mi blog, todo lo que tienes que saber para sentirte mejor en Cómo Ser Más Guapo"/>
+		<meta name="description" content="Sigue los consejos de belleza y salud que te brindo en mi blog, todo lo que tienes que saber para sentirte mejor y parecer hombres lindos en Como Ser Mas Guapo"/>
 		<meta name="keywords" content="como ser mas guapo, belleza, salud, sano" />
-		<meta name="title" content="Opinión y artículos sobre como ser más guapo, salud y belleza. - Como Ser Mas Guapo - www.comosermasguapo.com" />
+		<meta name="title" content="Trucos de belleza y salud para ser hombres lindos en Como Ser Mas Guapo. - Como Ser Mas Guapo - www.comosermasguapo.com" />
 		<meta name="author" content="Yago Fierro" />
 		<meta name="copyright" content="Como Ser Mas Guapo" />
 		<meta name="application-name" content="Blog en Como Ser Mas Guapo" />
 		<!-- start: Facebook Open Graph -->
-		<meta property="og:title" content="Opinion y artículos sobre como ser más guapo, salud y belleza"/>
-		<meta property="og:description" content="Sigue los consejos de belleza y salud que te brindo en mi blog, todo lo que tienes que saber para sentirte mejor en Como Ser Mas Guapo"/>
+		<meta property="og:title" content="Opinion y artículos sobre salud y belleza para ser hombres lindos y sobre como ser mas guapo"/>
+		<meta property="og:description" content="Sigue los consejos de belleza y salud que te brindo en mi blog, todo lo que tienes que saber para sentirte mejor y parecer hombres lindos en Como Ser Mas Guapo"/>
 		<meta property="og:type" content="articulo"/>
 		<meta property="og:url" content="http://www.comosermasguapo.com/blog"/>
 		<c:if test="${!empty publicaciones}">
@@ -96,8 +96,8 @@
 		<meta name="twitter:card" content="summary_large_image">
 		<meta name="twitter:site" content="@YagofierroH">
 		<meta name="twitter:creator" content="@YagofierroH">
-		<meta name="twitter:title" content="Opinion y artículos Como Ser Mas Guapo, salud y belleza">
-		<meta name="twitter:description" content="Sigue los consejos de belleza y salud que te brindo en mi blog, todo lo que tienes que saber para sentirte mejor en Como Ser Mas Guapo">
+		<meta name="twitter:title" content="Trucos de para ser más guapo y saludable en Como Ser Mas Guapo, hombres lindos, salud y belleza">
+		<meta name="twitter:description" content="Sigue los consejos de belleza y salud que te brindo en mi blog, todo lo que tienes que saber para sentirte mejor y parecer hombres lindos en Como Ser Mas Guapo">
 		<c:if test="${!empty publicaciones}">
 			<c:if test="${!empty publicaciones[0].lImages}">
 				<meta name="twitter:image" content="${publicaciones[0].lImages[0]}">
@@ -108,16 +108,16 @@
 		<link rel=”canonical” href=”http://www.comosermasguapo.com/blog“/>		
 	</c:when>
 	<c:otherwise>
-		<title>Bienvenido a Cómo Ser Más Guapo</title> 
-		<meta name="description" content="Bienvenido a mi blog dónde quiero darte consejos de belleza y salud para que te sientas más sano, más saludable y más guapo, todo lo que tienes que saber para sentirte mejor en Cómo Ser Más Guapo"/>
-		<meta name="keywords" content="como ser mas guapo, belleza y salud" />
-		<meta name="title" content="Consejos de belleza y salud en Como ser Mas Guapo" />
+		<title>Bienvenido a Como Ser Mas Guapo</title> 
+		<meta name="description" content="Bienvenido a mi blog dónde quiero darte trucos para ser más guapo sentirte más saluadable, más sano, y ser hombres lindos. Todo lo que tienes que saber para sentirte mejor en Como Ser Mas Guapo"/>
+		<meta name="keywords" content="como ser mas guapo, belleza y salud, hombres lindos" />
+		<meta name="title" content="Consejos y trucos de belleza y salud en Como ser Mas Guapo" />
 		<meta name="author" content="Yago Fierro" />
 		<meta name="copyright" content="Como Ser Mas Guapo" />
 		<meta name="application-name" content="Como Ser Mas Guapo" />
 		<!-- start: Facebook Open Graph -->
-		<meta property="og:title" content="Consejos de belleza y salud en Como ser Mas Guapo"/>
-		<meta property="og:description" content="Bienvenido a mi blog dónde quiero darte consejos de belleza y salud para que te sientas más sano, más saludable y más guapo, todo lo que tienes que saber para sentirte mejor en Cómo Ser Más Guapo"/>
+		<meta property="og:title" content="Consejos y trucos de belleza y salud en Como ser Mas Guapo"/>
+		<meta property="og:description" content="Bienvenido a mi blog dónde quiero darte trucos para ser más guapo sentirte más saluadable, más sano, y ser hombres lindos. Todo lo que tienes que saber para sentirte mejor en Como Ser Mas Guapo"/>
 		<meta property="og:type" content="principal"/>
 		<meta property="og:url" content="http://www.comosermasguapo.com"/>
 		<meta property="og:image" content="/img/img-meta/logoGrande.jpg"/>
@@ -128,7 +128,7 @@
 		<meta name="twitter:site" content="@YagofierroH">
 		<meta name="twitter:creator" content="@YagofierroH">
 		<meta name="twitter:title" content="Consejos belleza y salud en Como ser Mas Guapo">
-		<meta name="twitter:description" content="Bienvenido a mi blog dónde quiero darte consejos de belleza y salud que te brindo en mi blog, todo lo que tienes que saber para sentirte mejor en Cómo Ser Más Guapo">
+		<meta name="twitter:description" content="Bienvenido a mi blog dónde quiero darte trucos para ser más guapo y sentirte más saluadable, más sano, y ser hombres lindos. Todo lo que tienes que saber para sentirte mejor en Como Ser Mas Guapo">
 		<meta name="twitter:image" content="/img/img-meta/logoGrande.jpg">
 		<meta name="twitter:domain" content="comosermasguapo.com">
 		<!-- end: Twitter tags -->				

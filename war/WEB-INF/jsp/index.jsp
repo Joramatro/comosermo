@@ -54,7 +54,7 @@
       		<!-- start: Hero Unit - Main hero unit for a primary marketing message or call to action -->
       		<div class="hero-unit">
 				<h3>
-					La belleza y la salud están íntimamente relacionadas.
+					La belleza y la salud están íntimamente relacionadas. Una persona que se sienta agusto consigo mismo y saludable se resultará irremediablemente más atractivo para con lo que se rodea. Si además sumamos ejercicio físico a nuestro día a día, junto a la ayuda de producto naturales que nos ayuden a mantenernos en nuestra línea, seremos personas felices y exitosas.
 				</h3>
         		<p><a class="btn btn-primary btn-large" href="/blog">ver Blog</a> </p>
       		</div>
@@ -73,7 +73,7 @@
 							<i class="ico-ok ico-white circle-color-full"></i>
 							<div class="icons-box-vert-info">
 								<h3>Equilibrio</h3>
-								<p>Encuentra el equilibrio entre tu cuerpo y mente.</p>
+								<p>Encuentra el equilibrio entre tu cuerpo y mente. Ambos equilibrios son imprenscindibles para lograr nuestros objetivos y sentirnos agusts con nostros mismos.</p>
 							</div>
 							<div class="clear"></div>
 						</div>
@@ -86,7 +86,7 @@
 							<i class="ico-ok ico-white circle-color-full"></i>
 							<div class="icons-box-vert-info">
 								<h3>Salud</h3>
-								<p>Como sentirte más sano y saludable y a la vez cómo ser más guapo.</p>
+								<p>Te preguntas cómo ser más guapo? Sentirnos saludables y fuertes es importante para mostrarnos atractivos hacia las personas que nos rodean, transmitiendo subconscientemente buenas vibracionescuando entables contacto con otras personas.</p>
 							</div>
 							<div class="clear"></div>
 						</div>
@@ -99,7 +99,7 @@
 							<i class="ico-ok ico-white circle-color-full"></i>
 							<div class="icons-box-vert-info">
 								<h3>Belleza</h3>
-								<p>La belleza es resultado de una mente y alma en paz junto a un cuerpo trabajado y cuidado.</p>
+								<p>La belleza es el resultado de un cómputo de circunstancias que se dan en una personas. Una mente sana, un cuerpo cuidado y una personalidad marcada, harán que te conviertas en la persona que siempre has querido ser.</p>
 							</div>
 							<div class="clear"></div>
 						</div>
