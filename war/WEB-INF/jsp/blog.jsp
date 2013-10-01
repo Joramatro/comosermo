@@ -73,7 +73,7 @@
 			
 			<%@ include file="/WEB-INF/jsp/includes/masleidos.jsp"%>			
 			
-			<div id="banGoogleVistos" class="span3" style="float: right;margin-top: -410px;margin-right: -20px;">		
+			<div id="banGoogleVistos" class="span3" style="float: right;margin-top: -110px;margin-right: -20px;">		
 				<script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 				<!-- cuadrado ch -->
 				<ins class="adsbygoogle"

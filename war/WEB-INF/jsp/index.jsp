@@ -19,6 +19,7 @@
 					<c:if test="${publicacion.script ne '#' }">
 						<a href="/venta/principal/${publicacion.url}" class="da-link">COMPRAR HOY</a>
 					</c:if>
+					<a href="/blog/${publicacion.url}" class="da-link">LEER MÁS</a>
 					<div class="da-img">
 						<c:choose>
 							<c:when test="${publicacion.tipo eq 'EB' }">
