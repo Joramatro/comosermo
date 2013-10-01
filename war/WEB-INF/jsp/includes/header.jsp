@@ -30,7 +30,7 @@
 		<meta property="og:description" content="${publicacion.descripcion}"/>
 		<meta property="og:type" content="articulos"/>
 		<meta property="og:url" content="http://www.comosermasgupao.com/blog/${publicacion.url}"/>
-		<meta property="og:image" content="${publicacion.lImages[0]}"/>
+		<meta property="og:image" content="${publicacion.lImages[2]}"/>
 		<meta property="og:email" content="yagofierro.her@gmail.com"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
@@ -39,7 +39,7 @@
 		<meta name="twitter:creator" content="@YagofierroH">
 		<meta name="twitter:title" content="${publicacion.titulo}">
 		<meta name="twitter:description" content="${publicacion.descripcion}">
-		<meta name="twitter:image" content="${publicacion.lImages[0]}">
+		<meta name="twitter:image" content="${publicacion.lImages[2]}">
 		<meta name="twitter:domain" content="comosermasguapo.com">
 		<!-- end: Twitter tags -->
 		<link rel=”canonical” href=”http://www.comosermasguapo.com/blog/${publicacion.url}“/>

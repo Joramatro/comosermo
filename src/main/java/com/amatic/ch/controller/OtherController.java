@@ -93,7 +93,7 @@ public class OtherController {
 	contacto.setName(name);
 	publicacionService.saveContacto(contacto);
 	Mail.sendMail("Nuevo contacto de: " + email + "\n Nombre: " + name
-		+ "\n Mensaje:" + message, "Nuevo Contacto CMHOY");
+		+ "\n Mensaje:" + message, "Nuevo Contacto Como Ser Mas Guapo");
 	return;
     }
 

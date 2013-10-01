@@ -75,7 +75,8 @@ public abstract class PublicacionAbstract {
 	publicacionService.update(publicacion);
 	Mail.sendMail(
 		"Comentario de:" + email + "\n Dejado en:"
-			+ publicacion.getUrl(), "Nuevo Comentario CMHOY");
+			+ publicacion.getUrl(),
+		"Nuevo Comentario Como Ser Mas Guapo");
     }
 
     void setPublicaciones(ModelMap model, String tipo) {
