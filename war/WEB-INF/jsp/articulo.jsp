@@ -237,7 +237,7 @@
 											<span style="color:#0088cc;">@${comentario.comentarioReplyNombre} &nbsp;</span><a onmouseover="document.getElementById('comment_ref_${status.count}').style.display='block'" onmouseout="document.getElementById('comment_ref_${status.count}').style.display='none';" onclick="document.getElementById('comment_ref_${status.count}').style.display='none';" class="ancla_referencia">#${comentario.comentarioReplyNbr}<span class="referencia" id="comment_ref_${status.count}" style="display:none;font-size: 13px;">${comentario.comentarioReply}</span></a> &nbsp;
 										</c:if>
 										
-										<span itemprop="description">${fn:replace(comentario.comentario, newLineChar, "<p/><p>")}</span>
+										<span itemprop="description">${fn:replace(comentario.comentario, newLineChar, "<br>")}</span>
 										</p>
 									</div>
 								</div>		
@@ -280,7 +280,7 @@
 											<span style="color:#0088cc;">@${comentario.comentarioReplyNombre} &nbsp;</span><a onmouseover="document.getElementById('comment_ref_${status.count}').style.display='block'" onmouseout="document.getElementById('comment_ref_${status.count}').style.display='none';" onclick="document.getElementById('comment_ref_${status.count}').style.display='none';" class="ancla_referencia">#${comentario.comentarioReplyNbr}<span class="referencia" id="comment_ref_${status.count}" style="display:none;font-size: 13px;">${comentario.comentarioReply}</span></a> &nbsp;
 										</c:if>
 										
-										<span>${fn:replace(comentario.comentario, newLineChar, "<p/><p>")}</span>
+										<span>${fn:replace(comentario.comentario, newLineChar, "<br>")}</span>
 										</p>
 									</div>
 								</div>		
@@ -388,15 +388,7 @@
 	<%@ include file="/WEB-INF/jsp/includes/footer.jsp"%>
 
 	<div id="banGoogle" style="position: absolute;top: 270px;right: 40px;">
-		<script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-		<!-- rec grande recomendado ch -->
-		<ins class="adsbygoogle"
-		     style="display:inline-block;width:336px;height:280px"
-		     data-ad-client="ca-pub-3168560600423825"
-		     data-ad-slot="5882295745"></ins>
-		<script>
-		(adsbygoogle = window.adsbygoogle || []).push({});
-		</script>
+		<a href="http://es.500cosmetics.com/miembro-masculino/?utm_source=aff_524cc124259d9&utm_medium=banner&utm_campaign=shop&utm_nooverride=1&amp;a_aid=524cc124259d9&amp;a_bid=631d6e81" target="_top"><img src="http://www.naturalrevenue.com/affiliate/accounts/default1/banners/631d6e81.gif" alt="" title="" width="300" height="250" /></a><img style="border:0" src="http://www.naturalrevenue.com/affiliate/scripts/imp.php?a_aid=524cc124259d9&amp;a_bid=631d6e81" width="1" height="1" alt="" />
 	</div>
 	<script>
 		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
@@ -406,8 +398,8 @@
 			$("#banGoogle").hide();
 		}
 	</script>
-	<div id="banAmazonHorizontal" style="position: absolute;top: 1000px;left: 54px;display:none">
-		<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=comprarmicroh-21&o=30&p=14&l=ur1&category=hogar&banner=1ESFST6P8W0JNG6Z4G02&f=ifr" width="160" height="600" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
+	<div id="banAmazonHorizontal" style="position: absolute;top: 1000px;left: 54px;">
+		<a href="http://es.phieropremium.net//?utm_source=aff_524cc124259d9&utm_medium=banner&utm_campaign=shop&utm_nooverride=1&amp;a_aid=524cc124259d9&amp;a_bid=02a88e20" target="_top"><img src="http://www.naturalrevenue.com/affiliate/accounts/default1/banners/02a88e20.gif" alt="" title="" width="160" height="600" /></a><img style="border:0" src="http://www.naturalrevenue.com/affiliate/scripts/imp.php?a_aid=524cc124259d9&amp;a_bid=02a88e20" width="1" height="1" alt="" />
 	</div>
 	<script>
 		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
@@ -418,9 +410,8 @@
 		}
 	</script>
 	
-	<div id="banAmazonEsquina" style="position: absolute;top: 155px; left: 393px;display:none">
-		<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=comprarmicroh-21&o=30&p=13&l=ur1&category=hogar&banner=1GW6MNKWMET3XVJB7302&f=ifr" width="468" height="60" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
-	</div>
+	<div id="banAmazonEsquina" style="position: absolute;top: 155px; left: 393px;">
+		<a href="http://es.phieropremium.net//?utm_source=aff_524cc124259d9&utm_medium=banner&utm_campaign=shop&utm_nooverride=1&amp;a_aid=524cc124259d9&amp;a_bid=33bc4172" target="_top"><img src="http://www.naturalrevenue.com/affiliate/accounts/default1/banners/33bc4172.gif" alt="" title="" width="468" height="60" /></a><img style="border:0" src="http://www.naturalrevenue.com/affiliate/scripts/imp.php?a_aid=524cc124259d9&amp;a_bid=33bc4172" width="1" height="1" alt="" />	</div>
 	<script>
 		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 			$("#banAmazonEsquina").hide();

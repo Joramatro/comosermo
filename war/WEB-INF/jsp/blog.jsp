@@ -52,7 +52,7 @@
 					<div class="picture"><a href="/blog/${publicacion.url}" title="${publicacion.titulo}">
 					
 					<c:if test="${!empty publicacion.lImages }">
-					<img src="${publicacion.lImages[0]}" alt="${publicacion.titulo}"/>
+					<img pagespeed_no_defer="" src="${publicacion.lImages[0]}" alt="${publicacion.titulo}"/>
 					</c:if>
 					
 					<div class="image-overlay-link"></div></a>
@@ -74,15 +74,7 @@
 			<%@ include file="/WEB-INF/jsp/includes/masleidos.jsp"%>			
 			
 			<div id="banGoogleVistos" class="span3" style="float: right;margin-top: -110px;margin-right: -20px;">		
-				<script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-				<!-- cuadrado ch -->
-				<ins class="adsbygoogle"
-				     style="display:inline-block;width:250px;height:250px"
-				     data-ad-client="ca-pub-3168560600423825"
-				     data-ad-slot="3926701345"></ins>
-				<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
-				</script>
+				<a href="http://www.feromonas.tv/?a_aid=524cc124259d9&amp;a_bid=314f78c1" target="_blank"><img src="http://www.naturalrevenue.com/affiliate/accounts/default1/banners/Feromonas-TV2-1.gif" alt="" title="" width="288" height="240" /></a><img style="border:0" src="http://www.naturalrevenue.com/affiliate/scripts/imp.php?a_aid=524cc124259d9&amp;a_bid=314f78c1" width="1" height="1" alt="" />
 			</div>
 			
       	

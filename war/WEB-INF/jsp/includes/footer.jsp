@@ -13,7 +13,7 @@
 				<!-- start: Footer Menu Logo -->
 				<div class="span2">
 					<div id="footer-menu-logo">
-						<div id="logo-chart"></div><a class="brand" href="http://www.comosermasguapo.com/">CSM<span>GUAPO</span>.</a>
+						<div id="logo-chart"></div><a class="brand" href="http://www.comosermasguapo.com/">CSM<span>G</span>.</a>
 					</div>
 				</div>
 				<!-- end: Footer Menu Logo -->
@@ -63,15 +63,7 @@
 		<!-- start: Container -->
 		<div class="container">
 			<div id="banGoogleFooter" style="margin-left:99px">
-				<script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-				<!-- includes ch -->
-				<ins class="adsbygoogle"
-				     style="display:inline-block;width:970px;height:90px"
-				     data-ad-client="ca-pub-3168560600423825"
-				     data-ad-slot="2942822544"></ins>
-				<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
-				</script>
+				<a href="http://es.phierowoman.com/?utm_source=aff_524cc124259d9&utm_medium=banner&utm_campaign=shop&utm_nooverride=1&amp;a_aid=524cc124259d9&amp;a_bid=3a2fba89" target="_top"><img src="http://www.naturalrevenue.com/affiliate/accounts/default1/banners/3a2fba89.gif" alt="" title="" width="728" height="90" /></a><img style="border:0" src="http://www.naturalrevenue.com/affiliate/scripts/imp.php?a_aid=524cc124259d9&amp;a_bid=3a2fba89" width="1" height="1" alt="" />
 			</div>			
 			<!-- start: Row -->
 			<div class="row" style="margin-top: 20px;">
