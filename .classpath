@@ -11,7 +11,6 @@
 	<classpathentry kind="lib" path="war/WEB-INF/lib/aspectjweaver-1.6.8.jar"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/avro-tools-1.6.1.jar"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/commons-logging-1.1.1.jar"/>
-	<classpathentry kind="lib" path="war/WEB-INF/lib/datanucleus-appengine-1.0.10.final.jar"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/datanucleus-core-1.1.5.jar"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/datanucleus-jpa-1.1.5.jar"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/geronimo-jpa_3.0_spec-1.1.1.jar"/>
