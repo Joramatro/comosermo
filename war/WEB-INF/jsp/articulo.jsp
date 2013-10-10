@@ -84,7 +84,7 @@
 					${publicacion.articulo}				
 					<br>
 					<c:if test="${publicacion.disponible ne 'N'}">
-						<br><h2><a href="/venta/principal/${publicacion.url}" class="button color launch">Cómpralo Hoy!</a></h2>
+						<br><h2><a href="/venta/principal/${publicacion.url}" class="button color launch">Cómpralo Ahora!</a></h2>
 					</c:if>					
 					<br>
 					<!-- AddThis Button BEGIN -->
