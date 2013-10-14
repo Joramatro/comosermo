@@ -19,6 +19,10 @@
   <changefreq>daily</changefreq>
 </url>
 <url>
+  <loc>http://www.comosermasguapo.com/productos</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
   <loc>http://www.comosermasguapo.com/contacto</loc>
   <changefreq>yearly</changefreq>
 </url>
