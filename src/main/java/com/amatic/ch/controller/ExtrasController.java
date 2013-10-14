@@ -24,7 +24,7 @@ public class ExtrasController extends PublicacionAbstract {
     @Resource(name = "OIdUserBean")
     OpenIdUser oIdUserBean;
 
-    @RequestMapping(value = { "/extras" }, method = { RequestMethod.GET })
+    @RequestMapping(value = { "/productos" }, method = { RequestMethod.GET })
     public String getAccesorios(ModelMap model, HttpServletRequest request,
 	    HttpServletResponse response) throws IOException {
 

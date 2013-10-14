@@ -15,7 +15,7 @@
 			<!-- start: Container -->
 			<div class="container">
 
-				<h1><i class="ico-lightbulb ico-white"></i>Extras</h1>
+				<h1><i class="ico-lightbulb ico-white"></i>Productos</h1>
 
 			</div>
 			<!-- end: Container  -->
@@ -35,7 +35,7 @@
 				<ul class="option-set" data-option-key="filter">
 					<li><a href="#filter" class="selected" data-option-value="*">Todos</a></li>
 					<c:forEach var="categoria" items="${categorias}" varStatus="status" >
-						<li><a href="#filter" data-option-value=".${categoria}">${categoria}</a></li>
+						<li><a href="#filter" data-option-value=".${fn:replace(categoria, " ", separadorClase)}">${categoria}</a></li>
 					</c:forEach>
 				</ul>
 			</div> 
@@ -48,7 +48,7 @@
 			<div id="portfolio-wrapper" class="row">
 				<% pageContext.setAttribute("newLineChar", "\n"); %>
 				<c:forEach var="publicacion" items="${publicaciones}" varStatus="status" >				
-				<div class="span4 portfolio-item ${publicacion.clase1} ${publicacion.clase2}">
+				<div class="span4 portfolio-item ${fn:replace(publicacion.clase1, " ", separadorClase)} ${fn:replace(publicacion.clase2, " ", separadorClase)}">
 					<div class="picture">
 					<a href="/venta/extra/${publicacion.url}">
 					<c:if test="${!empty publicacion.lImages }">
@@ -73,16 +73,8 @@
 			
 			<%@ include file="/WEB-INF/jsp/includes/masleidos.jsp"%>	
 			
-			<div class="span3" style="float: right;margin-top: -410px;margin-right: -20px;">		
-				<script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-				<!-- cuadrado ch -->
-				<ins class="adsbygoogle"
-				     style="display:inline-block;width:250px;height:250px"
-				     data-ad-client="ca-pub-3168560600423825"
-				     data-ad-slot="3926701345"></ins>
-				<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
-				</script>
+			<div class="span3" style="float: right;margin-top: -55px;margin-right: -20px;">		
+				<a href="http://es.500cosmetics.com/miembro-masculino/?utm_source=aff_524cc124259d9&utm_medium=banner&utm_campaign=shop&utm_nooverride=1&amp;a_aid=524cc124259d9&amp;a_bid=fda3586b" target="_top"><img src="http://www.naturalrevenue.com/affiliate/accounts/default1/banners/fda3586b.gif" alt="" title="" width="300" height="300" /></a><img style="border:0" src="http://www.naturalrevenue.com/affiliate/scripts/imp.php?a_aid=524cc124259d9&amp;a_bid=fda3586b" width="1" height="1" alt="" />
 			</div>
 			
 			

@@ -91,6 +91,7 @@
 <form method="POST" action="/edicion/guardarEdicionPublicacion">
 Tipo: <select name="tipo" id="tipo">
 				  <option value="AR" ${publicacion.tipo == 'AR' ? 'selected' : ''}>Articulo</option>
+				  <option value="AC" ${publicacion.tipo == 'AC' ? 'selected' : ''}>Producto</option>
 				</select><br><br>			
 Titulo: <input type="text" style="width: 350px;" id="titulo" name="titulo" size="70" maxlength="70" value="${publicacion.titulo}"/><br><br>
 

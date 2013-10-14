@@ -220,6 +220,7 @@
 	                  				</c:forEach>	                					                  				
 								</ul>
 	              			</li>
+	              			<li id="menuProductos"><a href="/productos">Productos</a></li>
 	              			<li id="menuBlog"><a href="/blog">Blog</a></li>	              																			
 	              			<li id="menuContacto"><a href="/contacto">Contacto</a></li>
 	              			<li style="margin-top: -8px;"><a href="#newsletter" accesskey="r"><img src="/img/rssmenu.png" alt="RSS"></a></li>
