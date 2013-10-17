@@ -69,7 +69,7 @@ public class OtherController {
 	Email emailObj = new Email(email);
 	publicacionService.saveEmail(emailObj);
 	Mail.sendMail("Nueva suscribcion de: " + email,
-		"Nueva Suscripcion CMHoy");
+		"Nueva Suscripcion Como Ser Mas Guapo");
 	return;
     }
 

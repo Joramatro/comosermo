@@ -113,10 +113,20 @@ public class FileResource {
 		    .withBlobKey(blobKey).crop(false).imageSize(sizeImage)
 		    .secureUrl(true));
 
+	    log.info("publicacionService: " + publicacionService);
+	    log.info("tituloNuevaPublicacion: "
+		    + (String) session.getAttribute("tituloNuevaPublicacion"));
+	    log.info("tipoNuevaPublicacion: "
+		    + (String) session.getAttribute("tipoNuevaPublicacion"));
+
 	    Publicacion publicacion = publicacionService.getPublicacion(
 		    (String) session.getAttribute("tituloNuevaPublicacion"),
 		    (String) session.getAttribute("tipoNuevaPublicacion"));
+	    log.info("Publicacion: " + publicacion.toString());
+
 	    List<String> lImages = publicacion.getlImages();
+	    log.info("Publicacion lImages: "
+		    + publicacion.getlImages().toString());
 	    lImages.add(url);
 	    List<String> lImagesKeys = publicacion.getlImagesKeys();
 	    lImagesKeys.add(blobKey.getKeyString());

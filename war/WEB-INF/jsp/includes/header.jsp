@@ -44,7 +44,7 @@
 		<!-- end: Twitter tags -->
 		<link rel=”canonical” href=”http://www.comosermasguapo.com/blog/${publicacion.url}“/>
 	</c:when>	
-	<c:when test="${fn:contains(pageContext.request.requestURI, 'contacto')}">
+	<c:when test="${fn:contains(pageContext.request.requestURI, 'contacta')}">
 		<title>Contacta con Yago Fierro en Como Ser Mas Guapo</title> 
 		<meta name="description" content="Contacta conmigo Cómo Ser Mas Guapo"/>
 		<meta name="keywords" content="contacta yago fierro" />
@@ -70,8 +70,34 @@
 		<meta name="twitter:domain" content="comosermasguapo.com">
 		<!-- end: Twitter tags -->
 		<link rel=”canonical” href=”http://www.comosermasguapo.com/contacto“/>
-		<link rel="shortcut icon" href="http://www.comosermasguapo.com/favicon.ico?v=1" />
 	</c:when>
+	<c:when test="${fn:contains(pageContext.request.requestURI, 'extras')}">
+		<title>Productos recomendados en Como Ser Mas Guapo</title> 
+		<meta name="description" content="Recomendaciones personales para comprar online los mejores productos de belleza y salud, una forma de ser mas guapo y ser hombres lindos"/>
+		<meta name="keywords" content="productos belleza, productos salud, comprar productos belleza, comprar productos salud, ser mas guapo" />
+		<meta name="title" content="Productos recomendados en Como Ser Mas Guapo - www.comosermasguapo.com" />
+		<meta name="author" content="Yago Fierro" />
+		<meta name="copyright" content="Como Ser Mas Guapo" />
+		<meta name="application-name" content="Productos recomendados en Como Ser Mas Guapo" />
+		<!-- start: Facebook Open Graph -->
+		<meta property="og:title" content="Productos recomendados en Como Ser Mas Guapo"/>
+		<meta property="og:description" content="Recomendaciones personales para comprar online los mejores productos de belleza y salud, una forma de ser mas guapo y ser hombres lindos"/>
+		<meta property="og:type" content="products"/>
+		<meta property="og:url" content="http://www.comosermasguapo.com/productos"/>
+		<meta property="og:image" content="${publicaciones[0].lImages[0]}"/>
+		<meta property="og:email" content="yagofierro.her@gmail.com"/>
+		<!-- end: Facebook Open Graph -->
+		<!-- start: Twitter tags -->
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@YagofierroH">
+		<meta name="twitter:creator" content="@YagofierroH">
+		<meta name="twitter:title" content="Productos recomendados en Como Ser Mas Guapo">
+		<meta name="twitter:description" content="Recomendaciones personales para comprar online los mejores productos de belleza y salud, una forma de ser mas guapo y ser hombres lindos">
+		<meta name="twitter:image" content="${publicaciones[0].lImages[0]}">
+		<meta name="twitter:domain" content="comosermasguapo.com">
+		<!-- end: Twitter tags -->		
+		<link rel=”canonical” href=”http://www.comosermasguapo.com/productos“/>
+	</c:when>	
 	<c:when test="${fn:contains(pageContext.request.requestURI, 'blog')}">
 		<title>Artículos sobre Belleza en Como Ser Mas Guapo</title> 
 		<meta name="description" content="Sigue los consejos de belleza y salud que te brindo en mi blog, todo lo que tienes que saber para sentirte mejor y parecer hombres lindos en Como Ser Mas Guapo"/>
