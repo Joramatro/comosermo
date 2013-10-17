@@ -71,7 +71,7 @@
 				<!-- start: About -->
 				<div class="span3">
 					
-					<h3>Sobre nosotros</h3>
+					<h3>Sobre mí</h3>
 					<p>
 						Me gusta la belleza y la salud, en este blog quiero compartir contigo mis secretos y consejos para tu día a día.
 					</p>
@@ -158,7 +158,7 @@
 					<!-- start: Newsletter -->
 					<form id="newsletter" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=ComoSerMasGuapo&amp;loc=es_ES', 'popupwindow', 'scrollbars=yes,width=550,height=520');">
 						<h3>Suscríbete! &nbsp; <a href="http://www.comosermasguapo.com/rssfeed" accesskey="r"><img src="/img/rssmenu.png" alt="RSS"></a></h3>
-						<p>Por favor, deja tu email para recibir mis novedades</p>
+						<p>Por favor, deja tu email para recibir mis novedades.</p>
 						<label for="newsletter_input">@:</label>
 						<input style="border: 1px solid #29a9df;" type="text" name="email" id="newsletter_input">
 						<input type="submit" id="btnSuscripcion" value="Enviar">			
