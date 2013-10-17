@@ -305,7 +305,7 @@ Script2: <input type="text" style="width: 600px;" id="script2" name="script2" si
 				<!-- start: Footer Menu Logo -->
 				<div class="span2">
 					<div id="footer-menu-logo">
-						<div id="logo-chart"></div><a class="brand" href="/">CSM<span>Guapo</span>.</a>
+						<div id="logo-chart"></div><a class="brand" href="/">CSM<span>G</span>.</a>
 					</div>
 				</div>
 				<!-- end: Footer Menu Logo -->
@@ -361,9 +361,9 @@ Script2: <input type="text" style="width: 600px;" id="script2" name="script2" si
 				<!-- start: About -->
 				<div class="span3">
 					
-					<h3>Sobre nosotros</h3>
+					<h3>Sobre mí</h3>
 					<p>
-						Somos un equipo de personas con gran formación tecnológica y apasionadas por todo lo relacionado con ella.
+						Me gusta la belleza y la salud, en este blog quiero compartir contigo mis secretos y consejos para tu día a día.
 					</p>
 						
 				</div>
@@ -447,8 +447,8 @@ Script2: <input type="text" style="width: 600px;" id="script2" name="script2" si
 				
 					<!-- start: Newsletter -->
 					<form id="newsletter">
-						<h3>Newsletter</h3>
-						<p>Por favor, déjanos tu email para conocer nuestras nuevas publicaciones</p>
+						<h3>Suscríbete!</h3>
+						<p>Por favor, deja tu email para recibir mis novedades</p>
 						<label for="newsletter_input">@:</label>
 						<input type="text" id="newsletter_input"/>
 						<input type="submit" id="newsletter_submit" value="submit">
