@@ -161,7 +161,8 @@
 		<link rel=”canonical” href=”http://www.comosermasguapo.com“/>
 	</c:otherwise>		
 	</c:choose>
-	
+	<link rel="author" href="https://plus.google.com/104651424163495174757" />
+	<link rel="publisher" href="https://plus.google.com/114538229665853420789" />
 	<style>
 	@font-face {
 	  font-family: 'Droid Sans';

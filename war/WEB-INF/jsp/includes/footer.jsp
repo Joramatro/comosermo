@@ -188,7 +188,7 @@
 			
 				<p>
 				<a style="margin-right: 35px;" href="http://www.comosermasguapo.com/rssfeed" accesskey="r"><img src="/img/rss.gif" alt="RSS"/>RSS</a>
-				&copy; 2013, <a target="_blank" rel="publisher" href="https://plus.google.com/b/114538229665853420789/114538229665853420789/posts"><span id="_publisher8" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+				&copy; 2013, <a target="_blank" href="https://plus.google.com/114538229665853420789"><span id="_publisher8" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
 <span itemprop="name">Como Ser Mas Guapo</span></span></a><i style="margin-top: -18px;" class="ico-color ico-sun"></i>
 				<a style="margin-left: 19px;" href="/politica-de-privacidad">Política de privacidad</a>					
 				</p>
