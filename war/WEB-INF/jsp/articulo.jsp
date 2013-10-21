@@ -411,7 +411,7 @@
 	</script>
 	
 	<div id="banAmazonEsquina" style="position: absolute;top: 155px; left: 393px;">
-		<a href="http://es.phieropremium.net//?utm_source=aff_524cc124259d9&utm_medium=banner&utm_campaign=shop&utm_nooverride=1&amp;a_aid=524cc124259d9&amp;a_bid=33bc4172" target="_top"><img src="http://www.naturalrevenue.com/affiliate/accounts/default1/banners/33bc4172.gif" alt="" title="" width="468" height="60" /></a><img style="border:0" src="http://www.naturalrevenue.com/affiliate/scripts/imp.php?a_aid=524cc124259d9&amp;a_bid=33bc4172" width="1" height="1" alt="" />	</div>
+		<a href="http://es.phieropremium.net/?utm_source=aff_524cc124259d9&utm_medium=banner&utm_campaign=shop&utm_nooverride=1&amp;a_aid=524cc124259d9&amp;a_bid=33bc4172" target="_top"><img src="http://www.naturalrevenue.com/affiliate/accounts/default1/banners/33bc4172.gif" alt="" title="" width="468" height="60" /></a><img style="border:0" src="http://www.naturalrevenue.com/affiliate/scripts/imp.php?a_aid=524cc124259d9&amp;a_bid=33bc4172" width="1" height="1" alt="" />	</div>
 	<script>
 		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 			$("#banAmazonEsquina").hide();
