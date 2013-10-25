@@ -50,14 +50,14 @@
 				<c:forEach var="publicacion" items="${publicaciones}" varStatus="status" >				
 				<div class="span4 portfolio-item ${fn:replace(publicacion.clase1, " ", separadorClase)} ${fn:replace(publicacion.clase2, " ", separadorClase)}">
 					<div class="picture">
-					<a title="${publicacion.titulo}" href="/venta/extra/${publicacion.url}">
+					<a title="${publicacion.titulo}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Extra');" href="/venta/extra/${publicacion.url}">
 					<c:if test="${!empty publicacion.lImages }">
 					<img src="${publicacion.lImages[0]}" alt="${publicacion.titulo}"/>
 					</c:if>
 					
 					<div class="image-overlay-link"></div></a>
 						<div class="item-description alt">
-							<h5><a title="${publicacion.titulo}" href="/venta/extra/${publicacion.url}">${publicacion.titulo}</a>
+							<h5><a title="${publicacion.titulo}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Extra');" href="/venta/extra/${publicacion.url}">${publicacion.titulo}</a>
 							<p>
 								${fn:replace(publicacion.resumen, newLineChar, "<p/><p>")}
 							</p>
@@ -73,8 +73,8 @@
 			
 			<%@ include file="/WEB-INF/jsp/includes/masleidos.jsp"%>	
 			
-			<div class="span3" style="float: right;margin-top: -55px;margin-right: -20px;">		
-				<a href="http://es.500cosmetics.com/miembro-masculino/?utm_source=aff_524cc124259d9&utm_medium=banner&utm_campaign=shop&utm_nooverride=1&amp;a_aid=524cc124259d9&amp;a_bid=fda3586b" target="_top"><img src="http://www.naturalrevenue.com/affiliate/accounts/default1/banners/fda3586b.gif" alt="" title="" width="300" height="300" /></a><img style="border:0" src="http://www.naturalrevenue.com/affiliate/scripts/imp.php?a_aid=524cc124259d9&amp;a_bid=fda3586b" width="1" height="1" alt="" />
+			<div id="BannerGoogleExtras" class="span3" style="float: right;margin-top: -55px;margin-right: -20px;">		
+				<a onClick="ga('send', 'event', 'Banner', 'Extras', 'BannerGoogleExtras');" href="http://es.500cosmetics.com/miembro-masculino/?utm_source=aff_524cc124259d9&utm_medium=banner&utm_campaign=shop&utm_nooverride=1&amp;a_aid=524cc124259d9&amp;a_bid=fda3586b" target="_top"><img src="http://www.naturalrevenue.com/affiliate/accounts/default1/banners/fda3586b.gif" alt="" title="" width="300" height="300" /></a><img style="border:0" src="http://www.naturalrevenue.com/affiliate/scripts/imp.php?a_aid=524cc124259d9&amp;a_bid=fda3586b" width="1" height="1" alt="" />
 			</div>
 			
 			
@@ -86,6 +86,22 @@
 	<!-- end: Wrapper  -->
 	
 <%@ include file="/WEB-INF/jsp/includes/footer.jsp"%>
-
+	<script>
+	jQuery(document).ready(function($){
+	    $('.iframe_wrap iframe').iframeTracker({
+	        blurCallback: function(){
+	            // You can know which iframe element is clicked via this._overId
+	        	ga('send', 'event', 'Banner', 'Extras' , this._overId);
+	        },
+	        overCallback: function(element){
+	            this._overId = $(element).parents('.iframe_wrap').attr('id'); // Saving the iframe wrapper id
+	        },
+	        outCallback: function(element){
+	            this._overId = null; // Reset hover iframe wrapper id
+	        },
+	        _overId: null
+	    });
+	});
+	</script>
 </body>
 </html>				

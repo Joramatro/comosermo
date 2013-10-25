@@ -37,7 +37,7 @@
 			<div style="width: 440px;height: 320px; margin-left: 280px;" class="slider" >
 				<div id="flex1" style="margin-top:80px" class="flexslider home">
 					<c:if test="${publicacion.script ne '#' }">
-						<a target="_blank" href="/venta/principal/${publicacion.url}">
+						<a target="_blank" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Imagen Superior');" href="/venta/principal/${publicacion.url}">
 					</c:if>
 					<ul class="slides">
 						<c:forEach var="imagen" items="${publicacion.lImages}" varStatus="status">
@@ -84,7 +84,7 @@
 					${publicacion.articulo}				
 					<br>
 					<c:if test="${publicacion.disponible ne 'N'}">
-						<br><h2><a href="/venta/principal/${publicacion.url}" class="button color launch">Cómpralo Ahora!</a></h2>
+						<br><h2><a href="/venta/principal/${publicacion.url}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Boton Compralo Ahora');" class="button color launch">Cómpralo Ahora!</a></h2>
 					</c:if>					
 					<br>
 					<!-- AddThis Button BEGIN -->
@@ -388,7 +388,7 @@
 	<%@ include file="/WEB-INF/jsp/includes/footer.jsp"%>
 
 	<div id="banGoogle" style="position: absolute;top: 270px;right: 40px;">
-		<a href="http://es.500cosmetics.com/miembro-masculino/?utm_source=aff_524cc124259d9&utm_medium=banner&utm_campaign=shop&utm_nooverride=1&amp;a_aid=524cc124259d9&amp;a_bid=631d6e81" target="_top"><img src="http://www.naturalrevenue.com/affiliate/accounts/default1/banners/631d6e81.gif" alt="" title="" width="300" height="250" /></a><img style="border:0" src="http://www.naturalrevenue.com/affiliate/scripts/imp.php?a_aid=524cc124259d9&amp;a_bid=631d6e81" width="1" height="1" alt="" />
+		<a onClick="ga('send', 'event', 'Banner', '${publicacion.url}', 'banGoogle');" href="http://es.500cosmetics.com/miembro-masculino/?utm_source=aff_524cc124259d9&utm_medium=banner&utm_campaign=shop&utm_nooverride=1&amp;a_aid=524cc124259d9&amp;a_bid=631d6e81" target="_top"><img src="http://www.naturalrevenue.com/affiliate/accounts/default1/banners/631d6e81.gif" alt="" title="" width="300" height="250" /></a><img style="border:0" src="http://www.naturalrevenue.com/affiliate/scripts/imp.php?a_aid=524cc124259d9&amp;a_bid=631d6e81" width="1" height="1" alt="" />
 	</div>
 	<script>
 		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
@@ -399,7 +399,7 @@
 		}
 	</script>
 	<div id="banAmazonHorizontal" style="position: absolute;top: 1000px;left: 54px;">
-		<a href="http://es.500cosmetics.com/?utm_source=aff_524cc124259d9&utm_medium=link&utm_campaign=shop&utm_nooverride=1&amp;a_aid=524cc124259d9&amp;a_bid=c0c1eaab&amp;chan=es" target="_top"><img src="http://www.naturalrevenue.com/affiliate/accounts/default1/banners/HTcosmetics-man-160x600.gif" alt="" title="" width="160" height="600" /></a><img style="border:0" src="http://www.naturalrevenue.com/affiliate/scripts/imp.php?a_aid=524cc124259d9&amp;a_bid=c0c1eaab&amp;chan=es" width="1" height="1" alt="" />
+		<a onClick="ga('send', 'event', 'Banner', '${publicacion.url}', 'banAmazonHorizontal');" href="http://es.500cosmetics.com/?utm_source=aff_524cc124259d9&utm_medium=link&utm_campaign=shop&utm_nooverride=1&amp;a_aid=524cc124259d9&amp;a_bid=c0c1eaab&amp;chan=es" target="_top"><img src="http://www.naturalrevenue.com/affiliate/accounts/default1/banners/HTcosmetics-man-160x600.gif" alt="" title="" width="160" height="600" /></a><img style="border:0" src="http://www.naturalrevenue.com/affiliate/scripts/imp.php?a_aid=524cc124259d9&amp;a_bid=c0c1eaab&amp;chan=es" width="1" height="1" alt="" />
 	</div>
 	<script>
 		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
@@ -411,7 +411,7 @@
 	</script>
 	
 	<div id="banAmazonEsquina" style="position: absolute;top: 155px; left: 393px;">
-		<a href="http://es.phieropremium.net/?utm_source=aff_524cc124259d9&utm_medium=banner&utm_campaign=shop&utm_nooverride=1&amp;a_aid=524cc124259d9&amp;a_bid=33bc4172" target="_top"><img src="http://www.naturalrevenue.com/affiliate/accounts/default1/banners/33bc4172.gif" alt="" title="" width="468" height="60" /></a><img style="border:0" src="http://www.naturalrevenue.com/affiliate/scripts/imp.php?a_aid=524cc124259d9&amp;a_bid=33bc4172" width="1" height="1" alt="" />	</div>
+		<a onClick="ga('send', 'event', 'Banner', '${publicacion.url}', 'banAmazonEsquina');" href="http://es.phieropremium.net/?utm_source=aff_524cc124259d9&utm_medium=banner&utm_campaign=shop&utm_nooverride=1&amp;a_aid=524cc124259d9&amp;a_bid=33bc4172" target="_top"><img src="http://www.naturalrevenue.com/affiliate/accounts/default1/banners/33bc4172.gif" alt="" title="" width="468" height="60" /></a><img style="border:0" src="http://www.naturalrevenue.com/affiliate/scripts/imp.php?a_aid=524cc124259d9&amp;a_bid=33bc4172" width="1" height="1" alt="" />	</div>
 	<script>
 		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 			$("#banAmazonEsquina").hide();
@@ -441,6 +441,27 @@
 			$("#banAmazonEsquina").show();
 			$(".slide-caption").show();
 		}
+	});
+	</script>
+	<script>
+	jQuery(document).ready(function($){
+	    $('.iframe_wrap iframe').iframeTracker({
+	        blurCallback: function(){
+	            // You can know which iframe element is clicked via this._overId
+	        	ga('send', 'event', 'Banner', '${publicacion.url}' , this._overId);
+	        },
+	        overCallback: function(element){
+	            this._overId = $(element).parents('.iframe_wrap').attr('id'); // Saving the iframe wrapper id
+	        },
+	        outCallback: function(element){
+	            this._overId = null; // Reset hover iframe wrapper id
+	        },
+	        _overId: null
+	    });
+	    
+	    $('#_image6').click(function() {
+	    	ga('send', 'event', 'Venta', '${publicacion.url}', 'Imagen Medio');  
+	    });
 	});
 	</script>
 

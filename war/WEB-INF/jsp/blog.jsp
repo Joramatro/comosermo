@@ -74,7 +74,7 @@
 			<%@ include file="/WEB-INF/jsp/includes/masleidos.jsp"%>			
 			
 			<div id="banGoogleVistos" class="span3" style="float: right;margin-top: -110px;margin-right: -20px;">		
-				<a href="http://www.feromonas.tv/?a_aid=524cc124259d9&amp;a_bid=314f78c1" target="_blank"><img src="http://www.naturalrevenue.com/affiliate/accounts/default1/banners/Feromonas-TV2-1.gif" alt="" title="" width="288" height="240" /></a><img style="border:0" src="http://www.naturalrevenue.com/affiliate/scripts/imp.php?a_aid=524cc124259d9&amp;a_bid=314f78c1" width="1" height="1" alt="" />
+				<a onClick="ga('send', 'event', 'Banner', 'Blog', 'banGoogleVistos');" href="http://www.feromonas.tv/?a_aid=524cc124259d9&amp;a_bid=314f78c1" target="_blank"><img src="http://www.naturalrevenue.com/affiliate/accounts/default1/banners/Feromonas-TV2-1.gif" alt="" title="" width="288" height="240" /></a><img style="border:0" src="http://www.naturalrevenue.com/affiliate/scripts/imp.php?a_aid=524cc124259d9&amp;a_bid=314f78c1" width="1" height="1" alt="" />
 			</div>
 			
       	

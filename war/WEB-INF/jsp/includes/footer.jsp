@@ -63,7 +63,7 @@
 		<!-- start: Container -->
 		<div class="container">
 			<div id="banGoogleFooter" style="margin-left:99px">
-				<a href="http://es.phierowoman.com/?utm_source=aff_524cc124259d9&utm_medium=banner&utm_campaign=shop&utm_nooverride=1&amp;a_aid=524cc124259d9&amp;a_bid=3a2fba89" target="_top"><img src="http://www.naturalrevenue.com/affiliate/accounts/default1/banners/3a2fba89.gif" alt="" title="" width="728" height="90" /></a><img style="border:0" src="http://www.naturalrevenue.com/affiliate/scripts/imp.php?a_aid=524cc124259d9&amp;a_bid=3a2fba89" width="1" height="1" alt="" />
+				<a onClick="ga('send', 'event', 'Banner', '${publicacion.url} Extras Home', 'banGoogleFooter');" href="http://es.phierowoman.com/?utm_source=aff_524cc124259d9&utm_medium=banner&utm_campaign=shop&utm_nooverride=1&amp;a_aid=524cc124259d9&amp;a_bid=3a2fba89" target="_top"><img src="http://www.naturalrevenue.com/affiliate/accounts/default1/banners/3a2fba89.gif" alt="" title="" width="728" height="90" /></a><img style="border:0" src="http://www.naturalrevenue.com/affiliate/scripts/imp.php?a_aid=524cc124259d9&amp;a_bid=3a2fba89" width="1" height="1" alt="" />
 			</div>			
 			<!-- start: Row -->
 			<div class="row" style="margin-top: 20px;">
@@ -210,6 +210,7 @@
 <script src="/js/jquery.cslider.min.js"></script>
 <script src="/js/slider.min.js"></script>
 <script src="/js/fancybox.min.js"></script>
+<script src="/js/jquery.iframetracker.js"></script>
 <script defer="defer" src="/js/custom.min.js"></script>
 <script async src="/js/apprise-v2.min.js"></script>
 

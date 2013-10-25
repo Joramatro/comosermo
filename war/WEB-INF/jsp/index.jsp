@@ -18,7 +18,7 @@
 					<p>${publicacion.descPortada}</p>
 					<c:choose>
 					<c:when test="${publicacion.script ne '#' }">
-						<a href="/venta/principal/${publicacion.url}" class="da-link">COMPRAR</a>
+						<a href="/venta/principal/${publicacion.url}" onClick="ga('send', 'event', 'Venta', 'Home ${publicacion.url}', 'Boton Comprar Hoy');" class="da-link">COMPRAR</a>
 					</c:when>
 					<c:otherwise>
 						<a href="/blog/${publicacion.url}" class="da-link">LEER MÁS</a>
@@ -119,8 +119,8 @@
 			
 			<hr>
 			
-			<div style="width: 60%;margin: 0 auto;">
-			<a href="http://es.500cosmetics.com/miembro-masculino/?utm_source=aff_524cc124259d9&utm_medium=banner&utm_campaign=shop&utm_nooverride=1&amp;a_aid=524cc124259d9&amp;a_bid=1cdcea94" target="_top"><img src="http://www.naturalrevenue.com/affiliate/accounts/default1/banners/1cdcea94.gif" alt="" title="" width="728" height="90" /></a><img style="border:0" src="http://www.naturalrevenue.com/affiliate/scripts/imp.php?a_aid=524cc124259d9&amp;a_bid=1cdcea94" width="1" height="1" alt="" />
+			<div id="BannerHomeAlto" style="width: 60%;margin: 0 auto;">
+			<a onClick="ga('send', 'event', 'Banner', 'Home', 'BannerHomeAlto');" href="http://es.500cosmetics.com/miembro-masculino/?utm_source=aff_524cc124259d9&utm_medium=banner&utm_campaign=shop&utm_nooverride=1&amp;a_aid=524cc124259d9&amp;a_bid=1cdcea94" target="_top"><img src="http://www.naturalrevenue.com/affiliate/accounts/default1/banners/1cdcea94.gif" alt="" title="" width="728" height="90" /></a><img style="border:0" src="http://www.naturalrevenue.com/affiliate/scripts/imp.php?a_aid=524cc124259d9&amp;a_bid=1cdcea94" width="1" height="1" alt="" />
 			</div>
 		
 		<hr>			
@@ -166,6 +166,23 @@
 	<!-- end: Wrapper  -->			
 
 <%@ include file="/WEB-INF/jsp/includes/footer.jsp"%>
+<script>
+	jQuery(document).ready(function($){
+	    $('.iframe_wrap iframe').iframeTracker({
+	        blurCallback: function(){
+	            // You can know which iframe element is clicked via this._overId
+	        	ga('send', 'event', 'Banner', 'home' , this._overId);
+	        },
+	        overCallback: function(element){
+	            this._overId = $(element).parents('.iframe_wrap').attr('id'); // Saving the iframe wrapper id
+	        },
+	        outCallback: function(element){
+	            this._overId = null; // Reset hover iframe wrapper id
+	        },
+	        _overId: null
+	    });
+	});
+</script>
 
 </body>
 </html>
