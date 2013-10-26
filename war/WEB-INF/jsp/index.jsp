@@ -34,8 +34,9 @@
 							</c:otherwise>
 						</c:choose>
 						<c:if test="${!empty publicacion.lImages}">
-							<img src="${publicacion.lImages[0]}" style="width: 450px;height:329px;" alt="${publicacion.titulo}" /></a>
+							<img src="${publicacion.lImages[0]}" style="width: 450px;height:329px;" alt="${publicacion.titulo}" />
 						</c:if>
+						</a>
 					</div>
 				</div>							
 			</c:forEach>			

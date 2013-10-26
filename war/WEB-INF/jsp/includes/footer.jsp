@@ -1,6 +1,8 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java"%>
 <%@ page isELIgnored="false"%>
-
+	<div id="bannerFooter" style="width: 50%; margin:0 auto;">
+		<a onClick="ga('send', 'event', 'Banner', '${publicacion.url} Extras Home', 'bannerFooter');" href="http://es.phierowoman.com/?utm_source=aff_524cc124259d9&utm_medium=banner&utm_campaign=shop&utm_nooverride=1&amp;a_aid=524cc124259d9&amp;a_bid=3a2fba89" target="_top"><img src="http://www.naturalrevenue.com/affiliate/accounts/default1/banners/3a2fba89.gif" alt="" title="" width="728" height="90" /></a><img style="border:0" src="http://www.naturalrevenue.com/affiliate/scripts/imp.php?a_aid=524cc124259d9&amp;a_bid=3a2fba89" width="1" height="1" alt="" />
+	</div>
     <!-- start: Footer Menu -->
 	<div id="footer-menu" class="hidden-tablet hidden-phone">
 
@@ -61,10 +63,7 @@
 	<div id="footer">
 		
 		<!-- start: Container -->
-		<div class="container">
-			<div id="banGoogleFooter" style="margin-left:99px">
-				<a onClick="ga('send', 'event', 'Banner', '${publicacion.url} Extras Home', 'banGoogleFooter');" href="http://es.phierowoman.com/?utm_source=aff_524cc124259d9&utm_medium=banner&utm_campaign=shop&utm_nooverride=1&amp;a_aid=524cc124259d9&amp;a_bid=3a2fba89" target="_top"><img src="http://www.naturalrevenue.com/affiliate/accounts/default1/banners/3a2fba89.gif" alt="" title="" width="728" height="90" /></a><img style="border:0" src="http://www.naturalrevenue.com/affiliate/scripts/imp.php?a_aid=524cc124259d9&amp;a_bid=3a2fba89" width="1" height="1" alt="" />
-			</div>			
+		<div class="container">			
 			<!-- start: Row -->
 			<div class="row" style="margin-top: 20px;">
 

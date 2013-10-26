@@ -110,7 +110,9 @@
 					<br><br>
 					<p style="font-style: italic;">Por favor, no dudes en puntuar y comentar tu opinión sobre este artículo en la sección de <a href="#comments">comentarios</a>. Gracias!</p>
 				</div>	
-				
+				<div id="bannerFinArticulo" style="width: 50%; margin:0 auto;">
+					<a onClick="ga('send', 'event', 'Banner', '${publicacion.url}', 'banner fin articulo');" href="http://es.500cosmetics.com/?utm_source=aff_524cc124259d9&utm_medium=link&utm_campaign=shop&utm_nooverride=1&amp;a_aid=524cc124259d9&amp;a_bid=90fa3f44" target="_top"><img src="http://www.naturalrevenue.com/affiliate/accounts/default1/banners/HTproducts-728x90.gif" alt="" title="" width="728" height="90" /></a><img style="border:0" src="http://www.naturalrevenue.com/affiliate/scripts/imp.php?a_aid=524cc124259d9&amp;a_bid=90fa3f44" width="1" height="1" alt="" />
+				</div>				
 			</div>
 			<!-- end: Row -->
 			
