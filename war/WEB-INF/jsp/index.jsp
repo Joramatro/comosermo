@@ -51,7 +51,28 @@
 			
 	<!--start: Wrapper-->
 	<div id="wrapper">
-				
+			<div id="banGoogleMasVistos" style="margin-bottom: 25px;margin-left:295px" class="iframe_wrap">
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- csmg mas leidos -->
+				<ins class="adsbygoogle"
+				     style="display:inline-block;width:336px;height:280px"
+				     data-ad-client="ca-pub-3168560600423825"
+				     data-ad-slot="6057518549"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+			</div>
+			<div id="bannerHomeAmazAlto" class="iframe_wrap" style="margin: -311px 0px 0px 643px;">
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- csmg mas leidos -->
+				<ins class="adsbygoogle"
+				     style="display:inline-block;width:336px;height:280px"
+				     data-ad-client="ca-pub-3168560600423825"
+				     data-ad-slot="6057518549"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+			</div>				
 		<!--start: Container -->
     	<div class="container">
 			
@@ -117,12 +138,6 @@
 				<div class="clear"></div>
 			</div>
 			<!-- end: Row -->
-			
-			<hr>
-			
-			<div id="BannerHomeAlto" style="width: 60%;margin: 0 auto;">
-			<a onClick="ga('send', 'event', 'Banner', 'Home', 'BannerHomeAlto');" href="http://es.500cosmetics.com/miembro-masculino/?utm_source=aff_524cc124259d9&utm_medium=banner&utm_campaign=shop&utm_nooverride=1&amp;a_aid=524cc124259d9&amp;a_bid=1cdcea94" target="_top"><img src="http://www.naturalrevenue.com/affiliate/accounts/default1/banners/1cdcea94.gif" alt="" title="" width="728" height="90" /></a><img style="border:0" src="http://www.naturalrevenue.com/affiliate/scripts/imp.php?a_aid=524cc124259d9&amp;a_bid=1cdcea94" width="1" height="1" alt="" />
-			</div>
 		
 		<hr>			
 			<%@ include file="/WEB-INF/jsp/includes/masleidos.jsp"%>

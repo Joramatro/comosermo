@@ -27,7 +27,17 @@
 	
 	<!--start: Wrapper-->
 	<div id="wrapper">
-		
+		<div id="banGoogleETop" class="iframe_wrap" style="width: 54%;margin: -16px auto;">
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<!-- Horizontal listas arriba -->
+		<ins class="adsbygoogle"
+		     style="display:inline-block;width:728px;height:90px"
+		     data-ad-client="ca-pub-3168560600423825"
+		     data-ad-slot="8232255746"></ins>
+		<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+		</div>	
 		<!-- start: Container -->	
 		<div class="container">
 
@@ -70,14 +80,18 @@
 			<!-- end: articulo -->
 			
 			<div class="clear" style="padding-top: 25px;"></div>
-			
+			<div id="banGoogleMasVistos" style="margin-bottom: 25px;" class="iframe_wrap">
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- csmg rec articulo -->
+				<ins class="adsbygoogle"
+				     style="display:inline-block;width:300px;height:250px"
+				     data-ad-client="ca-pub-3168560600423825"
+				     data-ad-slot="2067970945"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+			</div>			
 			<%@ include file="/WEB-INF/jsp/includes/masleidos.jsp"%>	
-			
-			<div id="BannerGoogleExtras" class="span3" style="float: right;margin-top: -55px;margin-right: -20px;">		
-				<a onClick="ga('send', 'event', 'Banner', 'Extras', 'BannerGoogleExtras');" href="http://es.500cosmetics.com/miembro-masculino/?utm_source=aff_524cc124259d9&utm_medium=banner&utm_campaign=shop&utm_nooverride=1&amp;a_aid=524cc124259d9&amp;a_bid=fda3586b" target="_top"><img src="http://www.naturalrevenue.com/affiliate/accounts/default1/banners/fda3586b.gif" alt="" title="" width="300" height="300" /></a><img style="border:0" src="http://www.naturalrevenue.com/affiliate/scripts/imp.php?a_aid=524cc124259d9&amp;a_bid=fda3586b" width="1" height="1" alt="" />
-			</div>
-			
-			
       	
 		</div>
 		<!--end: Container-->

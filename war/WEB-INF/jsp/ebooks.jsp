@@ -26,8 +26,7 @@
 	<!-- end: Page Title -->
 	<% pageContext.setAttribute("separadorClase", "-"); %>
 	<!--start: Wrapper-->
-	<div id="wrapper">
-		
+	<div id="wrapper">		
 		<!-- start: Container -->	
 		<div class="container">
 

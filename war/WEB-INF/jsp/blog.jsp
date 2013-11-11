@@ -27,6 +27,17 @@
 	<% pageContext.setAttribute("separadorClase", "-"); %>
 	<!--start: Wrapper-->
 	<div id="wrapper">
+		<div id="banGoogleETop" class="iframe_wrap" style="width: 54%;margin: -16px auto;">
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<!-- Horizontal listas arriba -->
+		<ins class="adsbygoogle"
+		     style="display:inline-block;width:728px;height:90px"
+		     data-ad-client="ca-pub-3168560600423825"
+		     data-ad-slot="8232255746"></ins>
+		<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+		</div>
 		
 		<!-- start: Container -->	
 		<div class="container">
@@ -70,14 +81,18 @@
 			<!-- end: articulo -->
 			
 			<div class="clear" style="padding-top: 25px;"></div>
-			
+			<div id="banGoogleMasVistos" style="margin-bottom: 25px;" class="iframe_wrap">
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- csmg rec articulo -->
+				<ins class="adsbygoogle"
+				     style="display:inline-block;width:300px;height:250px"
+				     data-ad-client="ca-pub-3168560600423825"
+				     data-ad-slot="2067970945"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+			</div>			
 			<%@ include file="/WEB-INF/jsp/includes/masleidos.jsp"%>			
-			
-			<div id="banGoogleVistos" class="span3" style="float: right;margin-top: -110px;margin-right: -20px;">		
-				<a onClick="ga('send', 'event', 'Banner', 'Blog', 'banGoogleVistos');" href="http://www.feromonas.tv/?a_aid=524cc124259d9&amp;a_bid=314f78c1" target="_blank"><img src="http://www.naturalrevenue.com/affiliate/accounts/default1/banners/Feromonas-TV2-1.gif" alt="" title="" width="288" height="240" /></a><img style="border:0" src="http://www.naturalrevenue.com/affiliate/scripts/imp.php?a_aid=524cc124259d9&amp;a_bid=314f78c1" width="1" height="1" alt="" />
-			</div>
-			
-      	
       		
 		</div>
 		<!--end: Container-->
