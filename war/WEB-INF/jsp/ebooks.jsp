@@ -79,15 +79,15 @@
 			<%@ include file="/WEB-INF/jsp/includes/masleidos.jsp"%>
 			
 			<div id="banGoogleVistos" class="span3" style="float: right;margin-top: -410px;margin-right: -20px;">				
-				<script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-				<!-- cuadrado ch -->
-				<ins class="adsbygoogle"
-				     style="display:inline-block;width:250px;height:250px"
-				     data-ad-client="ca-pub-3168560600423825"
-				     data-ad-slot="3926701345"></ins>
-				<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
-				</script>					
+	<%-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- csmg horizontal index -->
+	<ins class="adsbygoogle"
+	     style="display:inline-block;width:970px;height:90px"
+	     data-ad-client="ca-pub-3168560600423825"
+	     data-ad-slot="9010984948"></ins>
+	<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>--%>				
        		</div>
        		      	
 		</div>

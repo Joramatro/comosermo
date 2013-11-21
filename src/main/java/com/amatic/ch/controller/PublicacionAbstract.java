@@ -13,6 +13,8 @@ import javax.servlet.http.HttpServletResponse;
 
 import net.sf.akismet.Akismet;
 
+import org.jsoup.Jsoup;
+import org.jsoup.safety.Whitelist;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ui.ModelMap;
 
@@ -32,6 +34,7 @@ public abstract class PublicacionAbstract {
 
     @Autowired
     private PublicacionService publicacionService;
+
     @Autowired
     private ComentarioService comentarioService;
 
@@ -60,6 +63,7 @@ public abstract class PublicacionAbstract {
 			    + "\n Puntos:" + puntos + "\n Nombre:" + nombre,
 		    "Spam Akimet comentario en ComoSerMasGuapo");
 	    response.sendRedirect("/");
+	    response.flushBuffer();
 	} else {
 	    String key = WebUtils.SHA1(url.replaceAll("-", " "));
 	    Publicacion publicacion = publicacionService.getPublicacion(key,
@@ -88,7 +92,9 @@ public abstract class PublicacionAbstract {
 	    nuevoComentario.setMail(email);
 	    nuevoComentario.setNombre(nombre);
 	    nuevoComentario.setPuntos(Integer.parseInt(puntos));
-	    nuevoComentario.setComentario(comentario);
+	    String safeComentario = Jsoup.clean(comentario, Whitelist.basic());
+	    safeComentario = safeComentario.replaceAll("\n", "");
+	    nuevoComentario.setComentario(safeComentario);
 	    nuevoComentario.setWeb(web);
 	    nuevoComentario.setGravatar(WebUtils.getGravatar80pxUrl(email));
 	    nuevoComentario.setIpAddress(WebUtils.getClienAddress(request));
@@ -157,8 +163,14 @@ public abstract class PublicacionAbstract {
 
 	List<Comentario> comentarios = comentarioService
 		.getUltimosComentarios();
-
-	model.addAttribute("comentarios", comentarios);
+	List<Comentario> ultimosComentarios = new ArrayList<Comentario>();
+	for (Comentario comentario : comentarios) {
+	    Comentario ultimoComentario = new Comentario();
+	    ultimoComentario.setComentario(Jsoup.clean(
+		    comentario.getComentario(), Whitelist.simpleText()));
+	    ultimosComentarios.add(ultimoComentario);
+	}
+	model.addAttribute("comentarios", ultimosComentarios);
 	model.addAttribute("publicacionesMVE", publicacionesMVE);
 	model.addAttribute("publicacionesMVA", publicacionesMVA);
 	model.addAttribute("categorias", categorias);
@@ -174,8 +186,7 @@ public abstract class PublicacionAbstract {
 	Publicacion publicacion = publicacionService.getPublicacion(key, tipo);
 	if (publicacion == null) {
 	    String uri = request.getRequestURI();
-	    throw new UnknownResourceException("No existe la publicacion: "
-		    + uri);
+	    throw new UnknownResourceException("No existe el recurso: " + uri);
 	    // return "channelNotFound";
 	}
 	// incremeanting number viewers
@@ -202,8 +213,14 @@ public abstract class PublicacionAbstract {
 
 	List<Comentario> comentarios = comentarioService
 		.getUltimosComentarios();
-
-	model.addAttribute("comentarios", comentarios);
+	List<Comentario> ultimosComentarios = new ArrayList<Comentario>();
+	for (Comentario comentario : comentarios) {
+	    Comentario ultimoComentario = new Comentario();
+	    ultimoComentario.setComentario(Jsoup.clean(
+		    comentario.getComentario(), Whitelist.simpleText()));
+	    ultimosComentarios.add(ultimoComentario);
+	}
+	model.addAttribute("comentarios", ultimosComentarios);
 
 	model.addAttribute("publicacionesMVE", publicacionesMVE);
 

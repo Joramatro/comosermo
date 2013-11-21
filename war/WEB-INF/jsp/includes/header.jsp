@@ -261,7 +261,7 @@
 		</div>
 		<!--end: Container-->			
 	<div id="banGooHeader" class="iframe_wrap" style="width: 72%; margin:0 auto;">
-	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<%-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 	<!-- csmg horizontal index -->
 	<ins class="adsbygoogle"
 	     style="display:inline-block;width:970px;height:90px"
@@ -269,7 +269,7 @@
 	     data-ad-slot="9010984948"></ins>
 	<script>
 	(adsbygoogle = window.adsbygoogle || []).push({});
-	</script>
+	</script>--%>
 	</div>		
 	</header>
 	<!--end: Header-->

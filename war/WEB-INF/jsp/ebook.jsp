@@ -389,15 +389,15 @@
 	<%@ include file="/WEB-INF/jsp/includes/footer.jsp"%>
 
 	<div id="banGoogle" class="iframe_wrap" style="position: absolute;top: 270px;right: 40px;">
-		<script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-		<!-- rec grande recomendado ch -->
-		<ins class="adsbygoogle"
-		     style="display:inline-block;width:336px;height:280px"
-		     data-ad-client="ca-pub-3168560600423825"
-		     data-ad-slot="5882295745"></ins>
-		<script>
-		(adsbygoogle = window.adsbygoogle || []).push({});
-		</script>
+	<%-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- csmg horizontal index -->
+	<ins class="adsbygoogle"
+	     style="display:inline-block;width:970px;height:90px"
+	     data-ad-client="ca-pub-3168560600423825"
+	     data-ad-slot="9010984948"></ins>
+	<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>--%>
 	</div>
 	<script>
 		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {

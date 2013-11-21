@@ -10,15 +10,15 @@
 	<%@ include file="/WEB-INF/jsp/includes/header.jsp"%>
 
 	<div id="banAmazonHorizontal" style="position: absolute;top: 1400px;left: 54px;">
-		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-		<!-- csmg vertical articulo -->
-		<ins class="adsbygoogle"
-		     style="display:inline-block;width:160px;height:600px"
-		     data-ad-client="ca-pub-3168560600423825"
-		     data-ad-slot="4161982945"></ins>
-		<script>
-		(adsbygoogle = window.adsbygoogle || []).push({});
-		</script>
+	<%-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- csmg horizontal index -->
+	<ins class="adsbygoogle"
+	     style="display:inline-block;width:970px;height:90px"
+	     data-ad-client="ca-pub-3168560600423825"
+	     data-ad-slot="9010984948"></ins>
+	<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>--%>
 	</div>	
 	<!-- start: Page Title -->
 	<div id="page-title">
@@ -44,15 +44,15 @@
 		<!--start: Container -->
     	<div class="container">
 			<div id="banGoogle" class="iframe_wrap" style="position:absolute;margin-left: 830px;">
-				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-				<!-- csmg rec articulo -->
-				<ins class="adsbygoogle"
-				     style="display:inline-block;width:300px;height:250px"
-				     data-ad-client="ca-pub-3168560600423825"
-				     data-ad-slot="2067970945"></ins>
-				<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
-				</script>
+	<%-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- csmg horizontal index -->
+	<ins class="adsbygoogle"
+	     style="display:inline-block;width:970px;height:90px"
+	     data-ad-client="ca-pub-3168560600423825"
+	     data-ad-slot="9010984948"></ins>
+	<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>--%>
 			</div>	
 			<!-- start: Flexslider -->
 			<div style="width: 440px;height: 320px; margin-left: 280px;" class="slider" >

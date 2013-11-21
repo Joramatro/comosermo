@@ -127,14 +127,14 @@ public class OtherController {
 		mail = userOId.getIdentity();
 	    }
 	    try {
-		userA = this.userService.findUser(mail);
+		userA = userService.findUser(mail);
 		userA.setIpAddress(WebUtils.getClienAddress(request));
-		userA = this.userService.updateUserIp(userA);
+		userA = userService.updateUserIp(userA);
 	    } catch (com.googlecode.objectify.NotFoundException nf) {
 		userA = new User();
 		userA.setMail(mail);
 		userA.setIpAddress(WebUtils.getClienAddress(request));
-		this.userService.create(userA, false);
+		userService.create(userA, false);
 		User.setCont(0);
 		userA.setNewUser(true);
 	    }

@@ -51,28 +51,28 @@
 			
 	<!--start: Wrapper-->
 	<div id="wrapper">
-			<div id="banGoogleMasVistos" style="margin-bottom: 25px;margin-left:295px" class="iframe_wrap">
-				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-				<!-- csmg mas leidos -->
-				<ins class="adsbygoogle"
-				     style="display:inline-block;width:336px;height:280px"
-				     data-ad-client="ca-pub-3168560600423825"
-				     data-ad-slot="6057518549"></ins>
-				<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
-				</script>
+			<%--<div id="banGoogleMasVistos" style="margin-bottom: 25px;margin-left:295px" class="iframe_wrap">
+					 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- csmg horizontal index -->
+	<ins class="adsbygoogle"
+	     style="display:inline-block;width:970px;height:90px"
+	     data-ad-client="ca-pub-3168560600423825"
+	     data-ad-slot="9010984948"></ins>
+	<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
 			</div>
 			<div id="bannerHomeAmazAlto" class="iframe_wrap" style="margin: -311px 0px 0px 643px;">
-				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-				<!-- csmg mas leidos -->
+			<%-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				 csmg horizontal index -->
 				<ins class="adsbygoogle"
-				     style="display:inline-block;width:336px;height:280px"
+				     style="display:inline-block;width:970px;height:90px"
 				     data-ad-client="ca-pub-3168560600423825"
-				     data-ad-slot="6057518549"></ins>
+				     data-ad-slot="9010984948"></ins>
 				<script>
 				(adsbygoogle = window.adsbygoogle || []).push({});
 				</script>
-			</div>				
+			</div>	--%>			
 		<!--start: Container -->
     	<div class="container">
 			
