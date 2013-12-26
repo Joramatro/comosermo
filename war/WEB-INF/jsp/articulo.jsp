@@ -44,15 +44,15 @@
 		<!--start: Container -->
     	<div class="container">
 			<div id="banGoogle" class="iframe_wrap" style="position:absolute;margin-left: 830px;">
-	<%-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-	<!-- csmg horizontal index -->
-	<ins class="adsbygoogle"
-	     style="display:inline-block;width:970px;height:90px"
-	     data-ad-client="ca-pub-3168560600423825"
-	     data-ad-slot="9010984948"></ins>
-	<script>
-	(adsbygoogle = window.adsbygoogle || []).push({});
-	</script>--%>
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- articulo superior recuadro csmg -->
+				<ins class="adsbygoogle"
+				     style="display:inline-block;width:300px;height:250px"
+				     data-ad-client="ca-pub-3168560600423825"
+				     data-ad-slot="3319960944"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
 			</div>	
 			<!-- start: Flexslider -->
 			<div style="width: 440px;height: 320px; margin-left: 280px;" class="slider" >
@@ -90,7 +90,8 @@
 								<li><strong>Puntos&nbsp;</strong>&nbsp; 
 								<a href="#comments"><b><span>${publicacion.sumaPuntos}</span></b></a>
 								&nbsp;&nbsp;(de <span>${publicacion.votantes}</span> votantes)</li>
-							</div> 
+							</div>
+							<strong>Media&nbsp;</strong>&nbsp;&nbsp;<div class="rateit" data-rateit-value="${publicacion.sumaPuntos div publicacion.votantes}" data-rateit-ispreset="true" data-rateit-readonly="true" title="<fmt:formatNumber type="number" minFractionDigits="2" maxFractionDigits="2" value="${publicacion.sumaPuntos div publicacion.votantes}" /> / 5"></div> 
 						</c:if>
 						<li><strong>Fecha&nbsp;</strong>&nbsp;<span id="_datePublished5" itemprop="datePublished" content="<fmt:setLocale value='es_ES' scope='session'/><fmt:formatDate type='date' dateStyle='short' value='${publicacion.fechaCreacion}'/>"> <fmt:setLocale value="es_ES" scope="session"/><fmt:formatDate type="date" dateStyle="long" value="${publicacion.fechaCreacion}"/></span></li>
 						<li><strong>Autor&nbsp;</strong>&nbsp; <a target="_blank" href="${publicacion.googleAutor}" rel=”author”><span id="_author3" itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -128,8 +129,16 @@
 					<br><br>
 					<p style="font-style: italic;">Por favor, no dudes en puntuar y comentar tu opinión sobre este artículo en la sección de <a href="#comments">comentarios</a>. Gracias!</p>
 				</div>	
-				<div id="bannerFinArticulo" style="width: 50%; margin:0 auto;">
-					<a onClick="ga('send', 'event', 'Banner', '${publicacion.url}', 'banner fin articulo');" href="http://es.500cosmetics.com/?utm_source=aff_524cc124259d9&utm_medium=link&utm_campaign=shop&utm_nooverride=1&amp;a_aid=524cc124259d9&amp;a_bid=90fa3f44" target="_top"><img src="http://www.naturalrevenue.com/affiliate/accounts/default1/banners/HTproducts-728x90.gif" alt="" title="" width="728" height="90" /></a><img style="border:0" src="http://www.naturalrevenue.com/affiliate/scripts/imp.php?a_aid=524cc124259d9&amp;a_bid=90fa3f44" width="1" height="1" alt="" />
+				<div id="banGoogleFinArticulo" class="iframe_wrap" style="width: 64%; margin:0 auto;">
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+					<!-- fin articulo skyscraper csmg -->
+					<ins class="adsbygoogle"
+					     style="display:inline-block;width:728px;height:90px"
+					     data-ad-client="ca-pub-3168560600423825"
+					     data-ad-slot="1703626944"></ins>
+					<script>
+					(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
 				</div>				
 			</div>
 			<!-- end: Row -->

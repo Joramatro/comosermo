@@ -261,15 +261,15 @@
 		</div>
 		<!--end: Container-->			
 	<div id="banGooHeader" class="iframe_wrap" style="width: 72%; margin:0 auto;">
-	<%-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-	<!-- csmg horizontal index -->
-	<ins class="adsbygoogle"
-	     style="display:inline-block;width:970px;height:90px"
-	     data-ad-client="ca-pub-3168560600423825"
-	     data-ad-slot="9010984948"></ins>
-	<script>
-	(adsbygoogle = window.adsbygoogle || []).push({});
-	</script>--%>
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<!-- superior 1 skyscraper csmg -->
+		<ins class="adsbygoogle"
+		     style="display:inline-block;width:728px;height:90px"
+		     data-ad-client="ca-pub-3168560600423825"
+		     data-ad-slot="9366494543"></ins>
+		<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
 	</div>		
 	</header>
 	<!--end: Header-->

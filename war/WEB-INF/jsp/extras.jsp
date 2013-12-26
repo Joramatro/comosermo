@@ -28,15 +28,15 @@
 	<!--start: Wrapper-->
 	<div id="wrapper">
 		<div id="banGoogleETop" class="iframe_wrap" style="width: 54%;margin: -16px auto;">
-	<%-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-	<!-- csmg horizontal index -->
-	<ins class="adsbygoogle"
-	     style="display:inline-block;width:970px;height:90px"
-	     data-ad-client="ca-pub-3168560600423825"
-	     data-ad-slot="9010984948"></ins>
-	<script>
-	(adsbygoogle = window.adsbygoogle || []).push({});
-	</script>--%>
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<!-- superior 2 skyscraper csmg -->
+			<ins class="adsbygoogle"
+			     style="display:inline-block;width:728px;height:90px"
+			     data-ad-client="ca-pub-3168560600423825"
+			     data-ad-slot="4657093346"></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
 		</div>	
 		<!-- start: Container -->	
 		<div class="container">

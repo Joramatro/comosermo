@@ -50,32 +50,39 @@
 	<!-- end: Slider -->
 			
 	<!--start: Wrapper-->
-	<div id="wrapper">
-			<%--<div id="banGoogleMasVistos" style="margin-bottom: 25px;margin-left:295px" class="iframe_wrap">
-					 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-	<!-- csmg horizontal index -->
-	<ins class="adsbygoogle"
-	     style="display:inline-block;width:970px;height:90px"
-	     data-ad-client="ca-pub-3168560600423825"
-	     data-ad-slot="9010984948"></ins>
-	<script>
-	(adsbygoogle = window.adsbygoogle || []).push({});
-	</script>
-			</div>
-			<div id="bannerHomeAmazAlto" class="iframe_wrap" style="margin: -311px 0px 0px 643px;">
-			<%-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-				 csmg horizontal index -->
+	<div id="wrapper">		
+		<!--start: Container -->
+    	<div class="container">
+    	<table style="margin: 0px auto -43px">
+    		<tr>
+	    	<td>
+			<div id="googleRecIndex1" class="iframe_wrap">
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- rectangulo index izquierda csmg -->
 				<ins class="adsbygoogle"
-				     style="display:inline-block;width:970px;height:90px"
+				     style="display:inline-block;width:300px;height:250px"
 				     data-ad-client="ca-pub-3168560600423825"
-				     data-ad-slot="9010984948"></ins>
+				     data-ad-slot="3040759341"></ins>
 				<script>
 				(adsbygoogle = window.adsbygoogle || []).push({});
 				</script>
-			</div>	--%>			
-		<!--start: Container -->
-    	<div class="container">
-			
+			</div>
+			</td>
+			<td>
+			<div id="googleRecIndex2" class="iframe_wrap">
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- rectangulo index derecha csmg -->
+				<ins class="adsbygoogle"
+				     style="display:inline-block;width:336px;height:280px"
+				     data-ad-client="ca-pub-3168560600423825"
+				     data-ad-slot="7470958941"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+			</div>
+			</td>
+	    	</tr>
+	    </table>			
 			<hr>
 			
       		<!-- start: Hero Unit - Main hero unit for a primary marketing message or call to action -->
@@ -153,7 +160,7 @@
 					<div class="picture"><a href="/blog/${publicacion.url}" title="${publicacion.titulo}">
 					
 					<c:if test="${!empty publicacion.lImages }">
-					<img src="${publicacion.lImages[0]}" alt="${publicacion.titulo}"/>
+					<img pagespeed_no_defer="" src="${publicacion.lImages[0]}" alt="${publicacion.titulo}"/>
 					</c:if>
 					
 					<div class="image-overlay-link"></div></a>
@@ -202,7 +209,7 @@
 	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 		$(".titPortada").css("font-size","38px");
 		$(".descPortada").css("font-size","14px");
-	}	
+	}
 </script>
 
 </body>
