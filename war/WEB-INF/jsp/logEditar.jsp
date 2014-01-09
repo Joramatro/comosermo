@@ -287,7 +287,7 @@
 		
 			<div class="span12">
 				<p>
-					&copy; 2013, <a href="/">Como ser más guapo</a><i style="margin-top: -18px;" class="ico-color ico-sun"></i>
+					&copy; 2014, <a href="/">Como ser más guapo</a><i style="margin-top: -18px;" class="ico-color ico-sun"></i>
 				</p>
 			</div>
 	
