@@ -43,6 +43,33 @@
 		<div style="display:none"><span  itemprop="url">http://www.comosermasguapo.com/blog/${publicacion.url}</span></div>		
 		<!--start: Container -->
     	<div class="container">
+    	
+    		<% 
+				int port = request.getServerPort();
+				StringBuilder result = new StringBuilder();
+				result.append(request.getScheme())
+				      .append("://")
+				      .append(request.getServerName());
+				
+				if (port != 80) {
+				  result.append(':')
+				        .append(port);
+				}
+				
+				pageContext.setAttribute("separador", "-");
+			%>
+    		<ul class="breadcrumbs"><li class="home" itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a name="header.breadcrumb.1" href="<%=result.toString()%>" itemprop="url" title="Página principal"><span itemprop="title">Página principal</span></a></li>
+				<li class="crumb0" itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><span>&nbsp;&gt;&nbsp;</span><a name="header.breadcrumb.2" href="<%=result.toString()%>/blog" itemprop="url" title="Salud y Belleza"><span itemprop="title">Salud y Belleza</span></a></li>
+				<li class="crumb1" itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><span>&nbsp;&gt;&nbsp;</span><a name="header.breadcrumb.3" href="<%=result.toString()%>/blog?filtro=${fn:replace(publicacion.clase1, " ", separador)}" itemprop="url" title="${publicacion.clase1}"><span itemprop="title">${publicacion.clase1}</span></a></li>
+				<c:if test="${not empty publicacion.clase2}">
+					<li class="crumb2" itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><span>&nbsp;&gt;&nbsp;</span><a name="header.breadcrumb.4" href="<%=result.toString()%>/blog?filtro=${fn:replace(publicacion.clase2, " ", separador)}" itemprop="url" title="${publicacion.clase2}"><span itemprop="title">${publicacion.clase2}</span></a></li>				
+				</c:if>
+				<c:if test="${not empty publicacion.clase3}">
+					<li class="crumbPrecio" itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><span>&nbsp;&gt;&nbsp;</span><a name="header.breadcrumb.precio" href="<%=result.toString()%>/blog?filtroPrecio=${fn:replace(publicacion.clase3, " ", separador)}" itemprop="url" title="${publicacion.clase3}"><span itemprop="title">${publicacion.clase3}</span></a></li>				
+				</c:if>
+				<li class="crumbFinal"><span>&nbsp;&gt;&nbsp;</span>${publicacion.titulo}</li>
+			</ul>     	
+    	
 			<div id="banGoogle" class="iframe_wrap" style="position:absolute;margin-left: 830px;">
 				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 				<!-- articulo superior recuadro csmg -->
