@@ -67,9 +67,9 @@
 				<!-- start: About -->
 				<div class="span3">
 					
-					<h3>Sobre mí</h3>
+					<h3>Sobre nosotros</h3>
 					<p>
-						Me gusta la belleza y la salud, en este blog quiero compartir contigo mis secretos y consejos para tu día a día.
+						Nos gusta la belleza y la salud, en este blog queremos compartir contigo secretos y consejos para tu día a día.
 					</p>
 						
 				</div>
@@ -90,17 +90,17 @@
 				<div class="span6">
 				
 					<!-- start: Follow Us -->
-					<h3>Sígueme!</h3>
+					<h3>Síguenos!</h3>
 					<ul class="social-grid">
 						<li>
 							<div class="social-item">				
 								<div class="social-info-wrap">
 									<div class="social-info">
 										<div class="social-info-front social-twitter">
-											<a target="_blank" href="https://twitter.com/YagofierroH"></a>
+											<a onClick="ga('send', 'event', 'Social', 'Pie Pagina', 'Boton Twitter');" target="_blank" href="https://twitter.com/comosermasguapo"></a>
 										</div>
 										<div class="social-info-back social-twitter-hover">
-											<a target="_blank" href="https://twitter.com/YagofierroH"></a>
+											<a onClick="ga('send', 'event', 'Social', 'Pie Pagina', 'Boton Twitter');" target="_blank" href="https://twitter.com/comosermasguapo"></a>
 										</div>	
 									</div>
 								</div>
@@ -111,39 +111,11 @@
 								<div class="social-info-wrap">
 									<div class="social-info">
 										<div class="social-info-front social-facebook">
-											<a target="_blank" href="https://www.facebook.com/yago.fierrohernandez"></a>
+											<a onClick="ga('send', 'event', 'Social', 'Pie Pagina', 'Boton Facebook');" target="_blank" href="https://www.facebook.com/comosermasguapo"></a>
 										</div>
 										<div class="social-info-back social-facebook-hover">
-											<a target="_blank" href="https://www.facebook.com/yago.fierrohernandez"></a>
+											<a onClick="ga('send', 'event', 'Social', 'Pie Pagina', 'Boton Facebook');" target="_blank" href="https://www.facebook.com/comosermasguapo"></a>
 										</div>
-									</div>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div class="social-item">				
-								<div class="social-info-wrap">
-									<div class="social-info">
-										<div class="social-info-front social-youtube">
-											<a target="_blank" href="https://www.youtube.com/user/comosermasguapo"></a>
-										</div>
-										<div class="social-info-back social-youtube-hover">
-											<a target="_blank" href="https://www.youtube.com/user/comosermasguapo"></a>
-										</div>	
-									</div>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div class="social-item">				
-								<div class="social-info-wrap">
-									<div class="social-info">
-										<div class="social-info-front social-flickr">
-											<a target="_blank" href="http://www.flickr.com/people/yagofierro/"></a>
-										</div>
-										<div class="social-info-back social-flickr-hover">
-											<a target="_blank" href="http://www.flickr.com/people/yagofierro/"></a>
-										</div>	
 									</div>
 								</div>
 							</div>
@@ -154,7 +126,7 @@
 					<!-- start: Newsletter -->
 					<form id="newsletter" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=ComoSerMasGuapo&amp;loc=es_ES', 'popupwindow', 'scrollbars=yes,width=550,height=520');">
 						<h3>Suscríbete! &nbsp; <a href="http://www.comosermasguapo.com/rssfeed" accesskey="r"><img src="/img/rssmenu.png" alt="RSS"></a></h3>
-						<p>Por favor, deja tu email para recibir mis novedades.</p>
+						<p>Por favor, deja tu email para recibir nuestras novedades.</p>
 						<label for="newsletter_input">@:</label>
 						<input style="border: 1px solid #29a9df;" type="text" name="email" id="newsletter_input">
 						<input type="submit" id="btnSuscripcion" value="Enviar">			

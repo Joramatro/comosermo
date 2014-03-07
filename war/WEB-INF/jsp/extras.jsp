@@ -57,17 +57,32 @@
 			<!-- start: articulo -->
 			<div id="portfolio-wrapper" class="row">
 				<% pageContext.setAttribute("newLineChar", "\n"); %>
+				<div class="span4 portfolio-item">
+				<div class="picture">
+				<div style="width: 83%;margin: 0 auto;">
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- articulo superior recuadro csmg -->
+				<ins class="adsbygoogle"
+				     style="display:inline-block;width:300px;height:250px"
+				     data-ad-client="ca-pub-3168560600423825"
+				     data-ad-slot="3319960944"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+				</div>	
+				</div>
+				</div>
 				<c:forEach var="publicacion" items="${publicaciones}" varStatus="status" >				
 				<div class="span4 portfolio-item ${fn:replace(publicacion.clase1, " ", separadorClase)} ${fn:replace(publicacion.clase2, " ", separadorClase)}">
 					<div class="picture">
-					<a title="${publicacion.titulo}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Extra');" href="/venta/extra/${publicacion.url}">
+					<a target="_blank" title="${publicacion.titulo}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Extra');" href="/venta/extra/${publicacion.url}">
 					<c:if test="${!empty publicacion.lImages }">
 					<img src="${publicacion.lImages[0]}" alt="${publicacion.titulo}"/>
 					</c:if>
 					
 					<div class="image-overlay-link"></div></a>
 						<div class="item-description alt">
-							<h5><a title="${publicacion.titulo}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Extra');" href="/venta/extra/${publicacion.url}">${publicacion.titulo}</a>
+							<h5><a target="_blank" title="${publicacion.titulo}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Extra');" href="/venta/extra/${publicacion.url}">${publicacion.titulo}</a>
 							<p>
 								${fn:replace(publicacion.resumen, newLineChar, "<p/><p>")}
 							</p>

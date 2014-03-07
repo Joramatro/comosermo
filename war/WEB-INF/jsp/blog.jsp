@@ -58,6 +58,21 @@
 			<!-- start: articulo -->
 			<div id="portfolio-wrapper" class="row">
 				<% pageContext.setAttribute("newLineChar", "\n"); %>
+				<div class="span4 portfolio-item Seducción Trucos">
+				<div class="picture">
+				<div style="width: 83%;margin: 0 auto;">
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- articulo superior recuadro csmg -->
+				<ins class="adsbygoogle"
+				     style="display:inline-block;width:300px;height:250px"
+				     data-ad-client="ca-pub-3168560600423825"
+				     data-ad-slot="3319960944"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+				</div>	
+				</div>
+				</div>				
 				<c:forEach var="publicacion" items="${publicaciones}" varStatus="status" >				
 				<div class="span4 portfolio-item ${fn:replace(publicacion.clase1, " ", separadorClase)} ${fn:replace(publicacion.clase2, " ", separadorClase)}">
 					<div class="picture"><a href="/blog/${publicacion.url}" title="${publicacion.titulo}">

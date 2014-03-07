@@ -55,7 +55,7 @@
 						<b>Como Ser Mas Guapo</b>
 					</p>	
 					<p>
-						Email: yagofierro.her@gmail.com
+						Email: contacta.comosermasguapo@gmail.com
 					</p>
 				</div>
 				<!-- end: Contact Info -->		
@@ -104,12 +104,9 @@
 				<div class="span5" style="padding-bottom: 12px;">
 					<div class="title"><h3>Síguenos!</h3></div>
 					<ul class="social-bookmarks">
-						<li class="facebook"><a target="_blank" href="https://www.facebook.com/yago.fierrohernandez">facebook</a></li>
-						<li class="flickr"><a target="_blank" href="http://www.flickr.com/people/yagofierro/">flickr</a></li>
-						<li class="googleplus"><a target="_blank" href="https://plus.google.com/u/0/104651424163495174757/posts">googleplus</a></li>
-						<li class="linkedin"><a target="_blank" href="http://www.linkedin.com/pub/yago-fierro-hernández/81/a94/a57/">linkedin</a></li>
-						<li class="twitter"><a target="_blank" href="https://twitter.com/YagofierroH">twitter</a></li>
-						<li class="youtube"><a target="_blank" href="https://www.youtube.com/user/comosermasguapo">youtube</a></li>
+						<li class="facebook"><a onClick="ga('send', 'event', 'Social', 'Contacta', 'Boton Facebook');" target="_blank" href="https://www.facebook.com/comosermasguapo">facebook</a></li>
+						<li class="googleplus"><a onClick="ga('send', 'event', 'Social', 'Contacta', 'Boton Google+');" target="_blank" href="https://plus.google.com/114538229665853420789">googleplus</a></li>
+						<li class="twitter"><a onClick="ga('send', 'event', 'Social', 'Contacta', 'Boton Twitter');" target="_blank" href="https://twitter.com/comosermasguapo">twitter</a></li>
 					</ul>
 				</div>
 				<!-- end: Social Sites -->							

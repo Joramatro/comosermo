@@ -25,7 +25,6 @@ import com.amatic.ch.dto.Publicacion;
 import com.amatic.ch.exception.UnknownResourceException;
 import com.amatic.ch.service.ComentarioService;
 import com.amatic.ch.service.PublicacionService;
-import com.amatic.ch.utils.Mail;
 import com.amatic.ch.utils.WebUtils;
 
 @Controller
@@ -204,16 +203,19 @@ public class HomeController {
 	mensaje.append("ip: " + WebUtils.getClienAddress(request) + "\n");
 	if (condition1 && condition2 && condition3) {
 	    mensaje.append("NO ENVIADO A VENTAS");
-	    Mail.sendMail(mensaje.toString(), "CEH " + request.getRequestURI());
+	    // Mail.sendMail(mensaje.toString(), "CEH " +
+	    // request.getRequestURI());
 	    return null;
 	} else if (existsAccept) {
-	    Mail.sendMail(mensaje.toString(), "CSMG " + request.getRequestURI());
+	    // Mail.sendMail(mensaje.toString(), "CSMG " +
+	    // request.getRequestURI());
 	    model.addAttribute("publicacion", publicacion);
 
 	    return "venta/venta";
 	} else {
 	    mensaje.append("NO ENVIADO A VENTAS POR NO TENER ACCEPT");
-	    Mail.sendMail(mensaje.toString(), "CMH " + request.getRequestURI());
+	    // Mail.sendMail(mensaje.toString(), "CMH " +
+	    // request.getRequestURI());
 
 	    return null;
 	}

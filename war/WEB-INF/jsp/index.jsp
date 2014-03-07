@@ -16,14 +16,7 @@
 				<div class="da-slide">
 					<h2 class="titPortada">${publicacion.tituloPortada}</h2>
 					<p class="descPortada">${publicacion.descPortada}</p>
-					<c:choose>
-					<c:when test="${publicacion.script ne '#' }">
-						<a href="/venta/principal/${publicacion.url}" onClick="ga('send', 'event', 'Venta', 'Home ${publicacion.url}', 'Boton Comprar Hoy');" class="da-link">COMPRAR</a>
-					</c:when>
-					<c:otherwise>
-						<a href="/blog/${publicacion.url}" class="da-link">LEER MÁS</a>
-					</c:otherwise>
-					</c:choose>					
+						<a href="/blog/${publicacion.url}" class="da-link">LEER MÁS</a>				
 					<div class="da-img">
 						<c:choose>
 							<c:when test="${publicacion.tipo eq 'EB' }">

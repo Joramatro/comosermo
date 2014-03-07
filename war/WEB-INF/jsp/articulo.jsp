@@ -39,7 +39,7 @@
 	<!-- end: Page Title -->
 	
 	<!--start: Wrapper -->
-	<div itemscope itemtype="http://schema.org/Article" itemref="_author3 _datePublished5 _image6 _articleBody7 _publisher8 _aggregateRating9" id="wrapper">
+	<div itemscope itemtype="http://schema.org/Article" id="wrapper">
 		<div style="display:none"><span  itemprop="url">http://www.comosermasguapo.com/blog/${publicacion.url}</span></div>		
 		<!--start: Container -->
     	<div class="container">
@@ -69,7 +69,7 @@
 				</c:if>
 				<li class="crumbFinal"><span>&nbsp;&gt;&nbsp;</span>${publicacion.titulo}</li>
 			</ul>     	
-    	
+    		<br>
 			<div id="banGoogle" class="iframe_wrap" style="position:absolute;margin-left: 830px;">
 				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 				<!-- articulo superior recuadro csmg -->
@@ -84,22 +84,18 @@
 			<!-- start: Flexslider -->
 			<div style="width: 440px;height: 320px; margin-left: 280px;" class="slider" >
 				<div id="flex1" class="flexslider home">
-					<c:if test="${publicacion.script ne '#' }">
-						<a target="_blank" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Imagen Superior');" href="/venta/principal/${publicacion.url}">
-					</c:if>
 					<ul class="slides">
 						<c:forEach var="imagen" items="${publicacion.lImages}" varStatus="status">
 						<c:if test="${status.count ne 3}">
 							<li>
 								<img style="width: 420px;height: 300px;" src="${imagen}"  alt="${publicacion.titulo}" />
-									<div class="slide-caption n">
-										<h3>${publicacion.titulo2}</h3>
-									</div>
 							</li>
 						</c:if>
 						</c:forEach>
+						<div class="slide-caption n">
+							<h3>${publicacion.titulo2}</h3>
+						</div>
 					</ul>
-					</a>
 				</div>
 			</div>
 			<!-- end: Flexslider -->
@@ -121,17 +117,22 @@
 							<strong>Media&nbsp;</strong>&nbsp;&nbsp;<div class="rateit" data-rateit-value="${publicacion.sumaPuntos div publicacion.votantes}" data-rateit-ispreset="true" data-rateit-readonly="true" title="<fmt:formatNumber type="number" minFractionDigits="2" maxFractionDigits="2" value="${publicacion.sumaPuntos div publicacion.votantes}" /> / 5"></div> 
 						</c:if>
 						<li><strong>Fecha&nbsp;</strong>&nbsp;<span id="_datePublished5" itemprop="datePublished" content="<fmt:setLocale value='es_ES' scope='session'/><fmt:formatDate type='date' dateStyle='short' value='${publicacion.fechaCreacion}'/>"> <fmt:setLocale value="es_ES" scope="session"/><fmt:formatDate type="date" dateStyle="long" value="${publicacion.fechaCreacion}"/></span></li>
-						<li><strong>Autor&nbsp;</strong>&nbsp; <a target="_blank" href="${publicacion.googleAutor}" rel=”author”><span id="_author3" itemprop="author" itemscope itemtype="http://schema.org/Person">
-						<span itemprop="name">${publicacion.autor}</span></span></a></li>
+						<%-- <li><strong>Autor&nbsp;</strong>&nbsp; <a target="_blank" href="${publicacion.googleAutor}" rel=”author”><span id="_author3" itemprop="author" itemscope itemtype="http://schema.org/Person">
+						<span itemprop="name">${publicacion.autor}</span></span></a></li> --%>
 					</ul>					
 				</div>				
 				<div class="span10">
 					<meta id="_articleBody7" itemprop="articleBody" content="${fn:replace(publicacion.articulo, "\"", "'")}">
 					${publicacion.articulo}				
 					<br>
-					<c:if test="${publicacion.disponible ne 'N'}">
-						<br><h2><a href="/venta/principal/${publicacion.url}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Boton Compralo Ahora');" class="button color launch">Cómpralo Ahora!</a></h2>
-					</c:if>					
+					<c:choose>
+					<c:when test="${publicacion.disponible ne 'N'}">
+						<br><h2><a target="_blank" href="/venta/principal/${publicacion.url}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Boton Compralo Ahora');" class="button color launch">Cómpralo Ahora!</a></h2>
+					</c:when>
+					<c:otherwise>
+						<br><h2><a href="/productos" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Boton Ver Productos');" class="button color launch">Ver Productos de Salud y Belleza</a></h2>
+					</c:otherwise>
+					</c:choose>					
 					<br>
 					<!-- AddThis Button BEGIN -->
 					<div class="addthis_toolbox addthis_default_style ">
@@ -261,7 +262,7 @@
 				<c:choose>
 				<c:when test="${publicacion.votantes gt 0}">
 					<div itemscope itemtype="http://data-vocabulary.org/Review-aggregate" id="comments" class="comments-sec">
-						<div style="display:none"><span  itemprop="itemreviewed">${publicacion.titulo}</span><span itemprop="count">${publicacion.votantes}</span><span itemprop="best">5</span></div>
+						<div style="display:none"><span  itemprop="itemreviewed">${publicacion.titulo}</span><span itemprop="count">${publicacion.votantes}</span><span itemprop="best">5</span><span itemprop="rating">${publicacion.sumaPuntos div publicacion.votantes}</span></div>
 						<ol class="commentlist">
 						<c:forEach var="comentario" items="${publicacion.comentariosDeref}" varStatus="status">
 							<li style="width: 100%;">
@@ -287,7 +288,7 @@
 										<a rel="nofollow" href="http://${comentario.web}"><strong>${comentario.nombre}</strong></a>
 										</c:otherwise>
 										</c:choose>
-										 <span class="reply"><span style="color:#aaa"><c:if test="${comentario.puntos gt 0}">/ </span><b>&nbsp;<span itemprop="rating">${comentario.puntos}</span></b> puntos</c:if></span><span class="date"><time itemprop="dtreviewed" datetime="<fmt:setLocale value='es_ES' scope='session'/><fmt:formatDate type='date' dateStyle='short' value='${comentario.fecha}'/>"><fmt:setLocale value="es_ES" scope="session"/><fmt:formatDate type="both" dateStyle="medium" timeStyle="short" value="${comentario.fecha}"/></time></span></div>
+										 <span class="reply"><span style="color:#aaa"><c:if test="${comentario.puntos gt 0}">/ </span><b>&nbsp;<span>${comentario.puntos}</span></b> puntos</c:if></span><span class="date"><time itemprop="dtreviewed" datetime="<fmt:setLocale value='es_ES' scope='session'/><fmt:formatDate type='date' dateStyle='short' value='${comentario.fecha}'/>"><fmt:setLocale value="es_ES" scope="session"/><fmt:formatDate type="both" dateStyle="medium" timeStyle="short" value="${comentario.fecha}"/></time></span></div>
 										<p>
 										<c:if test="${!empty comentario.comentarioReply}">
 											<span style="color:#0088cc;">@${comentario.comentarioReplyNombre} &nbsp;</span><a style="display:inherit" onmouseover="document.getElementById('comment_ref_${status.count}').style.display='block'" onmouseout="document.getElementById('comment_ref_${status.count}').style.display='none';" onclick="document.getElementById('comment_ref_${status.count}').style.display='none';" class="ancla_referencia">#${comentario.comentarioReplyNbr}<span class="referencia" id="comment_ref_${status.count}" style="display:none;font-size: 13px;">${comentario.comentarioReply}</span></a> &nbsp;
