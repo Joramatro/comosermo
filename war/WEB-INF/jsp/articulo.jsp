@@ -166,7 +166,7 @@
 					     data-ad-slot="1703626944"></ins>
 					<script>
 					(adsbygoogle = window.adsbygoogle || []).push({});
-					</script>
+					</script>				
 				</div>				
 			</div>
 			<!-- end: Row -->

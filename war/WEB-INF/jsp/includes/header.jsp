@@ -42,7 +42,7 @@
 		<meta name="twitter:image" content="${publicacion.lImages[2]}">
 		<meta name="twitter:domain" content="comosermasguapo.com">
 		<!-- end: Twitter tags -->
-		<link rel=”canonical” href=”http://www.comosermasguapo.com/blog/${publicacion.url}“/>
+		<link rel="canonical" href="http://www.comosermasguapo.com/blog/${publicacion.url}"/>
 	</c:when>	
 	<c:when test="${fn:contains(pageContext.request.requestURI, 'contacta')}">
 		<title>Contacta con Como Ser Mas Guapo</title> 
@@ -68,7 +68,7 @@
 		<meta name="twitter:image" content="/img/img-meta/logoGrande.jpg">
 		<meta name="twitter:domain" content="comosermasguapo.com">
 		<!-- end: Twitter tags -->
-		<link rel=”canonical” href=”http://www.comosermasguapo.com/contacto“/>
+		<link rel="canonical" href="http://www.comosermasguapo.com/contacto"/>
 	</c:when>
 	<c:when test="${fn:contains(pageContext.request.requestURI, 'extras')}">
 		<title>Productos recomendados en Como Ser Mas Guapo</title> 
@@ -95,7 +95,7 @@
 		<meta name="twitter:image" content="${publicaciones[0].lImages[0]}">
 		<meta name="twitter:domain" content="comosermasguapo.com">
 		<!-- end: Twitter tags -->		
-		<link rel=”canonical” href=”http://www.comosermasguapo.com/productos“/>
+		<link rel="canonical" href="http://www.comosermasguapo.com/productos"/>
 	</c:when>	
 	<c:when test="${fn:contains(pageContext.request.requestURI, 'blog')}">
 		<title>Artículos sobre Belleza en Como Ser Mas Guapo</title> 
@@ -130,7 +130,7 @@
 		</c:if>
 		<meta name="twitter:domain" content="comosermasguapo.com">
 		<!-- end: Twitter tags -->
-		<link rel=”canonical” href=”http://www.comosermasguapo.com/blog“/>		
+		<link rel="canonical" href="http://www.comosermasguapo.com/blog"/>		
 	</c:when>
 	<c:otherwise>
 		<title>Bienvenido a Como Ser Mas Guapo</title> 
@@ -157,7 +157,7 @@
 		<meta name="twitter:image" content="/img/img-meta/logoGrande.jpg">
 		<meta name="twitter:domain" content="comosermasguapo.com">
 		<!-- end: Twitter tags -->				
-		<link rel=”canonical” href=”http://www.comosermasguapo.com“/>
+		<link rel="canonical" href="http://www.comosermasguapo.com"/>
 	</c:otherwise>		
 	</c:choose>
 	<link rel="alternate" type="application/rss+xml" title="Como Ser Mas Guapo RSS Feed" href="http://www.comosermasguapo.com/rssfeed"/>
