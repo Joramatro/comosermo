@@ -71,7 +71,7 @@
 			</ul>     	
     		<br>
 			<div id="banGoogle" class="iframe_wrap" style="position:absolute;margin-left: 830px;">
-				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<%--<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 				<!-- articulo superior recuadro csmg -->
 				<ins class="adsbygoogle"
 				     style="display:inline-block;width:300px;height:250px"
@@ -79,7 +79,16 @@
 				     data-ad-slot="3319960944"></ins>
 				<script>
 				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>--%>
+				<%--
+				<script language='JavaScript1.1'>
+					document.write("<sc"+"ript language='JavaScript1.1' src='http://rover.ebay.com/ar/1/55976/1?campid=5337478670&toolid=55976&customid=extras&mpt=" + Math.floor(Math.random()*999999999999) + "&adtype=3&size=336x280&def=x6n&j7s=1&n3y=1&p9m=1&v1e=1&r7n=1&q5b=1&x6n=1&m9q=1&g2e=1&b4x=1&k4v=1&u7v=1&a3h=1&mpvc='></sc"+"ript>");
 				</script>
+				<noscript>
+					<a href='http://rover.ebay.com/rover/1/1185-53479-19255-14/1?campid=5337478670&toolid=55976&customid=extras&def=x6n&j7s=1&n3y=1&p9m=1&v1e=1&r7n=1&q5b=1&x6n=1&m9q=1&g2e=1&b4x=1&k4v=1&u7v=1&a3h=1&mpvc='>
+						<img border='0px' src='http://rover.ebay.com/ar/1/1185-53479-19255-14/1?campid=5337478670&toolid=55976&customid=extras&mpt=[CACHEBUSTER]&adtype=1&size=336x280&def=x6n&j7s=1&n3y=1&p9m=1&v1e=1&r7n=1&q5b=1&x6n=1&m9q=1&g2e=1&b4x=1&k4v=1&u7v=1&a3h=1&mpvc=' alt='Click Here'>
+					</a>
+				</noscript>--%>
 			</div>	
 			<!-- start: Flexslider -->
 			<div style="width: 440px;height: 320px; margin-left: 280px;" class="slider" >
@@ -121,17 +130,69 @@
 						<span itemprop="name">${publicacion.autor}</span></span></a></li> --%>
 					</ul>					
 				</div>				
-				<div class="span10">
+				<div class="span10">				
+					<!-- AddThis Button BEGIN -->
+					<div class="addthis_toolbox addthis_default_style ">
+					<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+					<a class="addthis_button_tweet"></a>
+					<a class="addthis_button_pinterest_pinit"></a>
+					<a class="addthis_counter addthis_pill_style"></a>&nbsp;&nbsp;
+					<g:plusone href="/blog/${publicacion.url}" align="right" size="medium"></g:plusone>
+					</div>
+					<script type="text/javascript">var addthis_config = {"data_track_addressbar":false};</script>
+					<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-523eb37018889803"></script>
+					<!-- AddThis Button END -->
+					<!-- Botón +1. -->
+					<script type="text/javascript">
+					  (function() {
+					    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+					    po.src = 'https://apis.google.com/js/plusone.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+					  })();
+					</script>
+					<br>
+					
+					<div id="art1" style="display:none;">
+						<iframe src="http://geo.hyperlinksecure.com/?userId=1298401&size=300x250&type=iframe&tracker=art1&offer=|5|21|72|96|115|121|138|153|356|&hard=1&animated=1" frameborder="0" scrolling="no" width="300" height="250"></iframe>
+						<%-- <iframe src="http://geo.hyperlinksecure.com/?userId=1298401&size=950x250&type=iframe&tracker=art3&offer=|5|8|21|22|41|52|72|80|96|115|121|356|&hard=1&animated=1" frameborder="0" scrolling="no" width="950" height="250"></iframe> --%>
+					</div>
+					<div id="art1Mob" style="display:none">
+						<iframe src="http://geo.hyperlinksecure.com/?userId=1298401&size=300x250m&type=iframe&tracker=art1_mob&offer=|47|98|114|118|122|123|223|317|347|394|404|&hard=1&animated=1" frameborder="0" scrolling="no" width="300" height="250m"></iframe>
+					</div>					
+					
+					<br>
+					<c:if test="${publicacion.disponible ne 'N'}">
+						<h2><a href="/free/${publicacion.url}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Boton LY Superior');" class="button color launch" target="_blank">Liga Ya!</a></h2>				
+					</c:if>
 					<meta id="_articleBody7" itemprop="articleBody" content="${fn:replace(publicacion.articulo, "\"", "'")}">
-					${publicacion.articulo}				
+					${publicacion.articulo}
+					
+					<div id="art2" style="display:none">
+						<iframe src="http://geo.hyperlinksecure.com/?userId=1298401&size=315x300&type=iframe&tracker=art2&offer=|5|21|72|96|115|121|138|153|356|&hard=1&animated=1" frameborder="0" scrolling="no" width="315" height="300"></iframe>
+					</div>
+					<div id="art2Mob" style="display:none">
+						<iframe src="http://geo.hyperlinksecure.com/?userId=1298401&size=300x250m&type=iframe&tracker=art2_mob&offer=|47|98|114|118|122|123|223|317|347|394|404|&hard=1&animated=1" frameborder="0" scrolling="no" width="300" height="250m"></iframe>
+					</div>
+					
+					<%--				
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+					<!-- articulo superior recuadro csmg -->
+					<ins class="adsbygoogle"
+					     style="display:inline-block;width:300px;height:250px"
+					     data-ad-client="ca-pub-3168560600423825"
+					     data-ad-slot="3319960944"></ins>
+					<script>
+					(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+					--%>
 					<br>
 					<c:choose>
 					<c:when test="${publicacion.disponible ne 'N'}">
-						<br><h2><a target="_blank" href="/venta/principal/${publicacion.url}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Boton Compralo Ahora');" class="button color launch">Cómpralo Ahora!</a></h2>
+						<br><h2><a target="_blank" href="/free/${publicacion.url}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Boton LY' Inferior);" class="button color launch">Liga Ya!</a></h2>
 					</c:when>
-					<c:otherwise>
+					<%-- <c:otherwise>
 						<br><h2><a href="/productos" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Boton Ver Productos');" class="button color launch">Ver Productos de Salud y Belleza</a></h2>
-					</c:otherwise>
+					</c:otherwise>--%>
 					</c:choose>					
 					<br>
 					<!-- AddThis Button BEGIN -->
@@ -158,6 +219,8 @@
 					<p style="font-style: italic;">Por favor, no dudes en puntuar y comentar tu opinión sobre este artículo en la sección de <a href="#comments">comentarios</a>. Gracias!</p>
 				</div>	
 				<div id="banGoogleFinArticulo" class="iframe_wrap" style="width: 64%; margin:0 auto;">
+				
+				<%--
 					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 					<!-- fin articulo skyscraper csmg -->
 					<ins class="adsbygoogle"
@@ -166,7 +229,8 @@
 					     data-ad-slot="1703626944"></ins>
 					<script>
 					(adsbygoogle = window.adsbygoogle || []).push({});
-					</script>				
+					</script>
+				--%>				
 				</div>				
 			</div>
 			<!-- end: Row -->
@@ -265,7 +329,7 @@
 						<div style="display:none"><span  itemprop="itemreviewed">${publicacion.titulo}</span><span itemprop="count">${publicacion.votantes}</span><span itemprop="best">5</span><span itemprop="rating">${publicacion.sumaPuntos div publicacion.votantes}</span></div>
 						<ol class="commentlist">
 						<c:forEach var="comentario" items="${publicacion.comentariosDeref}" varStatus="status">
-							<li style="width: 100%;">
+							<li style="width: 100%;padding-bottom:6px">
 								<div class="comments">
 									<div class="avatar">
 									<c:choose>
@@ -296,6 +360,9 @@
 										
 										<span itemprop="description">${fn:replace(comentario.comentario, newLineChar, "<br>")}</span>
 										</p>
+										<div style="clear: both;padding-top: 10px;padding-bottom: 10px;">
+											<a title="Responder mensaje citando" href="#comments-form" onclick="javascript:replyComment('${status.count}');" style="font-size:14px;" >Responder</a>
+										</div>
 									</div>
 								</div>		
 							</li>						
@@ -308,7 +375,7 @@
 					<div id="comments" class="comments-sec">
 						<ol class="commentlist">
 						<c:forEach var="comentario" items="${publicacion.comentariosDeref}" varStatus="status">
-							<li style="width: 100%;">
+							<li style="width: 100%;padding-bottom:6px">
 								<div class="comments">
 									<div class="avatar">
 									<c:choose>
@@ -339,6 +406,9 @@
 										
 										<span>${fn:replace(comentario.comentario, newLineChar, "<br>")}</span>
 										</p>
+										<div style="clear: both;padding-top: 10px;padding-bottom: 10px;">
+											<a title="Responder mensaje citando" href="#comments-form" onclick="javascript:replyComment('${status.count}');" style="font-size:14px;" >Responder</a>
+										</div>
 									</div>
 								</div>		
 							</li>						
@@ -462,7 +532,7 @@
 	</script>
 	
 	<div id="banAmazonEsquina" style="position: absolute;top: 155px; left: 393px;">
-		<%-- <a onClick="ga('send', 'event', 'Banner', '${publicacion.url}', 'banAmazonEsquina');" href="http://es.phieropremium.net/?utm_source=aff_524cc124259d9&utm_medium=banner&utm_campaign=shop&utm_nooverride=1&amp;a_aid=524cc124259d9&amp;a_bid=33bc4172" target="_top"><img src="http://www.naturalrevenue.com/affiliate/accounts/default1/banners/33bc4172.gif" alt="" title="" width="468" height="60" /></a><img style="border:0" src="http://www.naturalrevenue.com/affiliate/scripts/imp.php?a_aid=524cc124259d9&amp;a_bid=33bc4172" width="1" height="1" alt="" />	</div> --%>
+		<%-- <a onClick="ga('send', 'event', 'Banner', '${publicacion.url}', 'banAmazonEsquina');" href="http://es.phieropremium.net/?utm_source=aff_524cc124259d9&utm_medium=banner&utm_campaign=shop&utm_nooverride=1&amp;a_aid=524cc124259d9&amp;a_bid=33bc4172" target="_top"><img src="http://www.naturalrevenue.com/affiliate/accounts/default1/banners/33bc4172.gif" alt="" title="" width="468" height="60" /></a><img style="border:0" src="http://www.naturalrevenue.com/affiliate/scripts/imp.php?a_aid=524cc124259d9&amp;a_bid=33bc4172" width="1" height="1" alt="" />	--%></div>
 	<script>
 		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 			$("#banAmazonEsquina").hide();
@@ -514,7 +584,18 @@
 	    	ga('send', 'event', 'Venta', '${publicacion.url}', 'Imagen Medio');  
 	    });
 	});
+	
+	jQuery(document).ready(function($){
+		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {		
+			$("#art1Mob").show();
+			$("#art2Mob").show();
+		}else{
+			$("#art1").show();
+			$("#art2").show();
+		}
+	});
 	</script>
-
-</body>
+	<script src="http://geo.hyperlinksecure.com/?userId=1298401&size=&type=popup&tracker=popunder&offer=|5|21|49|72|96|115|121|135|153|245|356|&hard=1&animated=1" type="text/javascript" ></script>
+	<script src="http://geo.hyperlinksecure.com/?userId=1298401&size=&type=imad&tracker=imads&offer=|5|8|21|22|41|52|72|80|96|115|121|356|&hard=1&animated=1" type="text/javascript" ></script>
+	</body>
 </html>

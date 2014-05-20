@@ -28,6 +28,7 @@
 	<!--start: Wrapper-->
 	<div id="wrapper">
 		<div id="banGoogleETop" class="iframe_wrap" style="width: 54%;margin: -16px auto;">
+		<%-- 
 			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 			<!-- superior 2 skyscraper csmg -->
 			<ins class="adsbygoogle"
@@ -37,6 +38,8 @@
 			<script>
 			(adsbygoogle = window.adsbygoogle || []).push({});
 			</script>
+		--%>
+		
 		</div>
 		
 		<!-- start: Container -->	
@@ -60,7 +63,10 @@
 				<% pageContext.setAttribute("newLineChar", "\n"); %>
 				<div class="span4 portfolio-item Seducción Trucos">
 				<div class="picture">
-				<div style="width: 83%;margin: 0 auto;">
+				<div id="blog1" style="width: 87%;margin: 0 auto;display:none">
+					<iframe src="http://geo.hyperlinksecure.com/?userId=1298401&size=315x300&type=iframe&tracker=blog1&offer=|5|21|72|96|115|121|138|153|356|&hard=1&animated=1" frameborder="0" scrolling="no" width="315" height="300"></iframe>
+				
+				<%-- 
 				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 				<!-- articulo superior recuadro csmg -->
 				<ins class="adsbygoogle"
@@ -70,6 +76,7 @@
 				<script>
 				(adsbygoogle = window.adsbygoogle || []).push({});
 				</script>
+				--%>
 				</div>	
 				</div>
 				</div>				
@@ -92,6 +99,25 @@
 					</div>	
 				</div>
 				</c:forEach>
+				<div class="span4 portfolio-item Seducción Trucos">
+				<div class="picture">
+				<div id="blog1Mob" style="width: 87%;margin: 0 auto;display:none">
+					<iframe src="http://geo.hyperlinksecure.com/?userId=1298401&size=300x250m&type=iframe&tracker=blog1_mob&offer=|47|98|114|118|122|123|223|317|347|394|404|&hard=1&animated=1" frameborder="0" scrolling="no" width="300" height="250m"></iframe>
+				
+				<%-- 
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- articulo superior recuadro csmg -->
+				<ins class="adsbygoogle"
+				     style="display:inline-block;width:300px;height:250px"
+				     data-ad-client="ca-pub-3168560600423825"
+				     data-ad-slot="3319960944"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+				--%>
+				</div>	
+				</div>
+				</div>
 			</div>
 			<!-- end: articulo -->
 			
@@ -132,6 +158,14 @@
 	    	$('#optionSet1 .'+getURLParameter("filtro")).addClass('selected');
 	    	$('#portfolio-wrapper').isotope({ filter: '.'+ getURLParameter("filtro")});
 	    }
+	});
+	
+	jQuery(document).ready(function($){
+		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {		
+			$("#blog1Mob").show();
+		}else{
+			$("#blog1").show();
+		}
 	});
 </script>
 

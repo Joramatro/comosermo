@@ -196,6 +196,7 @@
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-44421452-1', 'comosermasguapo.com');
+  ga('require', 'displayfeatures');
   ga('send', 'pageview');
 
 </script>
@@ -259,7 +260,8 @@
 						
 		</div>
 		<!--end: Container-->			
-	<div id="banGooHeader" class="iframe_wrap" style="width: 72%; margin:0 auto;">
+	<div id="header" class="iframe_wrap" style="width: 55%; margin:0 auto; display:none;">
+	<%-- 
 		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 		<!-- superior 1 skyscraper csmg -->
 		<ins class="adsbygoogle"
@@ -269,6 +271,23 @@
 		<script>
 		(adsbygoogle = window.adsbygoogle || []).push({});
 		</script>
-	</div>		
+	--%>	
+		<%-- <iframe src="http://geo.hyperlinksecure.com/?userId=1298401&size=950x250&type=iframe&tracker=header&offer=|5|8|21|22|41|52|72|80|96|115|121|356|&hard=1&animated=1" frameborder="0" scrolling="no" width="950" height="250"></iframe> --%>
+		<iframe src="http://geo.hyperlinksecure.com/?userId=1298401&size=728x90&type=iframe&tracker=header2&offer=|5|8|21|22|41|52|72|80|96|115|121|356|&hard=1&animated=1" frameborder="0" scrolling="no" width="728" height="90"></iframe>
+	</div>
+	<div id="headerMob" class="iframe_wrap" style="width: 53%; margin:0 auto; display:none;">
+	<%-- 
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<!-- superior 1 skyscraper csmg -->
+		<ins class="adsbygoogle"
+		     style="display:inline-block;width:728px;height:90px"
+		     data-ad-client="ca-pub-3168560600423825"
+		     data-ad-slot="9366494543"></ins>
+		<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+	--%>	
+		<iframe src="http://geo.hyperlinksecure.com/?userId=1298401&size=305x99m&type=iframe&tracker=header_mob&offer=|47|98|114|118|122|123|223|317|347|394|404|&hard=1&animated=1" frameborder="0" scrolling="no" width="305" height="99m"></iframe>
+	</div>
 	</header>
 	<!--end: Header-->
