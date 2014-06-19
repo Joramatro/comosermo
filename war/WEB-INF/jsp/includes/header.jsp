@@ -99,7 +99,7 @@
 	</c:when>	
 	<c:when test="${fn:contains(pageContext.request.requestURI, 'blog')}">
 		<title>Artículos sobre Belleza en Como Ser Mas Guapo</title> 
-		<meta name="description" content="Sigue los consejos de belleza y salud que te brindo en mi blog, todo lo que tienes que saber para sentirte mejor y parecer hombres lindos en Como Ser Mas Guapo"/>
+		<meta name="description" content="Sigue los consejos de belleza y salud que te brindo en mi blog, todo lo que tienes que saber para sentirte mejor, seducir mujeres y parecer hombres lindos en Como Ser Mas Guapo"/>
 		<meta name="keywords" content="como ser mas guapo, belleza, salud, sano" />
 		<meta name="title" content="Trucos de belleza y salud para ser hombres lindos en Como Ser Mas Guapo. - Como Ser Mas Guapo - www.comosermasguapo.com" />
 		<meta name="author" content="Como Ser Mas Guapo" />
@@ -107,7 +107,7 @@
 		<meta name="application-name" content="Blog en Como Ser Mas Guapo" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Opinion y artículos sobre salud y belleza para ser hombres lindos y sobre como ser mas guapo"/>
-		<meta property="og:description" content="Sigue los consejos de belleza y salud que te brindo en mi blog, todo lo que tienes que saber para sentirte mejor y parecer hombres lindos en Como Ser Mas Guapo"/>
+		<meta property="og:description" content="Sigue los consejos de belleza y salud que te brindo en mi blog, todo lo que tienes que saber para sentirte mejor, seducir mujeres y parecer hombres lindos en Como Ser Mas Guapo"/>
 		<meta property="og:type" content="articulo"/>
 		<meta property="og:url" content="http://www.comosermasguapo.com/blog"/>
 		<c:if test="${!empty publicaciones}">
@@ -122,7 +122,7 @@
 		<meta name="twitter:site" content="@comosermasguapo">
 		<meta name="twitter:creator" content="@comosermasguapo">
 		<meta name="twitter:title" content="Trucos de para ser más guapo y saludable en Como Ser Mas Guapo, hombres lindos, salud y belleza">
-		<meta name="twitter:description" content="Sigue los consejos de belleza y salud que te brindo en mi blog, todo lo que tienes que saber para sentirte mejor y parecer hombres lindos en Como Ser Mas Guapo">
+		<meta name="twitter:description" content="Sigue los consejos de belleza y salud que te brindo en mi blog, todo lo que tienes que saber para sentirte mejor, seducir mujeres y parecer hombres lindos en Como Ser Mas Guapo">
 		<c:if test="${!empty publicaciones}">
 			<c:if test="${!empty publicaciones[0].lImages}">
 				<meta name="twitter:image" content="${publicaciones[0].lImages[0]}">
@@ -134,7 +134,7 @@
 	</c:when>
 	<c:otherwise>
 		<title>Bienvenido a Como Ser Mas Guapo</title> 
-		<meta name="description" content="Bienvenido a mi blog dónde quiero darte trucos para ser más guapo sentirte más saluadable, más sano, y ser hombres lindos. Todo lo que tienes que saber para sentirte mejor en Como Ser Mas Guapo"/>
+		<meta name="description" content="Bienvenido a mi blog dónde quiero darte trucos para ser más guapo sentirte más saludable, más sano, y ser hombres lindos. Todo lo que tienes que saber para sentirte mejor y seducir a los demás en Como Ser Mas Guapo"/>
 		<meta name="keywords" content="como ser mas guapo, belleza y salud, hombres lindos" />
 		<meta name="title" content="Consejos y trucos de belleza y salud en Como ser Mas Guapo" />
 		<meta name="author" content="Como Ser Mas Guapo" />
@@ -142,7 +142,7 @@
 		<meta name="application-name" content="Como Ser Mas Guapo" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Consejos y trucos de belleza y salud en Como ser Mas Guapo"/>
-		<meta property="og:description" content="Bienvenido a mi blog dónde quiero darte trucos para ser más guapo sentirte más saluadable, más sano, y ser hombres lindos. Todo lo que tienes que saber para sentirte mejor en Como Ser Mas Guapo"/>
+		<meta property="og:description" content="Bienvenido a mi blog dónde quiero darte trucos para ser más guapo sentirte más saludable, más sano, y ser hombres lindos. Todo lo que tienes que saber para sentirte mejor y seducir a los demás en Como Ser Mas Guapo"/>
 		<meta property="og:type" content="principal"/>
 		<meta property="og:url" content="http://www.comosermasguapo.com"/>
 		<meta property="og:image" content="/img/img-meta/logoGrande.jpg"/>
@@ -153,7 +153,7 @@
 		<meta name="twitter:site" content="@comosermasguapo">
 		<meta name="twitter:creator" content="@comosermasguapo">
 		<meta name="twitter:title" content="Consejos belleza y salud en Como ser Mas Guapo">
-		<meta name="twitter:description" content="Bienvenido a mi blog dónde quiero darte trucos para ser más guapo y sentirte más saluadable, más sano, y ser hombres lindos. Todo lo que tienes que saber para sentirte mejor en Como Ser Mas Guapo">
+		<meta name="twitter:description" content="Bienvenido a mi blog dónde quiero darte trucos para ser más guapo y sentirte más saludable, más sano, y ser hombres lindos. Todo lo que tienes que saber para sentirte mejor y seducir a los demás en Como Ser Mas Guapo">
 		<meta name="twitter:image" content="/img/img-meta/logoGrande.jpg">
 		<meta name="twitter:domain" content="comosermasguapo.com">
 		<!-- end: Twitter tags -->				
@@ -261,7 +261,6 @@
 		</div>
 		<!--end: Container-->			
 	<div id="header" class="iframe_wrap" style="width: 55%; margin:0 auto; display:none;">
-	<%-- 
 		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 		<!-- superior 1 skyscraper csmg -->
 		<ins class="adsbygoogle"
@@ -271,23 +270,18 @@
 		<script>
 		(adsbygoogle = window.adsbygoogle || []).push({});
 		</script>
-	--%>	
-		<%-- <iframe src="http://geo.hyperlinksecure.com/?userId=1298401&size=950x250&type=iframe&tracker=header&offer=|5|8|21|22|41|52|72|80|96|115|121|356|&hard=1&animated=1" frameborder="0" scrolling="no" width="950" height="250"></iframe> --%>
-		<iframe src="http://geo.hyperlinksecure.com/?userId=1298401&size=728x90&type=iframe&tracker=header2&offer=|5|8|21|22|41|52|72|80|96|115|121|356|&hard=1&animated=1" frameborder="0" scrolling="no" width="728" height="90"></iframe>
-	</div>
-	<div id="headerMob" class="iframe_wrap" style="width: 53%; margin:0 auto; display:none;">
-	<%-- 
+		
+		</div>
+	<div id="headerMob" class="iframe_wrap" style="display:none;">
 		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-		<!-- superior 1 skyscraper csmg -->
+		<!-- mobile header -->
 		<ins class="adsbygoogle"
-		     style="display:inline-block;width:728px;height:90px"
+		     style="display:inline-block;width:320px;height:50px"
 		     data-ad-client="ca-pub-3168560600423825"
-		     data-ad-slot="9366494543"></ins>
+		     data-ad-slot="5554851741"></ins>
 		<script>
 		(adsbygoogle = window.adsbygoogle || []).push({});
 		</script>
-	--%>	
-		<iframe src="http://geo.hyperlinksecure.com/?userId=1298401&size=305x99m&type=iframe&tracker=header_mob&offer=|47|98|114|118|122|123|223|317|347|394|404|&hard=1&animated=1" frameborder="0" scrolling="no" width="305" height="99m"></iframe>
 	</div>
 	</header>
 	<!--end: Header-->

@@ -5,7 +5,7 @@ Crawl-delay: 1
 Disallow: /js/
 Disallow: /css/
 Disallow: /img/
-Disallow: /venta/
+Disallow: /free/
 
 User-agent: Googlebot-Image
 Allow: /

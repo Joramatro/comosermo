@@ -91,7 +91,7 @@
 				</noscript>--%>
 			</div>	
 			<!-- start: Flexslider -->
-			<div style="width: 440px;height: 320px; margin-left: 280px;" class="slider" >
+			<div style="width: 440px;height: 325px; margin: 0 auto;" class="slider" >
 				<div id="flex1" class="flexslider home">
 					<ul class="slides">
 						<c:forEach var="imagen" items="${publicacion.lImages}" varStatus="status">
@@ -128,8 +128,35 @@
 						<li><strong>Fecha&nbsp;</strong>&nbsp;<span id="_datePublished5" itemprop="datePublished" content="<fmt:setLocale value='es_ES' scope='session'/><fmt:formatDate type='date' dateStyle='short' value='${publicacion.fechaCreacion}'/>"> <fmt:setLocale value="es_ES" scope="session"/><fmt:formatDate type="date" dateStyle="long" value="${publicacion.fechaCreacion}"/></span></li>
 						<%-- <li><strong>Autor&nbsp;</strong>&nbsp; <a target="_blank" href="${publicacion.googleAutor}" rel=”author”><span id="_author3" itemprop="author" itemscope itemtype="http://schema.org/Person">
 						<span itemprop="name">${publicacion.autor}</span></span></a></li> --%>
-					</ul>					
-				</div>				
+					</ul>
+					<div>
+					<br>
+					<div id="linkunitmenu" style="display:none">
+						<%-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- link units article info -->
+						<ins class="adsbygoogle"
+						     style="display:inline-block;width:160px;height:90px"
+						     data-ad-client="ca-pub-3168560600423825"
+						     data-ad-slot="7729588940"></ins>
+						<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+						--%>
+					</div>
+					</div>					
+				</div>
+				<div id="linkunittop" style="margin-left:225px">
+				<%-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- csmg link units top -->
+				<ins class="adsbygoogle"
+				     style="display:inline-block;width:728px;height:15px"
+				     data-ad-client="ca-pub-3168560600423825"
+				     data-ad-slot="4776122546"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>--%>
+				</div>
+				<%--<br>--%>				
 				<div class="span10">				
 					<!-- AddThis Button BEGIN -->
 					<div class="addthis_toolbox addthis_default_style ">
@@ -152,49 +179,48 @@
 					</script>
 					<br>
 					
+					<!-- Ads B -->
 					<div id="art1" style="display:none;">
-						<iframe src="http://geo.hyperlinksecure.com/?userId=1298401&size=300x250&type=iframe&tracker=art1&offer=|5|21|72|96|115|121|138|153|356|&hard=1&animated=1" frameborder="0" scrolling="no" width="300" height="250"></iframe>
-						<%-- <iframe src="http://geo.hyperlinksecure.com/?userId=1298401&size=950x250&type=iframe&tracker=art3&offer=|5|8|21|22|41|52|72|80|96|115|121|356|&hard=1&animated=1" frameborder="0" scrolling="no" width="950" height="250"></iframe> --%>
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- articulo superior recuadro csmg -->
+						<ins class="adsbygoogle"
+						     style="display:inline-block;width:300px;height:250px"
+						     data-ad-client="ca-pub-3168560600423825"
+						     data-ad-slot="3319960944"></ins>
+						<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
 					</div>
 					<div id="art1Mob" style="display:none">
-						<iframe src="http://geo.hyperlinksecure.com/?userId=1298401&size=300x250m&type=iframe&tracker=art1_mob&offer=|47|98|114|118|122|123|223|317|347|394|404|&hard=1&animated=1" frameborder="0" scrolling="no" width="300" height="250m"></iframe>
-					</div>					
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- articulo superior recuadro csmg -->
+						<ins class="adsbygoogle"
+						     style="display:inline-block;width:300px;height:250px"
+						     data-ad-client="ca-pub-3168560600423825"
+						     data-ad-slot="3319960944"></ins>
+						<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+					</div>				
 					
 					<br>
-					<c:if test="${publicacion.disponible ne 'N'}">
-						<h2><a href="/free/${publicacion.url}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Boton LY Superior');" class="button color launch" target="_blank">Liga Ya!</a></h2>				
-					</c:if>
+										
 					<meta id="_articleBody7" itemprop="articleBody" content="${fn:replace(publicacion.articulo, "\"", "'")}">
 					${publicacion.articulo}
-					
-					<div id="art2" style="display:none">
-						<iframe src="http://geo.hyperlinksecure.com/?userId=1298401&size=315x300&type=iframe&tracker=art2&offer=|5|21|72|96|115|121|138|153|356|&hard=1&animated=1" frameborder="0" scrolling="no" width="315" height="300"></iframe>
-					</div>
-					<div id="art2Mob" style="display:none">
-						<iframe src="http://geo.hyperlinksecure.com/?userId=1298401&size=300x250m&type=iframe&tracker=art2_mob&offer=|47|98|114|118|122|123|223|317|347|394|404|&hard=1&animated=1" frameborder="0" scrolling="no" width="300" height="250m"></iframe>
-					</div>
-					
-					<%--				
-					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-					<!-- articulo superior recuadro csmg -->
-					<ins class="adsbygoogle"
-					     style="display:inline-block;width:300px;height:250px"
-					     data-ad-client="ca-pub-3168560600423825"
-					     data-ad-slot="3319960944"></ins>
-					<script>
-					(adsbygoogle = window.adsbygoogle || []).push({});
-					</script>
-					--%>
 					<br>
-					<c:choose>
-					<c:when test="${publicacion.disponible ne 'N'}">
-						<br><h2><a target="_blank" href="/free/${publicacion.url}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Boton LY' Inferior);" class="button color launch">Liga Ya!</a></h2>
-					</c:when>
-					<%-- <c:otherwise>
-						<br><h2><a href="/productos" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Boton Ver Productos');" class="button color launch">Ver Productos de Salud y Belleza</a></h2>
-					</c:otherwise>--%>
-					</c:choose>					
-					<br>
+					<%-- <h2><a target="_blank" href="/free/${publicacion.url}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Btn Art Down');" class="button color launch">¡Consigue ya unos abdominales perfectos!</a></h2> --%>
+					
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- rect articulo 2 -->
+						<ins class="adsbygoogle"
+						     style="display:inline-block;width:336px;height:280px"
+						     data-ad-client="ca-pub-3168560600423825"
+						     data-ad-slot="2518183340"></ins>
+						<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+		
+					<br><br>
 					<!-- AddThis Button BEGIN -->
 					<div class="addthis_toolbox addthis_default_style ">
 					<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
@@ -217,6 +243,17 @@
 					
 					<br><br>
 					<p style="font-style: italic;">Por favor, no dudes en puntuar y comentar tu opinión sobre este artículo en la sección de <a href="#comments">comentarios</a>. Gracias!</p>
+					
+					<%-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+					<!-- link units end article -->
+					<ins class="adsbygoogle"
+					     style="display:inline-block;width:468px;height:15px"
+					     data-ad-client="ca-pub-3168560600423825"
+					     data-ad-slot="3159788548"></ins>
+					<script>
+					(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>--%>
+					
 				</div>	
 				<div id="banGoogleFinArticulo" class="iframe_wrap" style="width: 64%; margin:0 auto;">
 				
@@ -537,16 +574,18 @@
 		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 			$("#banAmazonEsquina").hide();
 			$(".slide-caption").hide();
+			$("#linkunittop").hide();
 		}
 		if($('#footer').width() < 1345){
 			$("#banAmazonEsquina").hide();
 			$(".slide-caption").hide();
+			$("#linkunittop").hide();
 		}
 	</script>
 	<script>
 	$(window).bind('resize', function () { 
 		if($('#footer').width() < 1345){
-			$("#banGoogle").hide();
+			$("#banGoogle").hide();			
 		}else{
 			$("#banGoogle").show();
 		}
@@ -558,9 +597,11 @@
 		if($('#footer').width() < 1345){
 			$("#banAmazonEsquina").hide();
 			$(".slide-caption").hide();
+			$("#linkunittop").hide();
 		}else{
 			$("#banAmazonEsquina").show();
 			$(".slide-caption").show();
+			$("#linkunittop").show();
 		}
 	});
 	</script>
@@ -588,14 +629,13 @@
 	jQuery(document).ready(function($){
 		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {		
 			$("#art1Mob").show();
-			$("#art2Mob").show();
+			//$("#art2Mob").show();
 		}else{
 			$("#art1").show();
-			$("#art2").show();
+			//$("#art2").show();
+			//$("#linkunitmenu").show();
 		}
 	});
 	</script>
-	<script src="http://geo.hyperlinksecure.com/?userId=1298401&size=&type=popup&tracker=popunder&offer=|5|21|49|72|96|115|121|135|153|245|356|&hard=1&animated=1" type="text/javascript" ></script>
-	<script src="http://geo.hyperlinksecure.com/?userId=1298401&size=&type=imad&tracker=imads&offer=|5|8|21|22|41|52|72|80|96|115|121|356|&hard=1&animated=1" type="text/javascript" ></script>
 	</body>
 </html>

@@ -22,6 +22,6 @@
 <noscript>
 Por favor, haz click <a href="${publicacion.script}">aquí</a> para acceder a la página.
 </noscript>
-<img src="${publicacion.script2}" width="1" height="1" alt="" style="border:0" />
+
 </body>
 </html>

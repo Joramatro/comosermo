@@ -50,35 +50,15 @@
     		<tr>
 	    	<td>
 			<div id="recIndex1" class="iframe_wrap" style="display:none">
-				<%--<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-				<!-- rectangulo index izquierda csmg -->
-				<ins class="adsbygoogle"
-				     style="display:inline-block;width:300px;height:250px"
-				     data-ad-client="ca-pub-3168560600423825"
-				     data-ad-slot="3040759341"></ins>
-				<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
-				</script> --%>
-				<%-- <iframe src="http://geo.hyperlinksecure.com/?userId=1298401&size=315x300&type=iframe&tracker=index1&offer=|5|21|72|96|115|121|138|153|356|&hard=1&animated=1" frameborder="0" scrolling="no" width="315" height="300"></iframe>--%>
-				<iframe src="http://geo.hyperlinksecure.com/?userId=1298401&size=950x250&type=iframe&tracker=Header_bottom&offer=|5|8|21|22|41|52|72|80|96|115|121|356|&hard=1&animated=1" frameborder="0" scrolling="no" width="950" height="250"></iframe>
 			</div>
 			
 			<div id="recIndex1Mob" class="iframe_wrap" style="display:none">
-				<%-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-				<!-- rectangulo index izquierda csmg -->
-				<ins class="adsbygoogle"
-				     style="display:inline-block;width:300px;height:250px"
-				     data-ad-client="ca-pub-3168560600423825"
-				     data-ad-slot="3040759341"></ins>
-				<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
-				</script> --%>
-				<iframe src="http://geo.hyperlinksecure.com/?userId=1298401&size=300x250m&type=iframe&tracker=index1_mob&offer=|47|98|114|118|122|123|223|317|347|394|404|&hard=1&animated=1" frameborder="0" scrolling="no" width="300" height="250m"></iframe>
-			</div>			
+			</div>
+						
 			</td>
 			<td>
 			<div id="recIndex2" class="iframe_wrap" style="display:none">
-				<%--<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 				<!-- rectangulo index derecha csmg -->
 				<ins class="adsbygoogle"
 				     style="display:inline-block;width:336px;height:280px"
@@ -87,11 +67,9 @@
 				<script>
 				(adsbygoogle = window.adsbygoogle || []).push({});
 				</script>
-				--%>
-				<%--<iframe src="http://geo.hyperlinksecure.com/?userId=1298401&size=300x250&type=iframe&tracker=index2&offer=|5|21|72|96|115|121|138|153|356|&hard=1&animated=1" frameborder="0" scrolling="no" width="300" height="250"></iframe>--%>						
 			</div>
 			<div id="recIndex2Mob" class="iframe_wrap" style="display:none">
-				<%--<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 				<!-- rectangulo index derecha csmg -->
 				<ins class="adsbygoogle"
 				     style="display:inline-block;width:336px;height:280px"
@@ -99,9 +77,7 @@
 				     data-ad-slot="7470958941"></ins>
 				<script>
 				(adsbygoogle = window.adsbygoogle || []).push({});
-				</script>
-				
-				<iframe src="http://geo.hyperlinksecure.com/?userId=1298401&size=300x100m&type=iframe&tracker=index2_mob&offer=|47|98|114|118|122|123|223|317|347|394|404|&hard=1&animated=1" frameborder="0" scrolling="no" width="300" height="100m"></iframe>	--%>					
+				</script>					
 			</div>			
 			</td>
 	    	</tr>
@@ -232,10 +208,10 @@
 			$(".titPortada").css("font-size","38px");
 			$(".descPortada").css("font-size","14px");
 			
-			$("#recIndex1Mob").show();
+			//$("#recIndex1Mob").show();
 			$("#recIndex2Mob").show();
 		}else{
-			$("#recIndex1").show();
+			//$("#recIndex1").show();
 			$("#recIndex2").show();
 		}
 	});

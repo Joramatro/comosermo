@@ -221,3 +221,4 @@ $("head").append("<link rel='stylesheet' type='text/css' href='/css/rateit.css' 
 	
 </script>
 <!-- end: Java Script -->
+

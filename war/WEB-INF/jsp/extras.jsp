@@ -71,31 +71,27 @@
 				
 				<div class="span4 portfolio-item">
 				<div class="picture">
-					<div id="extras1" style="width: 87%;margin: 0 auto;display:none">
-					<iframe src="http://geo.hyperlinksecure.com/?userId=1298401&size=315x300&type=iframe&tracker=extras1&offer=|5|21|72|96|115|121|138|153|356|&hard=1&animated=1" frameborder="0" scrolling="no" width="315" height="300"></iframe>
-					 <%--	
-					<script language='JavaScript1.1'>
-						document.write("<sc"+"ript language='JavaScript1.1' src='http://rover.ebay.com/ar/1/55976/1?campid=5337478670&toolid=55976&customid=extras&mpt=" + Math.floor(Math.random()*999999999999) + "&adtype=3&size=336x280&def=x6n&j7s=1&n3y=1&p9m=1&v1e=1&r7n=1&q5b=1&x6n=1&m9q=1&g2e=1&b4x=1&k4v=1&u7v=1&a3h=1&mpvc='></sc"+"ript>");
-					</script>
-					<noscript>
-						<a href='http://rover.ebay.com/rover/1/1185-53479-19255-14/1?campid=5337478670&toolid=55976&customid=extras&def=x6n&j7s=1&n3y=1&p9m=1&v1e=1&r7n=1&q5b=1&x6n=1&m9q=1&g2e=1&b4x=1&k4v=1&u7v=1&a3h=1&mpvc='>
-							<img border='0px' src='http://rover.ebay.com/ar/1/1185-53479-19255-14/1?campid=5337478670&toolid=55976&customid=extras&mpt=[CACHEBUSTER]&adtype=1&size=336x280&def=x6n&j7s=1&n3y=1&p9m=1&v1e=1&r7n=1&q5b=1&x6n=1&m9q=1&g2e=1&b4x=1&k4v=1&u7v=1&a3h=1&mpvc=' alt='Click Here'>
-						</a>
-					</noscript>
-					--%>
+					<div id="extras1" style="width: 67%;margin: 0 auto;display:none">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- articulo superior recuadro csmg -->
+						<ins class="adsbygoogle"
+						     style="display:inline-block;width:300px;height:250px"
+						     data-ad-client="ca-pub-3168560600423825"
+						     data-ad-slot="3319960944"></ins>
+						<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>	
 					</div>
-					<div id="extras1Mob" style="width: 87%;margin: 0 auto;display:none">
-					<iframe src="http://geo.hyperlinksecure.com/?userId=1298401&size=300x250m&type=iframe&tracker=extras1_mob&offer=|47|98|114|118|122|123|223|317|347|394|404|&hard=1&animated=1" frameborder="0" scrolling="no" width="300" height="250m"></iframe>
-					 <%--	
-					<script language='JavaScript1.1'>
-						document.write("<sc"+"ript language='JavaScript1.1' src='http://rover.ebay.com/ar/1/55976/1?campid=5337478670&toolid=55976&customid=extras&mpt=" + Math.floor(Math.random()*999999999999) + "&adtype=3&size=336x280&def=x6n&j7s=1&n3y=1&p9m=1&v1e=1&r7n=1&q5b=1&x6n=1&m9q=1&g2e=1&b4x=1&k4v=1&u7v=1&a3h=1&mpvc='></sc"+"ript>");
-					</script>
-					<noscript>
-						<a href='http://rover.ebay.com/rover/1/1185-53479-19255-14/1?campid=5337478670&toolid=55976&customid=extras&def=x6n&j7s=1&n3y=1&p9m=1&v1e=1&r7n=1&q5b=1&x6n=1&m9q=1&g2e=1&b4x=1&k4v=1&u7v=1&a3h=1&mpvc='>
-							<img border='0px' src='http://rover.ebay.com/ar/1/1185-53479-19255-14/1?campid=5337478670&toolid=55976&customid=extras&mpt=[CACHEBUSTER]&adtype=1&size=336x280&def=x6n&j7s=1&n3y=1&p9m=1&v1e=1&r7n=1&q5b=1&x6n=1&m9q=1&g2e=1&b4x=1&k4v=1&u7v=1&a3h=1&mpvc=' alt='Click Here'>
-						</a>
-					</noscript>
-					--%>
+					<div id="extras1Mob" style="width: 67%;margin-left: -8px;display:none">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- articulo superior recuadro csmg -->
+						<ins class="adsbygoogle"
+						     style="display:inline-block;width:300px;height:250px"
+						     data-ad-client="ca-pub-3168560600423825"
+						     data-ad-slot="3319960944"></ins>
+						<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
 					</div>	
 				</div>
 				</div>								
@@ -173,5 +169,6 @@
 		}
 	});
 	</script>
+	
 </body>
 </html>				
