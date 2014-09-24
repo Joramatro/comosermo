@@ -260,7 +260,7 @@
 						
 		</div>
 		<!--end: Container-->			
-	<div id="header" class="iframe_wrap" style="width: 55%; margin:0 auto; display:none;">
+	<div id="header" class="iframe_wrap" style="width: 55%; margin:0 auto; display:none;"> 
 		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 		<!-- superior 1 skyscraper csmg -->
 		<ins class="adsbygoogle"
@@ -269,10 +269,9 @@
 		     data-ad-slot="9366494543"></ins>
 		<script>
 		(adsbygoogle = window.adsbygoogle || []).push({});
-		</script>
-		
-		</div>
-	<div id="headerMob" class="iframe_wrap" style="display:none;">
+		</script>	
+	</div>
+	<div id="headerMob" class="iframe_wrap" style="display:none;"> 
 		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 		<!-- mobile header -->
 		<ins class="adsbygoogle"
@@ -282,6 +281,6 @@
 		<script>
 		(adsbygoogle = window.adsbygoogle || []).push({});
 		</script>
-	</div>
+    </div>
 	</header>
 	<!--end: Header-->

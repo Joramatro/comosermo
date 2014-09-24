@@ -179,8 +179,7 @@
 					</script>
 					<br>
 					
-					<!-- Ads B -->
-					<div id="art1" style="display:none;">
+					<div id="art1">
 						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 						<!-- articulo superior recuadro csmg -->
 						<ins class="adsbygoogle"
@@ -191,18 +190,7 @@
 						(adsbygoogle = window.adsbygoogle || []).push({});
 						</script>
 					</div>
-					<div id="art1Mob" style="display:none">
-						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-						<!-- articulo superior recuadro csmg -->
-						<ins class="adsbygoogle"
-						     style="display:inline-block;width:300px;height:250px"
-						     data-ad-client="ca-pub-3168560600423825"
-						     data-ad-slot="3319960944"></ins>
-						<script>
-						(adsbygoogle = window.adsbygoogle || []).push({});
-						</script>
-					</div>				
-					
+				
 					<br>
 										
 					<meta id="_articleBody7" itemprop="articleBody" content="${fn:replace(publicacion.articulo, "\"", "'")}">
@@ -219,7 +207,6 @@
 						<script>
 						(adsbygoogle = window.adsbygoogle || []).push({});
 						</script>
-		
 					<br><br>
 					<!-- AddThis Button BEGIN -->
 					<div class="addthis_toolbox addthis_default_style ">
@@ -628,14 +615,15 @@
 	
 	jQuery(document).ready(function($){
 		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {		
-			$("#art1Mob").show();
+			//$("#art1Mob").show();
 			//$("#art2Mob").show();
 		}else{
-			$("#art1").show();
+			//$("#art1").show();
 			//$("#art2").show();
 			//$("#linkunitmenu").show();
 		}
 	});
 	</script>
+	
 	</body>
 </html>
