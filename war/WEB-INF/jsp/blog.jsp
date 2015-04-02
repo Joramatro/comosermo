@@ -63,13 +63,14 @@
 				<% pageContext.setAttribute("newLineChar", "\n"); %>
 				<div class="span4 portfolio-item Seducción Trucos">
 				<div class="picture">
-				<div id="blog1" style="width: 67%;margin: 0 auto;display:none">				
+				<div id="blog1" style="width: 67%;margin: 0 auto;">				
 					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-					<!-- articulo superior recuadro csmg -->
+					<!-- interior1r -->
 					<ins class="adsbygoogle"
-					     style="display:inline-block;width:300px;height:250px"
+					     style="display:block"
 					     data-ad-client="ca-pub-3168560600423825"
-					     data-ad-slot="3319960944"></ins>
+					     data-ad-slot="9603133345"
+					     data-ad-format="vertical"></ins>
 					<script>
 					(adsbygoogle = window.adsbygoogle || []).push({});
 					</script>				
@@ -105,15 +106,16 @@
 			
 			<div class="clear" style="padding-top: 25px;"></div>
 			<div id="banGoogleMasVistos" style="margin-bottom: 25px;" class="iframe_wrap">
-	<%-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-	<!-- csmg horizontal index -->
-	<ins class="adsbygoogle"
-	     style="display:inline-block;width:970px;height:90px"
-	     data-ad-client="ca-pub-3168560600423825"
-	     data-ad-slot="9010984948"></ins>
-	<script>
-	(adsbygoogle = window.adsbygoogle || []).push({});
-	</script>--%>
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- interior1r -->
+				<ins class="adsbygoogle"
+				     style="display:block"
+				     data-ad-client="ca-pub-3168560600423825"
+				     data-ad-slot="9603133345"
+				     data-ad-format="auto"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
 			</div>			
 			<%@ include file="/WEB-INF/jsp/includes/masleidos.jsp"%>			
       		
@@ -125,9 +127,6 @@
 	
 <%@ include file="/WEB-INF/jsp/includes/footer.jsp"%>
 <script>
-	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-		$("#banGoogleVistos").hide();
-	}
 	
 	jQuery(document).ready(function($){
 	    
@@ -142,13 +141,6 @@
 	    }
 	});
 	
-	jQuery(document).ready(function($){
-		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {		
-			$("#blog1").show();
-		}else{
-			$("#blog1").show();
-		}
-	});
 </script>
 
 </body>

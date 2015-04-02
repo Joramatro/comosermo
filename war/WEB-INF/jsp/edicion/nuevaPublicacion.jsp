@@ -13,7 +13,7 @@
      <link href="/css/bootstrap.css" rel="stylesheet">
     <link href="/css/bootstrap-responsive.css" rel="stylesheet">
 	<%@ include file="/WEB-INF/jsp/includes/styles.jsp"%>
-	<link href="/css/parallax-slider.css" rel="stylesheet">
+	<link href="/css/parallax-sliderv1.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Boogaloo">
@@ -26,7 +26,7 @@
         <!-- Fav and touch icons -->
 		<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
 		<link rel="stylesheet" href="/css/apprise-v2.css" type="text/css" />
-    <meta name="description" content="Subida de archivos y herramienta de edicion para Coomo ser mas guapo">
+    <meta name="description" content="Subida de archivos y herramienta de edicion para Como Ser Mas Guapo">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<style>
 			.ui-autocomplete-loading { background: white url('/img/fancybox_loading.gif') right center no-repeat; }
@@ -55,7 +55,7 @@
 	            		<span class="icon-bar"></span>
 	            		<span class="icon-bar"></span>
 	          		</a>
-					<a class="brand" href="/"><i class="ico-eye-open circle"></i>Como Ser Mas <span>Guapo</span>.</a>
+					<a class="brand" href="/"><i class="ico-coffe-cup circle"></i>Como Ser Mas <span>Guapo</span>.</a>
 	          		<div class="nav-collapse collapse">
 	            		<ul class="nav">
 							<li class="active">
@@ -82,7 +82,7 @@
     	<h2><i class="ico-keynote ico-white"></i><a id="logout" href="#" class="btn logout">Logout</a></h2>
  Tipo: <select name="tipo" id="tipo">
 				  <option value="AR">Articulo</option>
-				  <option value="AC">Producto</option>
+				  <option value="AC">Accesorio</option>
 				</select><br><br>
  Portada: <select name="portada" id="portada">
  				  <option value="N">No</option>
@@ -95,13 +95,11 @@ Destacado: <select name="destacado" id="destacado">
 				  <option value="N">No</option>
 				  <option value="S">Si</option>
 				</select><br><br>									
-Autor: <input type="text" id="autor" name="autor" size="25" maxlength="50" value="Como Ser Más Guapo"/><br><br>	
-Google+: <input type="text" style="width: 433px;" id="googleAutor" name="googleAutor" value="https://plus.google.com/u/0/104651424163495174757?rel=author" size="250" maxlength="570"/><br><br>			
+Autor: <input type="text" id="autor" name="autor" size="25" maxlength="50"/><br><br>	
+Google+: <input type="text" style="width: 433px;" id="googleAutor" name="googleAutor" value="https://plus.google.com/+JorgeAmat?rel=author" size="250" maxlength="570"/><br><br>			
 Titulo: <input type="text" style="width: 350px;" id="titulo" name="titulo" size="70" maxlength="70"/><br><br>
 Titulo2: <input type="text" style="width: 433px;" id="titulo2" name="titulo2" size="120" maxlength="120"/><br><br>
-Keywords: <input type="text" style="width: 433px;"id="keywords" name="keywords" size="150" maxlength="150"/>
-<br><br>
-Descripcion: <input type="text" style="width: 633px;" id="descripcion" name="descripcion" size="160" maxlength="160"/>
+Descripcion: <input type="text" style="width: 633px;" id="descripcion" name="descripcion" size="160" maxlength="180"/>
 <br><br>
 Clase1: <input type="text" id="clase1" name="clase1" size="20" maxlength="20"/>
 Clase2: <input type="text" id="clase2" name="clase2" size="20" maxlength="20"/>
@@ -317,7 +315,7 @@ Script52: <input type="text" style="width: 600px;" id="script52" name="script52"
 				<!-- start: Footer Menu Logo -->
 				<div class="span2">
 					<div id="footer-menu-logo">
-						<div id="logo-chart"></div><a class="brand" href="/">CSM<span>G</span>.</a>
+						<div id="logo-chart"></div><a class="brand" href="/">CC<span>HOY</span>.</a>
 					</div>
 				</div>
 				<!-- end: Footer Menu Logo -->
@@ -373,9 +371,9 @@ Script52: <input type="text" style="width: 600px;" id="script52" name="script52"
 				<!-- start: About -->
 				<div class="span3">
 					
-					<h3>Sobre mí</h3>
+					<h3>Sobre nosotros</h3>
 					<p>
-						Me gusta la belleza y la salud, en este blog quiero compartir contigo mis secretos y consejos para tu día a día.
+						Somos un equipo de personas con gran formación tecnológica y apasionadas por todo lo relacionado con ella.
 					</p>
 						
 				</div>
@@ -459,8 +457,8 @@ Script52: <input type="text" style="width: 600px;" id="script52" name="script52"
 				
 					<!-- start: Newsletter -->
 					<form id="newsletter">
-						<h3>Suscríbete!</h3>
-						<p>Por favor, deja tu email para recibir mis novedades</p>
+						<h3>Newsletter</h3>
+						<p>Por favor, déjanos tu email para conocer nuestras nuevas publicaciones</p>
 						<label for="newsletter_input">@:</label>
 						<input type="text" id="newsletter_input"/>
 						<input type="submit" id="newsletter_submit" value="submit">
@@ -486,7 +484,7 @@ Script52: <input type="text" style="width: 600px;" id="script52" name="script52"
 		
 			<div class="span12">
 				<p>
-					&copy; 2014, <a href="/">Como Ser Más Guapo</a><i style="margin-top: -18px;" class="ico-color ico-sun"></i>
+					&copy; 2014, <a href="/">Como Ser Mas Guapo</a><i style="margin-top: -18px;" class="ico-color ico-sun"></i>
 				</p>
 			</div>
 	

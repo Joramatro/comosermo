@@ -70,28 +70,9 @@
 				<li class="crumbFinal"><span>&nbsp;&gt;&nbsp;</span>${publicacion.titulo}</li>
 			</ul>     	
     		<br>
-			<div id="banGoogle" class="iframe_wrap" style="position:absolute;margin-left: 830px;">
-				<%--<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-				<!-- articulo superior recuadro csmg -->
-				<ins class="adsbygoogle"
-				     style="display:inline-block;width:300px;height:250px"
-				     data-ad-client="ca-pub-3168560600423825"
-				     data-ad-slot="3319960944"></ins>
-				<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
-				</script>--%>
-				<%--
-				<script language='JavaScript1.1'>
-					document.write("<sc"+"ript language='JavaScript1.1' src='http://rover.ebay.com/ar/1/55976/1?campid=5337478670&toolid=55976&customid=extras&mpt=" + Math.floor(Math.random()*999999999999) + "&adtype=3&size=336x280&def=x6n&j7s=1&n3y=1&p9m=1&v1e=1&r7n=1&q5b=1&x6n=1&m9q=1&g2e=1&b4x=1&k4v=1&u7v=1&a3h=1&mpvc='></sc"+"ript>");
-				</script>
-				<noscript>
-					<a href='http://rover.ebay.com/rover/1/1185-53479-19255-14/1?campid=5337478670&toolid=55976&customid=extras&def=x6n&j7s=1&n3y=1&p9m=1&v1e=1&r7n=1&q5b=1&x6n=1&m9q=1&g2e=1&b4x=1&k4v=1&u7v=1&a3h=1&mpvc='>
-						<img border='0px' src='http://rover.ebay.com/ar/1/1185-53479-19255-14/1?campid=5337478670&toolid=55976&customid=extras&mpt=[CACHEBUSTER]&adtype=1&size=336x280&def=x6n&j7s=1&n3y=1&p9m=1&v1e=1&r7n=1&q5b=1&x6n=1&m9q=1&g2e=1&b4x=1&k4v=1&u7v=1&a3h=1&mpvc=' alt='Click Here'>
-					</a>
-				</noscript>--%>
-			</div>	
+				
 			<!-- start: Flexslider -->
-			<div style="width: 440px;height: 325px; margin: 0 auto;" class="slider" >
+			<div style="max-width: 512px;height: 325px; margin: 0 auto;" class="slider" >
 				<div id="flex1" class="flexslider home">
 					<ul class="slides">
 						<c:forEach var="imagen" items="${publicacion.lImages}" varStatus="status">
@@ -126,8 +107,8 @@
 							<strong>Media&nbsp;</strong>&nbsp;&nbsp;<div class="rateit" data-rateit-value="${publicacion.sumaPuntos div publicacion.votantes}" data-rateit-ispreset="true" data-rateit-readonly="true" title="<fmt:formatNumber type="number" minFractionDigits="2" maxFractionDigits="2" value="${publicacion.sumaPuntos div publicacion.votantes}" /> / 5"></div> 
 						</c:if>
 						<li><strong>Fecha&nbsp;</strong>&nbsp;<span id="_datePublished5" itemprop="datePublished" content="<fmt:setLocale value='es_ES' scope='session'/><fmt:formatDate type='date' dateStyle='short' value='${publicacion.fechaCreacion}'/>"> <fmt:setLocale value="es_ES" scope="session"/><fmt:formatDate type="date" dateStyle="long" value="${publicacion.fechaCreacion}"/></span></li>
-						<%-- <li><strong>Autor&nbsp;</strong>&nbsp; <a target="_blank" href="${publicacion.googleAutor}" rel=”author”><span id="_author3" itemprop="author" itemscope itemtype="http://schema.org/Person">
-						<span itemprop="name">${publicacion.autor}</span></span></a></li> --%>
+						<li><strong>Autor&nbsp;</strong>&nbsp; <a target="_blank" href="https://twitter.com/comosermasguapo" rel=”author”><span id="_author3" itemprop="author" itemscope itemtype="http://schema.org/Person">
+						<span itemprop="name">Yago Fierro</span></span></a></li>
 					</ul>
 					<div>
 					<br>
@@ -181,14 +162,15 @@
 					
 					<div id="art1">
 						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-						<!-- articulo superior recuadro csmg -->
+						<!-- interior1r -->
 						<ins class="adsbygoogle"
-						     style="display:inline-block;width:300px;height:250px"
+						     style="display:block"
 						     data-ad-client="ca-pub-3168560600423825"
-						     data-ad-slot="3319960944"></ins>
+						     data-ad-slot="9603133345"
+						     data-ad-format="auto"></ins>
 						<script>
 						(adsbygoogle = window.adsbygoogle || []).push({});
-						</script>
+						</script>	
 					</div>
 				
 					<br>
@@ -196,14 +178,14 @@
 					<meta id="_articleBody7" itemprop="articleBody" content="${fn:replace(publicacion.articulo, "\"", "'")}">
 					${publicacion.articulo}
 					<br>
-					<%-- <h2><a target="_blank" href="/free/${publicacion.url}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Btn Art Down');" class="button color launch">¡Consigue ya unos abdominales perfectos!</a></h2> --%>
-					
+					<%-- <h2><a target="_blank" href="/free/${publicacion.url}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Btn Art Down');" class="button color launch">¡Consigue ya unos abdominales perfectos!</a></h2> --%>					
 						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-						<!-- rect articulo 2 -->
+						<!-- interior1r -->
 						<ins class="adsbygoogle"
-						     style="display:inline-block;width:336px;height:280px"
+						     style="display:block"
 						     data-ad-client="ca-pub-3168560600423825"
-						     data-ad-slot="2518183340"></ins>
+						     data-ad-slot="9603133345"
+						     data-ad-format="vertical"></ins>
 						<script>
 						(adsbygoogle = window.adsbygoogle || []).push({});
 						</script>
@@ -540,14 +522,6 @@
 
 	<script>
 		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-			$("#banGoogle").hide();
-		}
-		if($('#footer').width() < 1345){
-			$("#banGoogle").hide();
-		}
-	</script>
-	<script>
-		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 			$("#banAmazonHorizontal").hide();
 		}
 		if($('#footer').width() < 1079){
@@ -562,6 +536,8 @@
 			$("#banAmazonEsquina").hide();
 			$(".slide-caption").hide();
 			$("#linkunittop").hide();
+			$("#_image6").css('margin-left', '');
+			$(".imageContextual").css('margin-left', '');
 		}
 		if($('#footer').width() < 1345){
 			$("#banAmazonEsquina").hide();
@@ -571,11 +547,6 @@
 	</script>
 	<script>
 	$(window).bind('resize', function () { 
-		if($('#footer').width() < 1345){
-			$("#banGoogle").hide();			
-		}else{
-			$("#banGoogle").show();
-		}
 		if($('#footer').width() < 1079){
 			$("#banAmazonHorizontal").hide();
 		}else{

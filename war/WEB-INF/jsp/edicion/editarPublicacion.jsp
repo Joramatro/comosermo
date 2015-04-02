@@ -13,7 +13,7 @@
      <link href="/css/bootstrap.css" rel="stylesheet">
     <link href="/css/bootstrap-responsive.css" rel="stylesheet">
 	<%@ include file="/WEB-INF/jsp/includes/styles.jsp"%>
-	<link href="/css/parallax-slider.css" rel="stylesheet">
+	<link href="/css/parallax-sliderv1.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Boogaloo">
@@ -26,7 +26,7 @@
         <!-- Fav and touch icons -->
 		<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
 		<link rel="stylesheet" href="/css/apprise-v2.css" type="text/css" />
-    <meta name="description" content="Subida de archivos y herramienta de edicion para Como ser mas guapo">
+    <meta name="description" content="Subida de archivos y herramienta de edicion para Como Ser Mas Guapo">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<style>
 			.ui-autocomplete-loading { background: white url('/img/fancybox_loading.gif') right center no-repeat; }
@@ -55,7 +55,7 @@
 	            		<span class="icon-bar"></span>
 	            		<span class="icon-bar"></span>
 	          		</a>
-					<a class="brand" href="/"><i class="ico-eye-open circle"></i>Como Ser Mas <span>Guapo</span>.</a>
+					<a class="brand" href="/"><i class="ico-coffe-cup circle"></i>Como Ser Mas <span>Guapo</span>.</a>
 	          		<div class="nav-collapse collapse">
 	            		<ul class="nav">
 							<li class="active">
@@ -89,13 +89,17 @@
 -->
 
 <form method="POST" action="/edicion/guardarEdicionPublicacion">
-<input type="hidden" id="clase7" name="clase7" value=""/>
 <input type="hidden" id="clase10" name="clase10" value=""/>
 <input type="hidden" id="clase11" name="clase11" value=""/>
 <input type="hidden" id="clase12" name="clase12" value=""/>
+<input type="hidden" id="script41" name="script41" value=""/>
+<input type="hidden" id="script42" name="script42" value=""/>
+<input type="hidden" id="script51" name="script51" value=""/>
+<input type="hidden" id="script52" name="script52" value=""/>
+
 Tipo: <select name="tipo" id="tipo">
 				  <option value="AR" ${publicacion.tipo == 'AR' ? 'selected' : ''}>Articulo</option>
-				  <option value="AC" ${publicacion.tipo == 'AC' ? 'selected' : ''}>Producto</option>
+				  <option value="AC" ${publicacion.tipo == 'AC' ? 'selected' : ''}>Accesorio</option>
 				</select><br><br>			
 Titulo: <input type="text" style="width: 350px;" id="titulo" name="titulo" size="70" maxlength="70" value="${publicacion.titulo}"/><br><br>
 
@@ -119,7 +123,7 @@ Resumen: <br>
 <textarea style="width: 833px;" rows="10" id="resumen" name="resumen">${publicacion.resumen}</textarea>
 <br><br>
 
-Descripcion: <input type="text" style="width: 433px;" id="descripcion" name="descripcion" size="70" maxlength="70" value="${publicacion.descripcion}"/><br><br>
+Descripcion: <input type="text" style="width: 433px;" id="descripcion" name="descripcion" size="70" maxlength="180" value="${publicacion.descripcion}"/><br><br>
 
 Autor: <input type="text" id="autor" name="autor" size="100" maxlength="100" value="${publicacion.autor}"/><br><br>
 
@@ -339,7 +343,7 @@ Script52: <input type="text" style="width: 600px;" id="script52" name="script52"
 				<!-- start: Footer Menu Logo -->
 				<div class="span2">
 					<div id="footer-menu-logo">
-						<div id="logo-chart"></div><a class="brand" href="/">CSM<span>G</span>.</a>
+						<div id="logo-chart"></div><a class="brand" href="/">CC<span>HOY</span>.</a>
 					</div>
 				</div>
 				<!-- end: Footer Menu Logo -->
@@ -395,9 +399,9 @@ Script52: <input type="text" style="width: 600px;" id="script52" name="script52"
 				<!-- start: About -->
 				<div class="span3">
 					
-					<h3>Sobre mí</h3>
+					<h3>Sobre nosotros</h3>
 					<p>
-						Me gusta la belleza y la salud, en este blog quiero compartir contigo mis secretos y consejos para tu día a día.
+						Somos un equipo de personas con gran formación tecnológica y apasionadas por todo lo relacionado con ella. Poseemos una gran experiencia en el mundo de internet y te brindamos la mejor actualidad en Internet, noticias de gadget tecnológicos, software y telefonía.
 					</p>
 						
 				</div>
@@ -418,7 +422,7 @@ Script52: <input type="text" style="width: 600px;" id="script52" name="script52"
 				<div class="span6">
 				
 					<!-- start: Follow Us -->
-					<h3>Sígueme!</h3>
+					<h3>Síguenos!</h3>
 					<ul class="social-grid">
 						<li>
 							<div class="social-item">				
@@ -481,8 +485,8 @@ Script52: <input type="text" style="width: 600px;" id="script52" name="script52"
 				
 					<!-- start: Newsletter -->
 					<form id="newsletter">
-						<h3>Suscríbete!</h3>
-						<p>Por favor, deja tu email para recibir mis novedades.</p>
+						<h3>Newsletter</h3>
+						<p>Por favor, déjanos tu email para conocer nuestras nuevas publicaciones</p>
 						<label for="newsletter_input">@:</label>
 						<input type="text" id="newsletter_input"/>
 						<input type="submit" id="newsletter_submit" value="submit">
@@ -508,7 +512,7 @@ Script52: <input type="text" style="width: 600px;" id="script52" name="script52"
 		
 			<div class="span12">
 				<p>
-					&copy; 2014, <a href="/">Compra Ser Más Guapo</a><i style="margin-top: -18px;" class="ico-color ico-sun"></i>
+					&copy; 2014, <a href="/">Como Ser Mas Guapo</a><i style="margin-top: -18px;" class="ico-color ico-sun"></i>
 				</p>
 			</div>
 	

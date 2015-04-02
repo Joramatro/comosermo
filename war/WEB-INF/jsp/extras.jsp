@@ -60,41 +60,33 @@
 			<div id="portfolio-wrapper" class="row">
 				<% pageContext.setAttribute("newLineChar", "\n"); %>
 				
-				<div class="span4 portfolio-item">
-				<div class="picture">
-				<div style="width: 35%;margin: 0 auto;">
-				<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=ss_til&ad_type=product_link&tracking_id=csmgex-20&marketplace=amazon&region=US&placement=B00J4V5TFM&asins=B00J4V5TFM&linkId=BWH3XJEE2NRG3V7Y&show_border=true&link_opens_in_new_window=true">
-				</iframe>
-				</div>	
-				</div>
-				</div>
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- interior1r -->
+				<ins class="adsbygoogle"
+				     style="display:block"
+				     data-ad-client="ca-pub-3168560600423825"
+				     data-ad-slot="9603133345"
+				     data-ad-format="auto"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
 				
-				<div class="span4 portfolio-item">
+			<%--<div class="span4 portfolio-item">
 				<div class="picture">
-					<div id="extras1" style="width: 67%;margin: 0 auto;display:none">
+					<div id="extras1" style="width: 67%;margin: 0 auto;">
 						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-						<!-- articulo superior recuadro csmg -->
+						<!-- interior1r -->
 						<ins class="adsbygoogle"
-						     style="display:inline-block;width:300px;height:250px"
+						     style="display:block"
 						     data-ad-client="ca-pub-3168560600423825"
-						     data-ad-slot="3319960944"></ins>
-						<script>
-						(adsbygoogle = window.adsbygoogle || []).push({});
-						</script>	
-					</div>
-					<div id="extras1Mob" style="width: 67%;margin-left: -8px;display:none">
-						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-						<!-- articulo superior recuadro csmg -->
-						<ins class="adsbygoogle"
-						     style="display:inline-block;width:300px;height:250px"
-						     data-ad-client="ca-pub-3168560600423825"
-						     data-ad-slot="3319960944"></ins>
+						     data-ad-slot="9603133345"
+						     data-ad-format="vertical"></ins>
 						<script>
 						(adsbygoogle = window.adsbygoogle || []).push({});
 						</script>
 					</div>	
 				</div>
-				</div>								
+				</div>		--%>						
 				
 															
 				<%-- 
@@ -159,15 +151,6 @@
 	    });
 	});
 	
-	jQuery(document).ready(function($){
-		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {		
-			$("#extras1Mob").show();
-			//$("#extras2Mob").show();
-		}else{
-			$("#extras1").show();
-			//$("#extras2").show();
-		}
-	});
 	</script>
 	
 </body>

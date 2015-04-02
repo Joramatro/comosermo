@@ -4,7 +4,6 @@
 	<classpathentry kind="src" path="local"/>
 	<classpathentry kind="src" path="test"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER/appengine-java-sdk-1.8.4"/>
 	<classpathentry kind="lib" path="/CHControllerModel/lib/akismet-java-1.02.jar"/>
 	<classpathentry kind="lib" path="/CHControllerModel/lib/aopalliance-1.0.jar"/>
 	<classpathentry kind="lib" path="/CHControllerModel/lib/aopalliance-alpha1.jar"/>
@@ -53,5 +52,6 @@
 	<classpathentry kind="lib" path="/CHControllerModel/lib/spring-web-3.2.0.M2.jar"/>
 	<classpathentry kind="lib" path="/CHControllerModel/lib/spring-webmvc-3.2.0.M2.jar"/>
 	<classpathentry kind="lib" path="/CHControllerModel/lib/stax-api-1.0-2.jar"/>
+	<classpathentry kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER/appengine-java-sdk-1.8.4"/>
 	<classpathentry kind="output" path="war/WEB-INF/classes"/>
 </classpath>

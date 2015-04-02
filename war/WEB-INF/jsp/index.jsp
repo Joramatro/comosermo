@@ -45,45 +45,7 @@
 	<!--start: Wrapper-->
 	<div id="wrapper">		
 		<!--start: Container -->
-    	<div class="container">
-    	<table style="margin: 0px auto -43px">
-    		<tr>
-	    	<td>
-			<div id="recIndex1" class="iframe_wrap" style="display:none">
-			</div>
-			
-			<div id="recIndex1Mob" class="iframe_wrap" style="display:none">
-			</div>
-						
-			</td>
-			<td>
-			<div id="recIndex2" class="iframe_wrap" style="display:none">
-				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-				<!-- rectangulo index derecha csmg -->
-				<ins class="adsbygoogle"
-				     style="display:inline-block;width:336px;height:280px"
-				     data-ad-client="ca-pub-3168560600423825"
-				     data-ad-slot="7470958941"></ins>
-				<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
-				</script>
-			</div>
-			<div id="recIndex2Mob" class="iframe_wrap" style="display:none">
-				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-				<!-- rectangulo index derecha csmg -->
-				<ins class="adsbygoogle"
-				     style="display:inline-block;width:336px;height:280px"
-				     data-ad-client="ca-pub-3168560600423825"
-				     data-ad-slot="7470958941"></ins>
-				<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
-				</script>					
-			</div>			
-			</td>
-	    	</tr>
-	    </table>			
-			<hr>
-			
+    	<div class="container">		
       		<!-- start: Hero Unit - Main hero unit for a primary marketing message or call to action -->
       		<div class="hero-unit">
 				<h3>
@@ -93,6 +55,19 @@
       		</div>
 			<!-- end: Hero Unit -->
       		
+      		<div id="googleRecIndex1" class="iframe_wrap">			
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- index1r -->
+				<ins class="adsbygoogle"
+				     style="display:block"
+				     data-ad-client="ca-pub-3168560600423825"
+				     data-ad-slot="2638269742"
+				     data-ad-format="auto"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+			</div>
+			
 			<hr>
 			<!-- start: Row -->
 			<div class="row">
@@ -119,7 +94,7 @@
 							<i class="ico-ok ico-white circle-color-full"></i>
 							<div class="icons-box-vert-info">
 								<h3>Salud</h3>
-								<p>Te preguntas cómo ser más guapo? Sentirnos saludables y fuertes es importante para mostrarnos atractivos hacia las personas que nos rodean, transmitiendo subconscientemente buenas vibracionescuando entables contacto con otras personas.</p>
+								<p>Te preguntas cómo ser más guapo? Sentirnos saludables y fuertes es importante para mostrarnos atractivos hacia las personas que nos rodean, transmitiendo subconscientemente buenas vibraciones cuando entables contacto con otras personas.</p>
 							</div>
 							<div class="clear"></div>
 						</div>
@@ -205,14 +180,14 @@
 	    });
 	    
 		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-			$(".titPortada").css("font-size","38px");
-			$(".descPortada").css("font-size","14px");
-			
-			//$("#recIndex1Mob").show();
-			$("#recIndex2Mob").show();
-		}else{
-			//$("#recIndex1").show();
-			$("#recIndex2").show();
+			$(".titPortada").css({
+			   'font-size' : '38px',
+			   'white-space' : 'normal'
+			});
+			$(".descPortada").css({
+				   'font-size' : '14px',
+				   'margin-top' : '29px'
+			});
 		}
 	});
 	
