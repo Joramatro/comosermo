@@ -179,7 +179,7 @@
 	</style>
     <!-- start: CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="/css/bootstrap-responsive-v1.min.css" rel="stylesheet">
     <link href="/css/parallax-slider.css" rel="stylesheet">   
 	<%@ include file="/WEB-INF/jsp/includes/styles.jsp"%>
 	<!-- end: CSS -->

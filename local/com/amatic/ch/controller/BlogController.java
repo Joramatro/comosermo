@@ -73,7 +73,7 @@ public class BlogController extends PublicacionAbstract {
 	    HttpServletRequest request, HttpServletResponse response)
 	    throws IOException, NoSuchAlgorithmException {
 
-	String key = WebUtils.SHA1(url.replaceAll("-", " "));
+	String key = WebUtils.SHA1(url.replaceAll("-", " ").toLowerCase());
 	/*
 	 * Publicacion publicacion = null;
 	 * 
