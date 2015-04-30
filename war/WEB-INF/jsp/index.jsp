@@ -14,7 +14,7 @@
 		<div id="da-slider" class="da-slider">
 			<c:forEach var="publicacion" items="${publicacionesPortada}" varStatus="status" end="4">
 				<div class="da-slide">
-					<h2 class="titPortada">${publicacion.tituloPortada}</h2>
+					<h2 class="titPortada"><a title="${publicacion.titulo}" href="/blog/${publicacion.url}" onClick="ga('send', 'event', 'Leer', 'Home ${publicacion.url}', 'Titulo Portada');">${publicacion.tituloPortada}</a></h2>
 					<p class="descPortada">${publicacion.descPortada}</p>
 						<a href="/blog/${publicacion.url}" class="da-link">LEER MÁS</a>				
 					<div class="da-img">
