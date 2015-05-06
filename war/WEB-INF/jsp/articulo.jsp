@@ -155,11 +155,10 @@
 						(adsbygoogle = window.adsbygoogle || []).push({});
 						</script>	
 					</div>
-				
-					<br>
-										
-					<meta id="_articleBody7" itemprop="articleBody" content="${fn:replace(publicacion.articulo, "\"", "'")}">
+					<br>										
+					<div id="content" itemprop="articleBody">
 					${publicacion.articulo}
+					</div>
 					<br>
 					<%-- <h2><a target="_blank" href="/free/${publicacion.url}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Btn Art Down');" class="button color launch">¡Consigue ya unos abdominales perfectos!</a></h2> --%>					
 						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
