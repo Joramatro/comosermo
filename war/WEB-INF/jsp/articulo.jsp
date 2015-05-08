@@ -40,7 +40,7 @@
 	
 	<!--start: Wrapper -->
 	<div itemscope itemtype="http://schema.org/Article" id="wrapper">
-		<div style="display:none"><span  itemprop="url">http://www.comosermasguapo.com/blog/${publicacion.url}</span></div>		
+		<link  itemprop="url" href="http://www.comosermasguapo.com/blog/${publicacion.url}" />		
 		<!--start: Container -->
     	<div class="container">
     	
@@ -297,7 +297,10 @@
 				<c:choose>
 				<c:when test="${publicacion.votantes gt 0}">
 					<div itemscope itemtype="http://data-vocabulary.org/Review-aggregate" id="comments" class="comments-sec">
-						<div style="display:none"><span  itemprop="itemreviewed">${publicacion.titulo}</span><span itemprop="count">${publicacion.votantes}</span><span itemprop="best">5</span><span itemprop="rating">${publicacion.sumaPuntos div publicacion.votantes}</span></div>
+						<meta itemprop="itemreviewed" content="${publicacion.titulo}" />
+						<meta itemprop="count" content="${publicacion.votantes}" />
+						<meta itemprop="best" content="5" />
+						<meta itemprop="rating" content="${publicacion.sumaPuntos div publicacion.votantes}" />												
 						<ol class="commentlist">
 						<c:forEach var="comentario" items="${publicacion.comentariosDeref}" varStatus="status">
 							<li style="width: 100%;padding-bottom:6px">
