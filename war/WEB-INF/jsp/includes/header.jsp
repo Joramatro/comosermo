@@ -22,7 +22,7 @@
 		<meta name="title" content="${publicacion.titulo} en Como Ser Mas Guapo. - Como Ser Mas Guapo - www.comosermasguapo.com" />
 		<meta name="author" content="Como Ser Mas Guapo" />
 		<meta name="copyright" content="Como Ser Mas Guapo" />
-		<meta name="application-name" content="${publicacion.titulo} en Como Ser Mas Guapo" />
+		<meta name="application-name" content="Como Ser Mas Guapo" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="${publicacion.titulo}"/>
 		<meta property="og:description" content="${publicacion.descripcion}"/>
@@ -48,7 +48,6 @@
 		<meta name="title" content="Contacta con Como Ser Mas Guapo. - Como Ser Mas Guapo - www.comosermasguapo.com" />
 		<meta name="author" content="Como Ser Mas Guapo" />
 		<meta name="copyright" content="Como Ser Más Guapo" />
-		<meta name="application-name" content="Contacto en Como Ser Mas Guapo" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Contacta Como Ser Mas Guapo"/>
 		<meta property="og:description" content="Contacta con Como Ser Mas Guapo"/>
@@ -75,7 +74,7 @@
 		<meta name="title" content="Productos recomendados en Como Ser Mas Guapo - www.comosermasguapo.com" />
 		<meta name="author" content="Como Ser Mas Guapo" />
 		<meta name="copyright" content="Como Ser Mas Guapo" />
-		<meta name="application-name" content="Productos recomendados en Como Ser Mas Guapo" />
+		<meta name="application-name" content="Como Ser Mas Guapo" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Productos recomendados en Como Ser Mas Guapo"/>
 		<meta property="og:description" content="Recomendaciones personales para comprar online los mejores productos de belleza y salud, una forma de ser mas guapo y ser hombres lindos"/>
@@ -102,7 +101,7 @@
 		<meta name="title" content="Trucos de belleza y salud para ser hombres lindos en Como Ser Mas Guapo. - Como Ser Mas Guapo - www.comosermasguapo.com" />
 		<meta name="author" content="Como Ser Mas Guapo" />
 		<meta name="copyright" content="Como Ser Mas Guapo" />
-		<meta name="application-name" content="Blog en Como Ser Mas Guapo" />
+		<meta name="application-name" content="Como Ser Mas Guapo" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Opinion y artículos sobre salud y belleza para ser hombres lindos y sobre como ser mas guapo"/>
 		<meta property="og:description" content="Sigue los consejos de belleza y salud que te brindo en mi blog, todo lo que tienes que saber para sentirte mejor, seducir mujeres y parecer hombres lindos en Como Ser Mas Guapo"/>
@@ -129,6 +128,27 @@
 		<meta name="twitter:domain" content="comosermasguapo.com">
 		<!-- end: Twitter tags -->
 		<link rel="canonical" href="http://www.comosermasguapo.com/blog"/>		
+	</c:when>
+		<c:when test="${fn:contains(pageContext.request.requestURI, 'privacidad')}">
+		<title>Política de privacidad de Como Ser Mas Guapo</title> 
+		<meta name="description" content="Política de privacidad y condiciones de uso de Como Ser Mas Guapo"/>
+		<meta name="author" content="Como Ser Mas Guapo" />
+		<meta name="copyright" content="Como Ser Mas Guapo" />
+		<!-- start: Facebook Open Graph -->
+		<meta property="og:title" content="Política de privacidad de Como Ser Mas Guapo"/>
+		<meta property="og:description" content="Política de privacidad y condiciones de uso de Como Ser Mas Guapo"/>
+		<meta property="og:url" content="http://www.comosermasguapo.com/politica-de-privacidad"/>
+		<meta property="og:email" content="contacta.comosermasguapo@gmail.com"/>
+		<!-- end: Facebook Open Graph -->
+		<!-- start: Twitter tags -->
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@comosermasguapo">
+		<meta name="twitter:creator" content="@comosermasguapo">
+		<meta name="twitter:title" content="Política de privacidad de Como Ser Mas Guapo">
+		<meta name="twitter:description" content="Política de privacidad y condiciones de uso de Como Ser Mas Guapo">
+		<meta name="twitter:domain" content="comosermasguapo.com">
+		<link rel="canonical" href="http://www.comosermasguapo.com/politica-de-privacidad"/>
+		<!-- end: Twitter tags -->		
 	</c:when>
 	<c:otherwise>
 		<title>Bienvenido a Como Ser Mas Guapo</title> 
