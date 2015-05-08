@@ -26,7 +26,7 @@
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="${publicacion.titulo}"/>
 		<meta property="og:description" content="${publicacion.descripcion}"/>
-		<meta property="og:type" content="articulos"/>
+		<meta property="og:type" content="article"/>
 		<meta property="og:url" content="http://www.comosermasgupao.com/blog/${publicacion.url}"/>
 		<meta property="og:image" content="${publicacion.lImages[2]}"/>
 		<meta property="og:email" content="contacta.comosermasguapo@gmail.com"/>
@@ -52,7 +52,7 @@
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Contacta Como Ser Mas Guapo"/>
 		<meta property="og:description" content="Contacta con Como Ser Mas Guapo"/>
-		<meta property="og:type" content="contacto"/>
+		<meta property="og:type" content="website"/>
 		<meta property="og:url" content="http://www.comosermasguapo.com/contacto"/>
 		<meta property="og:image" content="/img/img-meta/logoGrande.jpg"/>
 		<meta property="og:email" content="contacta.comosermasguapo@gmail.com"/>
@@ -79,7 +79,7 @@
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Productos recomendados en Como Ser Mas Guapo"/>
 		<meta property="og:description" content="Recomendaciones personales para comprar online los mejores productos de belleza y salud, una forma de ser mas guapo y ser hombres lindos"/>
-		<meta property="og:type" content="products"/>
+		<meta property="og:type" content="blog"/>
 		<meta property="og:url" content="http://www.comosermasguapo.com/productos"/>
 		<meta property="og:image" content="${publicaciones[0].lImages[0]}"/>
 		<meta property="og:email" content="contacta.comosermasguapo@gmail.com"/>
@@ -106,7 +106,7 @@
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Opinion y artículos sobre salud y belleza para ser hombres lindos y sobre como ser mas guapo"/>
 		<meta property="og:description" content="Sigue los consejos de belleza y salud que te brindo en mi blog, todo lo que tienes que saber para sentirte mejor, seducir mujeres y parecer hombres lindos en Como Ser Mas Guapo"/>
-		<meta property="og:type" content="articulo"/>
+		<meta property="og:type" content="blog"/>
 		<meta property="og:url" content="http://www.comosermasguapo.com/blog"/>
 		<c:if test="${!empty publicaciones}">
 			<c:if test="${!empty publicaciones[0].lImages}">
@@ -141,7 +141,7 @@
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Consejos y trucos de belleza y salud en Como ser Mas Guapo"/>
 		<meta property="og:description" content="Bienvenido a mi blog dónde quiero darte trucos para ser más guapo sentirte más saludable, más sano, y ser hombres lindos. Todo lo que tienes que saber para sentirte mejor y seducir a los demás en Como Ser Mas Guapo"/>
-		<meta property="og:type" content="principal"/>
+		<meta property="og:type" content="website"/>
 		<meta property="og:url" content="http://www.comosermasguapo.com"/>
 		<meta property="og:image" content="/img/img-meta/logoGrande.jpg"/>
 		<meta property="og:email" content="contacta.comosermasguapo@gmail.com"/>
