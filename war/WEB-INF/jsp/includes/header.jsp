@@ -30,6 +30,7 @@
 		<meta property="og:url" content="http://www.comosermasgupao.com/blog/${publicacion.url}"/>
 		<meta property="og:image" content="${publicacion.lImages[2]}"/>
 		<meta property="og:site_name" content="Como Ser Mas Guapo"/>
+		<meta property="og:publisher" content="https://www.facebook.com/comosermasguapo"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -80,8 +81,13 @@
 		<meta property="og:description" content="Recomendaciones personales para comprar online los mejores productos de belleza y salud, una forma de ser mas guapo y ser hombres lindos"/>
 		<meta property="og:type" content="blog"/>
 		<meta property="og:url" content="http://www.comosermasguapo.com/productos"/>
-		<meta property="og:image" content="${publicaciones[0].lImages[0]}"/>
+		<c:if test="${!empty publicaciones}">
+			<c:if test="${!empty publicaciones[0].lImages}">
+				<meta property="og:image" content="${publicaciones[0].lImages[0]}"/>
+			</c:if>
+		</c:if>
 		<meta property="og:site_name" content="Como Ser Mas Guapo"/>
+		<meta property="og:publisher" content="https://www.facebook.com/comosermasguapo"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -113,6 +119,7 @@
 			</c:if>
 		</c:if>
 		<meta property="og:site_name" content="Como Ser Mas Guapo"/>
+		<meta property="og:publisher" content="https://www.facebook.com/comosermasguapo"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
