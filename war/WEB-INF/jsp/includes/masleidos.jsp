@@ -15,7 +15,7 @@
 							<div class="picture">
 								<a href="/blog/${publicacionMVA.url}" title="${publicacionMVA.titulo}">
 									<c:if test="${!empty publicacionMVA.lImages }">
-									<img style="width: 270px;height: 200px;" src="${publicacionMVA.lImages[1]}" alt="${publicacionMVA.titulo}"/>
+									<img style="width: 270px;height: 200px;" class="lazy" data-original="${publicacionMVA.lImages[1]}" alt="${publicacionMVA.titulo}"/>
 									</c:if>
 									<div class="image-overlay-link"></div>
 								</a>
