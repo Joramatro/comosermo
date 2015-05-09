@@ -18,11 +18,9 @@
 	<c:when test="${!empty publicacion && publicacion.tipo eq 'AR'}">
 		<title>${publicacion.titulo} en Como Ser Mas Guapo</title> 
 		<meta name="description" content="${publicacion.descripcion}"/>
-		<meta name="keywords" content="${publicacion.keywords}" />
 		<meta name="title" content="${publicacion.titulo} en Como Ser Mas Guapo. - Como Ser Mas Guapo - www.comosermasguapo.com" />
 		<meta name="author" content="Como Ser Mas Guapo" />
 		<meta name="copyright" content="Como Ser Mas Guapo" />
-		<meta name="application-name" content="Como Ser Mas Guapo" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="${publicacion.titulo}"/>
 		<meta property="og:description" content="${publicacion.descripcion}"/>
@@ -71,11 +69,9 @@
 	<c:when test="${fn:contains(pageContext.request.requestURI, 'extras')}">
 		<title>Productos recomendados en Como Ser Mas Guapo</title> 
 		<meta name="description" content="Recomendaciones personales para comprar online los mejores productos de belleza y salud, una forma de ser mas guapo y ser hombres lindos"/>
-		<meta name="keywords" content="productos belleza, productos salud, comprar productos belleza, comprar productos salud, ser mas guapo" />
 		<meta name="title" content="Productos recomendados en Como Ser Mas Guapo - www.comosermasguapo.com" />
 		<meta name="author" content="Como Ser Mas Guapo" />
 		<meta name="copyright" content="Como Ser Mas Guapo" />
-		<meta name="application-name" content="Como Ser Mas Guapo" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Productos recomendados en Como Ser Mas Guapo"/>
 		<meta property="og:description" content="Recomendaciones personales para comprar online los mejores productos de belleza y salud, una forma de ser mas guapo y ser hombres lindos"/>
@@ -103,11 +99,9 @@
 	<c:when test="${fn:contains(pageContext.request.requestURI, 'blog')}">
 		<title>Artículos sobre Belleza en Como Ser Mas Guapo</title> 
 		<meta name="description" content="Sigue los consejos de belleza y salud que te brindo en mi blog, todo lo que tienes que saber para sentirte mejor, seducir mujeres y parecer hombres lindos en Como Ser Mas Guapo"/>
-		<meta name="keywords" content="como ser mas guapo, belleza, salud, sano" />
 		<meta name="title" content="Trucos de belleza y salud para ser hombres lindos en Como Ser Mas Guapo. - Como Ser Mas Guapo - www.comosermasguapo.com" />
 		<meta name="author" content="Como Ser Mas Guapo" />
 		<meta name="copyright" content="Como Ser Mas Guapo" />
-		<meta name="application-name" content="Como Ser Mas Guapo" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Opinion y artículos sobre salud y belleza para ser hombres lindos y sobre como ser mas guapo"/>
 		<meta property="og:description" content="Sigue los consejos de belleza y salud que te brindo en mi blog, todo lo que tienes que saber para sentirte mejor, seducir mujeres y parecer hombres lindos en Como Ser Mas Guapo"/>
@@ -160,11 +154,9 @@
 	<c:otherwise>
 		<title>Bienvenido a Como Ser Mas Guapo</title> 
 		<meta name="description" content="Bienvenido a mi blog dónde quiero darte trucos para ser más guapo sentirte más saludable, más sano, y ser hombres lindos. Todo lo que tienes que saber para sentirte mejor y seducir a los demás en Como Ser Mas Guapo"/>
-		<meta name="keywords" content="como ser mas guapo, belleza y salud, hombres lindos" />
 		<meta name="title" content="Consejos y trucos de belleza y salud en Como ser Mas Guapo" />
 		<meta name="author" content="Como Ser Mas Guapo" />
 		<meta name="copyright" content="Como Ser Mas Guapo" />
-		<meta name="application-name" content="Como Ser Mas Guapo" />
 		<!-- start: Facebook Open Graph -->
 		<meta property="og:title" content="Consejos y trucos de belleza y salud en Como ser Mas Guapo"/>
 		<meta property="og:description" content="Bienvenido a mi blog dónde quiero darte trucos para ser más guapo sentirte más saludable, más sano, y ser hombres lindos. Todo lo que tienes que saber para sentirte mejor y seducir a los demás en Como Ser Mas Guapo"/>
