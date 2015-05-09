@@ -29,7 +29,7 @@
 		<meta property="og:type" content="article"/>
 		<meta property="og:url" content="http://www.comosermasgupao.com/blog/${publicacion.url}"/>
 		<meta property="og:image" content="${publicacion.lImages[2]}"/>
-		<meta property="og:email" content="contacta.comosermasguapo@gmail.com"/>
+		<meta property="og:site_name" content="Como Ser Mas Guapo"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -53,8 +53,8 @@
 		<meta property="og:description" content="Contacta con Como Ser Mas Guapo"/>
 		<meta property="og:type" content="website"/>
 		<meta property="og:url" content="http://www.comosermasguapo.com/contacto"/>
-		<meta property="og:image" content="/img/img-meta/logoGrande.jpg"/>
-		<meta property="og:email" content="contacta.comosermasguapo@gmail.com"/>
+		<meta property="og:image" content="http://www.comosermasguapo.com/img/img-meta/logoGrande.jpg"/>
+		<meta property="og:site_name" content="Como Ser Mas Guapo"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -62,7 +62,7 @@
 		<meta name="twitter:creator" content="@comosermasguapo">
 		<meta name="twitter:title" content="Contacta con Como ser Mas Guapo">
 		<meta name="twitter:description" content="Contacta con Como ser Mas Guapo">
-		<meta name="twitter:image" content="/img/img-meta/logoGrande.jpg">
+		<meta name="twitter:image" content="http://www.comosermasguapo.com/img/img-meta/logoGrande.jpg">
 		<meta name="twitter:domain" content="comosermasguapo.com">
 		<!-- end: Twitter tags -->
 		<link rel="canonical" href="http://www.comosermasguapo.com/contacto"/>
@@ -81,7 +81,7 @@
 		<meta property="og:type" content="blog"/>
 		<meta property="og:url" content="http://www.comosermasguapo.com/productos"/>
 		<meta property="og:image" content="${publicaciones[0].lImages[0]}"/>
-		<meta property="og:email" content="contacta.comosermasguapo@gmail.com"/>
+		<meta property="og:site_name" content="Como Ser Mas Guapo"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -112,7 +112,7 @@
 				<meta property="og:image" content="${publicaciones[0].lImages[0]}"/>
 			</c:if>
 		</c:if>
-		<meta property="og:email" content="contacta.comosermasguapo@gmail.com"/>
+		<meta property="og:site_name" content="Como Ser Mas Guapo"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -138,7 +138,7 @@
 		<meta property="og:title" content="Política de privacidad de Como Ser Mas Guapo"/>
 		<meta property="og:description" content="Política de privacidad y condiciones de uso de Como Ser Mas Guapo"/>
 		<meta property="og:url" content="http://www.comosermasguapo.com/politica-de-privacidad"/>
-		<meta property="og:email" content="contacta.comosermasguapo@gmail.com"/>
+		<meta property="og:site_name" content="Como Ser Mas Guapo"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -163,8 +163,8 @@
 		<meta property="og:description" content="Bienvenido a mi blog dónde quiero darte trucos para ser más guapo sentirte más saludable, más sano, y ser hombres lindos. Todo lo que tienes que saber para sentirte mejor y seducir a los demás en Como Ser Mas Guapo"/>
 		<meta property="og:type" content="website"/>
 		<meta property="og:url" content="http://www.comosermasguapo.com"/>
-		<meta property="og:image" content="/img/img-meta/logoGrande.jpg"/>
-		<meta property="og:email" content="contacta.comosermasguapo@gmail.com"/>
+		<meta property="og:image" content="http://www.comosermasguapo.com/img/img-meta/logoGrande.jpg"/>
+		<meta property="og:site_name" content="Como Ser Mas Guapo"/>
 		<!-- end: Facebook Open Graph -->
 		<!-- start: Twitter tags -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -172,7 +172,7 @@
 		<meta name="twitter:creator" content="@comosermasguapo">
 		<meta name="twitter:title" content="Consejos belleza y salud en Como ser Mas Guapo">
 		<meta name="twitter:description" content="Bienvenido a mi blog dónde quiero darte trucos para ser más guapo y sentirte más saludable, más sano, y ser hombres lindos. Todo lo que tienes que saber para sentirte mejor y seducir a los demás en Como Ser Mas Guapo">
-		<meta name="twitter:image" content="/img/img-meta/logoGrande.jpg">
+		<meta name="twitter:image" content="http://www.comosermasguapo.com/img/img-meta/logoGrande.jpg">
 		<meta name="twitter:domain" content="comosermasguapo.com">
 		<!-- end: Twitter tags -->				
 		<link rel="canonical" href="http://www.comosermasguapo.com"/>
