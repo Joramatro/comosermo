@@ -299,7 +299,6 @@
 					<div itemscope itemtype="http://data-vocabulary.org/Review-aggregate" id="comments" class="comments-sec">
 						<meta itemprop="itemreviewed" content="${publicacion.titulo}" />
 						<meta itemprop="count" content="${publicacion.votantes}" />
-						<meta itemprop="best" content="5" />
 						<meta itemprop="rating" content="${publicacion.sumaPuntos div publicacion.votantes}" />												
 						<ol class="commentlist">
 						<c:forEach var="comentario" items="${publicacion.comentariosDeref}" varStatus="status">
