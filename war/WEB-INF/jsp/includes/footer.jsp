@@ -153,10 +153,10 @@
 		<div class="container">
 		
 			<div class="span12">
-			
+				<jsp:useBean id="date" class="java.util.Date" />
 				<p>
 				<a style="margin-right: 35px;" href="http://www.comosermasguapo.com/rssfeed" accesskey="r"><img src="/img/rss.gif" alt="RSS"/>RSS</a>
-				&copy; 2014, <a target="_blank" href="https://plus.google.com/114538229665853420789"><span id="_publisher8" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+				&copy; <fmt:formatDate value="${date}" pattern="yyyy" />,&nbsp;<a target="_blank" href="https://plus.google.com/114538229665853420789"><span id="_publisher8" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
 <span itemprop="name">Como Ser Mas Guapo</span></span></a><i style="margin-top: -18px;" class="ico-color ico-sun"></i>
 				<a style="margin-left: 19px;" href="/politica-de-privacidad">Política de privacidad</a>					
 				</p>
