@@ -64,7 +64,7 @@
 						<div class="item-description alt">
 							<h5><a title="${publicacion.titulo}" href="/microondas/${publicacion.url}">${publicacion.titulo}</a></h5>
 							<p>
-								${fn:replace(publicacion.resumen, newLineChar, "<p/><p>")}
+								${fn:replace(publicacion.resumen, newLineChar, "</p><p>")}
 							</p>
 						</div>
 						<div class="post-meta"><span><i class="mini-ico-calendar"></i><fmt:setLocale value="es_ES" scope="session"/><fmt:formatDate type="date" dateStyle="long" value="${publicacion.fechaCreacion}"/></span><%-- <span style=""><i class="mini-ico-user"></i>  <a href="#">Jorge Amat</a></span>--%> <span><i class="mini-ico-comment"></i><a href="/microondas/${publicacion.url}/#comments">${fn:length(publicacion.lComentarios)} comments</a></span></div>

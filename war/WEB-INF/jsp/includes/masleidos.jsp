@@ -23,7 +23,7 @@
 							<div class="item-description">
 								<h4><a title="${publicacionMVA.titulo}" href="/blog/${publicacionMVA.url}">${publicacionMVA.titulo}</a></h4>
 								<p>
-									${fn:replace(publicacionMVA.descripcion, newLineChar, "<p/><p>")}
+									${fn:replace(publicacionMVA.descripcion, newLineChar, "</p><p>")}
 								</p>
 								<ul class="project-info">
 									<li><strong>Visto&nbsp;</strong>&nbsp;  ${publicacionMVA.numVisitas} veces</li>
