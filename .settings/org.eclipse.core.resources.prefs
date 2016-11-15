@@ -1,2 +1,4 @@
 eclipse.preferences.version=1
+encoding//war/WEB-INF/jsp/error/error_dinamic.jsp=UTF-8
+encoding//war/WEB-INF/jsp/index.jsp=UTF-8
 encoding//war/css/style.css=UTF-8

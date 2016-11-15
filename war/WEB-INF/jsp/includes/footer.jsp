@@ -183,6 +183,7 @@
 <script defer="defer" src="/js/custom.min.js"></script>
 <script async src="/js/apprise-v2.min.js"></script>
 <script async src="/js/jquery.rateit.min.js"></script>
+<script src="//load.sumome.com/" data-sumo-site-id="5b0c3c445c318aa588d40fac325fd7a79b53b48adebba640ad29561895f5656c" async="async"></script>
 
 <%@ include file="/WEB-INF/jsp/includes/scripts.jsp"%>
 

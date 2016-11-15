@@ -58,6 +58,19 @@
 				
 				pageContext.setAttribute("separador", "-");
 			%>
+			<div>
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- interior1r -->
+						<ins class="adsbygoogle"
+						     style="display:block"
+						     data-ad-client="ca-pub-3168560600423825"
+						     data-ad-slot="9603133345"
+						     data-ad-format="rectangle"></ins>
+						<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+			</div>
+			<br>
     		<ul class="breadcrumbs"><li class="home" itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a name="header.breadcrumb.1" href="<%=result.toString()%>" itemprop="url" title="Página principal"><span itemprop="title">Página principal</span></a></li>
 				<li class="crumb0" itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><span>&nbsp;&gt;&nbsp;</span><a name="header.breadcrumb.2" href="<%=result.toString()%>/blog" itemprop="url" title="Salud y Belleza"><span itemprop="title">Salud y Belleza</span></a></li>
 				<li class="crumb1" itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><span>&nbsp;&gt;&nbsp;</span><a name="header.breadcrumb.3" href="<%=result.toString()%>/blog?filtro=${fn:replace(publicacion.clase1, " ", separador)}" itemprop="url" title="${publicacion.clase1}"><span itemprop="title">${publicacion.clase1}</span></a></li>
@@ -155,22 +168,28 @@
 						(adsbygoogle = window.adsbygoogle || []).push({});
 						</script>	
 					</div>
-					<br>										
+					<br>
+					<br>
+																				
 					<div id="content" itemprop="articleBody">
 					${publicacion.articulo}
 					</div>
 					<br>
+					
+					<br>
 					<%-- <h2><a target="_blank" href="/free/${publicacion.url}" onClick="ga('send', 'event', 'Venta', '${publicacion.url}', 'Btn Art Down');" class="button color launch">¡Consigue ya unos abdominales perfectos!</a></h2> --%>					
-						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-						<!-- interior1r -->
-						<ins class="adsbygoogle"
-						     style="display:block"
-						     data-ad-client="ca-pub-3168560600423825"
-						     data-ad-slot="9603133345"
-						     data-ad-format="vertical"></ins>
-						<script>
-						(adsbygoogle = window.adsbygoogle || []).push({});
-						</script>
+					<div>
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+					<!-- links -->
+					<ins class="adsbygoogle"
+					     style="display:block"
+					     data-ad-client="ca-pub-3168560600423825"
+					     data-ad-slot="2940567746"
+					     data-ad-format="link"></ins>
+					<script>
+					(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+					</div>
 					<br><br>
 					<!-- Go to www.addthis.com/dashboard to customize your tools -->
 					<div class="addthis_native_toolbox"></div>

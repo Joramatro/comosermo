@@ -66,7 +66,7 @@
 				     style="display:block"
 				     data-ad-client="ca-pub-3168560600423825"
 				     data-ad-slot="9603133345"
-				     data-ad-format="auto"></ins>
+				     data-ad-format="rectangle"></ins>
 				<script>
 				(adsbygoogle = window.adsbygoogle || []).push({});
 				</script>

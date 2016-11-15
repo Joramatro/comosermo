@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.security.NoSuchAlgorithmException;
 import java.util.Enumeration;
 
+import javax.cache.CacheException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
@@ -23,7 +24,7 @@ public class BlogController extends PublicacionAbstract {
 
     @RequestMapping(value = { "/blog" }, method = { RequestMethod.GET })
     public String getPublicaciones(ModelMap model, HttpServletRequest request,
-	    HttpServletResponse response) throws IOException {
+	    HttpServletResponse response) throws IOException, CacheException {
 
 	setPublicaciones(model, WebConstants.SessionConstants.ARTICULO);
 
@@ -33,7 +34,7 @@ public class BlogController extends PublicacionAbstract {
     @RequestMapping(value = { "/blog/{url}" }, method = RequestMethod.GET)
     public String cargarPublicacion2(ModelMap model, @PathVariable String url,
 	    HttpServletRequest request, HttpServletResponse response)
-	    throws IOException, NoSuchAlgorithmException {
+	    throws IOException, NoSuchAlgorithmException, CacheException {
 
 	setPublicacion(url, request, model);
 
@@ -61,7 +62,7 @@ public class BlogController extends PublicacionAbstract {
 
     @RequestMapping(value = { "/productos" }, method = { RequestMethod.GET })
     public String getAccesorios5(ModelMap model, HttpServletRequest request,
-	    HttpServletResponse response) throws IOException {
+	    HttpServletResponse response) throws IOException, CacheException {
 
 	setPublicaciones(model, WebConstants.SessionConstants.ACCESORIO);
 

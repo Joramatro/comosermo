@@ -3,13 +3,19 @@
   <application>comosermasguapo</application>
   <version>1</version>
 
-  <precompilation-enabled>true</precompilation-enabled>
   <!--
     By default, App Engine sends requests serially to a given web server.
     To allow App Engine to send multiple requests in parallel specify:
    -->
       <threadsafe>true</threadsafe>
   
+  <instance-class>F1</instance-class>
+  <automatic-scaling>
+    <min-idle-instances>1</min-idle-instances>
+    <!-- ‘automatic’ is the default value. -->
+    <max-idle-instances>1</max-idle-instances>
+
+  </automatic-scaling>
 
   <!-- Configure java.util.logging -->
   <system-properties>
@@ -33,16 +39,17 @@
 
   <sessions-enabled>true</sessions-enabled>
   <async-session-persistence enabled="true" />
-  
+
   	<inbound-services>
 	    <service>xmpp_message</service>
 	    <service>xmpp_presence</service>
 	    <service>xmpp_subscribe</service>
+	    <service>warmup</service>
 	</inbound-services>
 	
 	<static-files>
 		<include path="/**.gif" expiration="40d" />
-	    <include path="/**.png" expiration="40d"/>
+	    <include path="/**.png" expiration="40d" />
 	    <include path="/**.jpg" expiration="40d" />
 	    <include path="/**.ico" expiration="40d" />
 	    <include path="/**.js" expiration="40d" />
@@ -54,14 +61,6 @@
 	    <include path="/**.html" expiration="40d" />
 	    <include path="/**.txt" expiration="40d" />
 	</static-files>
-	
-	<pagespeed>
-	  <enabled-rewriter>CollapseWhitespace</enabled-rewriter>
-	  <enabled-rewriter>InlineJs</enabled-rewriter>
-	  <enabled-rewriter>InlineImages</enabled-rewriter>
-	  <enabled-rewriter>ElideAttributes</enabled-rewriter>
-	  <enabled-rewriter>RemoveComments</enabled-rewriter>
-	  <enabled-rewriter>LeftTrimUrls</enabled-rewriter>
-	</pagespeed>
+		
 	
 </appengine-web-app>
