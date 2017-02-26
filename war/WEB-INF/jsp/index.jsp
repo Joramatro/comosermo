@@ -800,7 +800,7 @@
 </p><p>Y entonces, un cambio de plano y la cámara le enfocó a él: a Rafa Mora. Joder, sí.
 							</p>
 						</div>
-						<div class="post-meta"><span><i class="mini-ico-calendar"></i>11 de enero de 2015</span> <span><i class="mini-ico-comment"></i><a href="/blog/Guapo-Rafa-Mora/#comments">0 comments</a></span></div>
+						<div class="post-meta"><span><i class="mini-ico-comment"></i><a href="/blog/Guapo-Rafa-Mora/#comments">0 comments</a></span></div>
 					</div>	
 				</div>
 								
@@ -819,7 +819,7 @@
 </p><p>Si fuera así, los hombres que no cuentan con esa “famosa cara de revista”, se sentirían menospreciados y falta de estímulo. ¿En realidad será el hombre más bonito, el más atractivo? No, claro que no, son muchos los factores que inciden en la apariencia y el aspecto personal. 
 							</p>
 						</div>
-						<div class="post-meta"><span><i class="mini-ico-calendar"></i>10 de junio de 2014</span> <span><i class="mini-ico-comment"></i><a href="/blog/10-consejos-para-que-un-hombre-luzca-atractivo/#comments">59 comments</a></span></div>
+						<div class="post-meta"><span><i class="mini-ico-comment"></i><a href="/blog/10-consejos-para-que-un-hombre-luzca-atractivo/#comments">59 comments</a></span></div>
 					</div>	
 				</div>
 								
@@ -838,7 +838,7 @@
 </p><p>Los hombres, al igual que las mujeres, se preocupan cada vez más por su apariencia física y les gusta verse bien, hace no muchos años el hecho de que un hombre se cuidase tanto como una mujer era de lo más extraño y es por esto que surge lo que se conoce como metro sexualidad.
 							</p>
 						</div>
-						<div class="post-meta"><span><i class="mini-ico-calendar"></i>16 de mayo de 2014</span> <span><i class="mini-ico-comment"></i><a href="/blog/Trucos-para-ser-mas-guapo/#comments">25 comments</a></span></div>
+						<div class="post-meta"><span><i class="mini-ico-comment"></i><a href="/blog/Trucos-para-ser-mas-guapo/#comments">25 comments</a></span></div>
 					</div>	
 				</div>
 								
@@ -856,7 +856,7 @@
 								El arte de la seducción no es algo complicado si logras tener en cuenta un par de parámetros aplicando tu sensibilidad y sentido común. Una mujer espera que la entiendas, escuchándola y apoyándola en los momentos que más lo necesite, siempre buscando en su pareja el complemento que logre crear una unión estable en la que no se sienta sola o amenazada ante nada.
 							</p>
 						</div>
-						<div class="post-meta"><span><i class="mini-ico-calendar"></i>26 de febrero de 2014</span> <span><i class="mini-ico-comment"></i><a href="/blog/Como-despertar-el-deseo-sexual-de-una-mujer/#comments">2 comments</a></span></div>
+						<div class="post-meta"><span><i class="mini-ico-comment"></i><a href="/blog/Como-despertar-el-deseo-sexual-de-una-mujer/#comments">2 comments</a></span></div>
 					</div>	
 				</div>
 								
@@ -874,7 +874,7 @@
 								¿A qué mujer no le gusta verse guapa? A todas, incluso aquellas que menos nos imaginemos, puede que su concepto de belleza sea diferente al nuestro ya que no todas tenemos los mismos gustos, pero eso no significa que no se preocupen por su apariencia.
 							</p>
 						</div>
-						<div class="post-meta"><span><i class="mini-ico-calendar"></i>30 de noviembre de 2013</span> <span><i class="mini-ico-comment"></i><a href="/blog/Tips-de-belleza-para-mujeres/#comments">1 comments</a></span></div>
+						<div class="post-meta"><span><i class="mini-ico-comment"></i><a href="/blog/Tips-de-belleza-para-mujeres/#comments">1 comments</a></span></div>
 					</div>	
 				</div>
 								
@@ -893,7 +893,7 @@
 </p><p>Tal y cómo os prometí, continúo la serie de trucos y consejos de belleza que empezamos hablando en el artículo anterior. Os demostraré como en todos los casos simplemente comprando productos naturales podréis conseguir resultados que os darán un cambio de look expectacular de manera simple y sencilla
 							</p>
 						</div>
-						<div class="post-meta"><span><i class="mini-ico-calendar"></i>11 de noviembre de 2013</span> <span><i class="mini-ico-comment"></i><a href="/blog/Consejos-de-belleza-II/#comments">2 comments</a></span></div>
+						<div class="post-meta"><span><i class="mini-ico-comment"></i><a href="/blog/Consejos-de-belleza-II/#comments">2 comments</a></span></div>
 					</div>	
 				</div>
 								
@@ -911,7 +911,7 @@
 								Es un hecho muy común el considerar imposible la amistad entre hombres y mujeres sin ningún tipo de interés sentimental o atracción sexual al menos por parte de uno de ellos, esto se debe a la gran cantidad de situaciones en las que es así. Para conquistar a una mujer es muy importante tener en cuenta una serie de pautas, pero si ya es una amiga, las reglas del juego cambian bastante.
 							</p>
 						</div>
-						<div class="post-meta"><span><i class="mini-ico-calendar"></i>29 de octubre de 2013</span> <span><i class="mini-ico-comment"></i><a href="/blog/Como-seducir-a-una-amiga/#comments">9 comments</a></span></div>
+						<div class="post-meta"><span><i class="mini-ico-comment"></i><a href="/blog/Como-seducir-a-una-amiga/#comments">9 comments</a></span></div>
 					</div>	
 				</div>
 								
@@ -929,7 +929,7 @@
 								Todas hemos tenido alguna vez problemas a la hora de conquistar a algún hombre, puede que hayan surgido al principio o bien una vez hayamos comenzado la relación, ya que uno de los errores más frecuentes en las relaciones vienen por parte de los celos, miedos e inseguridades de las mujeres.
 							</p>
 						</div>
-						<div class="post-meta"><span><i class="mini-ico-calendar"></i>8 de octubre de 2013</span> <span><i class="mini-ico-comment"></i><a href="/blog/Como-seducir-a-un-hombre/#comments">2 comments</a></span></div>
+						<div class="post-meta"><span><i class="mini-ico-comment"></i><a href="/blog/Como-seducir-a-un-hombre/#comments">2 comments</a></span></div>
 					</div>	
 				</div>
 								
