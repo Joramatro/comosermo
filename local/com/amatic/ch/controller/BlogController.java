@@ -31,6 +31,22 @@ public class BlogController extends PublicacionAbstract {
 	return "blog";
     }
 
+    @RequestMapping(value = { "/blog/10-consejos-para-que-un-hombre-luzca-atractivo" }, method = RequestMethod.GET)
+    public String cargarConsejos(ModelMap model, HttpServletRequest request,
+	    HttpServletResponse response) throws IOException,
+	    NoSuchAlgorithmException, CacheException {
+
+	return "consejos";
+    }
+
+    @RequestMapping(value = { "/blog/Trucos-para-ser-mas-guapo" }, method = RequestMethod.GET)
+    public String cargarTrucos(ModelMap model, HttpServletRequest request,
+	    HttpServletResponse response) throws IOException,
+	    NoSuchAlgorithmException, CacheException {
+
+	return "trucos";
+    }
+
     @RequestMapping(value = { "/blog/{url}" }, method = RequestMethod.GET)
     public String cargarPublicacion2(ModelMap model, @PathVariable String url,
 	    HttpServletRequest request, HttpServletResponse response)
